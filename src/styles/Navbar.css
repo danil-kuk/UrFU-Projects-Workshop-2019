@@ -1,0 +1,28 @@
+ul#navbar li {
+    display:inline;
+    margin: 0 10px 0 10px;
+}
+
+ul#navbar li a {
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+}
+
+ul#navbar li a:hover {
+    text-decoration: none;
+    color: #FFF;
+}
+
+ul#navbar {
+    padding: 0;
+    margin: auto;
+}
+
+.navbar-container {
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.1);
+    min-height: 60px;
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.26);
+}
