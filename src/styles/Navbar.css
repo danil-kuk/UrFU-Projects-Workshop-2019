@@ -1,22 +1,14 @@
-ul#navbar li {
+.nav-holder a {
     display:inline;
     margin: 0 10px 0 10px;
-}
-
-ul#navbar li a {
     text-decoration: none;
     color: black;
     font-size: 22px;
 }
 
-ul#navbar li a:hover {
+.nav-holder a:hover {
     text-decoration: none;
     color: #FFF;
-}
-
-ul#navbar {
-    padding: 0;
-    text-align: center;
 }
 
 .nav-holder {
@@ -37,3 +29,31 @@ ul#navbar {
     height: 60px;
     margin: 5px 0 5px 50px;
 }
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgba(163, 163, 163, 0.3);
+    min-width: 160px;
+    box-shadow: 0px 4px 10px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    margin: 0;
+}
+
+.dropdown-content a:hover {
+    background-color: rgba(122, 122, 122, 0.5);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
