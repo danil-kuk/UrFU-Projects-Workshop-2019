@@ -16,13 +16,24 @@ ul#navbar li a:hover {
 
 ul#navbar {
     padding: 0;
-    margin: auto;
+    text-align: center;
+}
+
+.nav-holder {
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
 }
 
 .navbar-container {
     display: flex;
-    align-items: center;
+    justify-content: space-between;
     background-color: rgba(0, 0, 0, 0.1);
     min-height: 60px;
     box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.26);
+}
+
+#logo {
+    height: 60px;
+    margin: 5px 0 5px 50px;
 }
