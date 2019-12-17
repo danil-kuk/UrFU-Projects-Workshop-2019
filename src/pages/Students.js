@@ -1,11 +1,11 @@
 import React from "react";
 
-const Page2 = () => {
+const Students = () => {
   return (
     <div className="container">
-      <h1>Page2</h1>
+      <h1>Студенты</h1>
     </div>
   );
 };
 
-export default Page2;
+export default Students;

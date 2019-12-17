@@ -1,18 +1,32 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
+import "../styles/Navbar.css";
+import logo from '../../assets/logo.svg';
 
 class Navbar extends Component {
-    render() {
-        return (
-            <div>
-                <ul>
-                    <li><Link to="/">Home</Link></li>
-                    <li><Link to="/page1">Page 1</Link></li>
-                    <li><Link to="/page2">Page 2</Link></li>
-                </ul>
+  render() {
+    return (
+      <div className="navbar-container">
+        <div className="logo-holder">
+          <Link to="/">
+            <img src={logo} alt="Logo" id="logo" />
+          </Link>
+        </div>
+        <div className="nav-holder">
+          <Link to="/">Главная</Link>
+          <Link to="/customers">Заказчики</Link>
+          <Link to="/students">Студенты</Link>
+          <div className="dropdown">
+            <Link to="/courses-description" className="dropbtn">Направления</Link>
+            <div className="dropdown-content">
+              <Link to="/courses-description">Информация</Link>
+              <Link to="/courses-diagrams">Диаграммы</Link>
             </div>
-        );
-    }
+          </div>
+        </div>
+      </div>
+    );
+  }
 }
 
 export default Navbar;
