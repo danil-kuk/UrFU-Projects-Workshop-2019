@@ -3,7 +3,7 @@ import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import Customers from "./pages/Customers";
 import Students from "./pages/Students";
-import Courses from "./pages/Courses";
+import CoursesDiagrams from "./pages/CoursesDiagrams";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 class App extends Component {
@@ -16,7 +16,7 @@ class App extends Component {
             <Route exact path="/" component={Home} />
             <Route path="/customers" component={Customers} />
             <Route path="/students" component={Students} />
-            <Route path="/courses" component={Courses} />
+            <Route path="/courses-diagrams" component={CoursesDiagrams} />
           </Switch>
         </Router>
       </div>

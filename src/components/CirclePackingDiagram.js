@@ -1,6 +1,6 @@
 import React from 'react'
 import { ResponsiveBubble } from '@nivo/circle-packing'
-import "../styles/CirclePackingDiagram.css"
+import "../styles/Diagrams.css"
 
 const CirclePackingDiagram = (props) => (
     <div className="circle-parcking-holder">

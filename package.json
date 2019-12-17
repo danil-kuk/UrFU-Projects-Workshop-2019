@@ -12,6 +12,7 @@
     "npm": ">=6.0.0"
   },
   "dependencies": {
+    "@nivo/bar": "^0.60.1",
     "@nivo/circle-packing": "^0.60.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
