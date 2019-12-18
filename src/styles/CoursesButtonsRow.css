@@ -1,0 +1,19 @@
+.buttons-row {
+    display: flex;
+    flex-direction:row;
+}
+
+button {
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    display: block;
+    align-items: center;
+    border-radius: 50%;
+    border: 0;
+    margin: 10px;
+}
+
+button:hover {
+    background-color:darkblue;
+}
