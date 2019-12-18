@@ -1,17 +1,17 @@
 import React from "react";
 import CoursesIcons from "./CoursesIcons"
 import "../styles/CoursesButtonsRow.css"
+import coursesData from "../../assets/data/CoursesInfo.json"
 
-const corses = [
-  "machine-learning", "games", "bots", "robots", "digital-marketing",
-  "vr", "web-development", "mobile", "information-systems", "math-modelling"
-] // Изменив порядок элементов, можно поменять порядок кнопок
+var courses = [];
+
+for (var c in coursesData) courses.push(c);
 
 class CoursesButtonsRow extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      selectedCourse: corses[0]
+      selectedCourse: courses[0]
     };
     this.onChangeValue  = props.onChangeValue
   }
@@ -27,7 +27,7 @@ class CoursesButtonsRow extends React.Component {
   render() {
     return (
       <div className="buttons-row">
-        {corses.map(course => (
+        {courses.map(course => (
           <ButtonWithIcon course={course} key={course.toString()} parent={this} />
         ))}
       </div>
