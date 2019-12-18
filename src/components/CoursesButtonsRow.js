@@ -5,7 +5,7 @@ import "../styles/CoursesButtonsRow.css"
 const corses = [
   "machine-learning", "games", "bots", "robots", "digital-marketing",
   "vr", "web-development", "mobile", "information-systems", "math-modelling"
-]
+] // Изменив порядок элементов, можно поменять порядок кнопок
 
 class CoursesButtonsRow extends React.Component {
   constructor(props) {
