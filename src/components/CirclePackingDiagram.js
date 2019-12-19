@@ -12,13 +12,21 @@ const CirclePackingDiagram = (props) => (
             colors={{ scheme: 'blues' }}
             padding={6}
             label="value"
-            labelTextColor={{ from: 'color', modifiers: [['darker', 0.8]] }}
+            labelTextColor={{ from: 'color', modifiers: [['darker', 2]] }}
             borderWidth={2}
             borderColor={{ from: 'color' }}
             fill={[{ match: { depth: 1 }, id: 'lines' }]}
             animate={true}
             motionStiffness={90}
             motionDamping={12}
+            theme={{
+                labels: {
+                    text: {
+                        fontSize: 16,
+                        fontFamily: ""
+                    }
+                }
+            }}
         />
     </div>
 )
