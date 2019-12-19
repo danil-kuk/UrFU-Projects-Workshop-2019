@@ -47,6 +47,7 @@
     display: block;
     text-align: left;
     margin: 0;
+    font-size: 18px;
 }
 
 .dropdown-content a:hover {

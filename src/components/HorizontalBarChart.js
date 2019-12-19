@@ -42,19 +42,22 @@ const MyResponsiveBar = (props) => (
                 axis: {
                     legend: {
                         text: {
-                            fontSize: 20
+                            fontSize: 20,
+                            fontFamily: ""
                         }
                     },
                     ticks: {
                         text:
                         {
-                            fontSize: 14
+                            fontSize: 14,
+                            fontFamily: ""
                         }
                     }
                 },
                 labels: {
                     text: {
-                        fontSize: 20
+                        fontSize: 20,
+                        fontFamily: ""
                     }
                 }
             }}
