@@ -5,6 +5,7 @@ body, html {
     background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
     background-repeat: no-repeat;
     background-attachment: fixed;
+    height: 100%;
 }
 
 body::-webkit-scrollbar {
@@ -22,6 +23,7 @@ h1 {
 @media screen and (max-width: 680px) {
     #root {
       visibility: hidden;
+      height: 0;
     }
     #mobile-alert {
         visibility: visible;
