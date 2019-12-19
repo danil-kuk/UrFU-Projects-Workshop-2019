@@ -15,6 +15,10 @@ button {
     margin: 5px;
 }
 
+.selected {
+    background-color:darkblue;
+}
+
 button:hover {
     background-color:darkblue;
 }

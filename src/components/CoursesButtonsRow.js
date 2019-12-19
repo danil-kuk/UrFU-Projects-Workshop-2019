@@ -13,7 +13,7 @@ class CoursesButtonsRow extends React.Component {
     this.state = {
       selectedCourse: courses[0]
     };
-    this.onChangeValue  = props.onChangeValue
+    this.onChangeValue = props.onChangeValue
   }
 
   handleClick(args) {
@@ -36,8 +36,10 @@ class CoursesButtonsRow extends React.Component {
 }
 
 const ButtonWithIcon = (props) => {
+  var className = props.parent.state.selectedCourse != props.course ?
+    props.course : props.course + " selected"
   return (
-    <button className={props.course} onClick={props.parent.handleClick.bind(props.parent, props.course)}>
+    <button className={className} onClick={props.parent.handleClick.bind(props.parent, props.course)}>
       <CoursesIcons icon={props.course} />
     </button>
   )
