@@ -32,7 +32,7 @@ export default CoursesDescription;
 
 function courseInfo(data) {
   return (
-    <div className="courseDescription">
+    <div className="course-description">
       <h2>{data.title}</h2>
       <p>{data.description}</p>
     </div>
