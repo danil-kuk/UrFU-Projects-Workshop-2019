@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
-import Customers from "./pages/Customers";
+import CustomersDiagrams from "./pages/CustomersDiagrams";
+import CustomersInfo from "./pages/CustomersInfo";
 import Students from "./pages/Students";
 import CoursesDiagrams from "./pages/CoursesDiagrams";
 import CoursesDescription from "./pages/CoursesDescription";
@@ -15,7 +16,8 @@ class App extends Component {
           <Navbar />
           <Switch>
             <Route exact path="/" component={Home} />
-            <Route path="/customers" component={Customers} />
+            <Route path="/customers-diagrams" component={CustomersDiagrams} />
+            <Route path="/customers-info" component={CustomersInfo} />
             <Route path="/students" component={Students} />
             <Route path="/courses-description" component={CoursesDescription} />
             <Route path="/courses-diagrams" component={CoursesDiagrams} />
