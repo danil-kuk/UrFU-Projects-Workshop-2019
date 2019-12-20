@@ -3,11 +3,12 @@ import "../styles/ProjectCard.css"
 
 const Card = (props) => {
   return (
-    <div className="project-card">
-      <h4>{props.title}</h4>
-      <p>{props.description}</p>
-      <a href={props.link}>Ссылка на проект</a>
-    </div>
+    <a href={props.link} target="_blank">
+      <div className="project-card">
+        <h4>{props.title}</h4>
+        <p>{props.description}</p>
+      </div>
+    </a>
   );
 };
 
