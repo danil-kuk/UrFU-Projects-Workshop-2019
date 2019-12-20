@@ -1,0 +1,407 @@
+{
+    "machine-learning": [
+        {
+            "title": "Комплекс для распознавания автомобильных номеров",
+            "description": "Разработка аппаратно-программного комплекса для контролируемого проезда автомобилей через автоматические ворота или шлагбаум",
+            "link": "http://project-it.info/projects/proekty-2019/2-3-kurs-osen/apparatno-programmnyy-kompleks-dlya-raspoznavaniya-avtomobilnyh-nomerov-rus"
+        },
+        {
+            "title": "Разработка алгоритма межкамерного трекинга людей",
+            "description": "В данном проекте предлагается разработка алгоритма отслеживания перемещения людей от одной камеры к другой.",
+            "link": "http://project-it.info/projects/proekty-2019/2-3-kurs-osen/razrabotka-algoritma-mezhkamernogo-trekinga-lyudey"
+        },
+        {
+            "title": "Генерация полифонии при помощи машинного обучения",
+            "description": "Выбрать музыкальный жанр и сгенерировать полифоническую мелодию в рамках выбранного музыкального жанра при помощи ИНС",
+            "link": "http://project-it.info/projects/proekty-2019/2-3-kurs-osen/generaciya-polifonii-pri-pomoshchi-algoritmov-mashinnogo-obucheniya"
+        },
+        {
+            "title": "Ранжирование текстовых документов",
+            "description": "Задача заключается в ранжировании всех документов и выборке наиболее релевантных запросов.",
+            "link": "http://project-it.info/projects/proekty-2019/2-3-kurs-osen/primenenie-metodov-mashinnogo-obucheniya-k-zadache-ranzhirovaniya-tekstovyh-dokumentov"
+        },
+        {
+            "title": "Цифровой профиль одаренного школьника",
+            "description": "Необходимо разработать модуль поиска талантливых детей в социальной сети Вконтакте на основе существующего набора данных о выпускниках",
+            "link": "http://project-it.info/projects/proekty-2019/2-3-kurs-osen/cifrovoy-profil-odarennogo-shkolnika"
+        },
+        {
+            "title": "Анализ учебных факторов успеваемости школьников",
+            "description": "Необходимо сделать исследования влияния различных факторов на успеваемость школьников",
+            "link": "http://project-it.info/projects/proekty-2019/2-3-kurs-osen/analiz-uchebnyh-faktorov-uspevaemosti-shkolnikov"
+        },
+        {
+            "title": "Зависимость успеваемости ребенка от программ дополнительного образования",
+            "description": "Определить программы дополнительного образования оказывающие максимальный эффект на успеваемость ребенка",
+            "link": "http://project-it.info/projects/proekty-2019/2-3-kurs-osen/zavisimost-uspevaemosti-rebenka-ot-programm-dopolnitelnogo-obrazovaniya"
+        },
+        {
+            "title": "Выявления дефектов на листовом металле и трубах",
+            "description": "Необходимо предложить решение для автоматической аттестации качества металлопродукции по выявлению поверхностных дефектов",
+            "link": "http://project-it.info/projects/proekty-2019/2-3-kurs-osen/razrabotka-neyronnoy-seti-dlya-vyyavleniya-poverhnostnyh-defektov-na-listovom-metalle-i-trubah"
+        },
+        {
+            "title": "Прогнозирования урожайности сельхозкультур",
+            "description": "В проекте необходимо разработать систему анализа и интерпретации космических данных с целью прогнозирования урожайности локальной территории",
+            "link": "http://project-it.info/projects/proekty-2019/2-3-kurs-osen/sistema-prognozirovaniya-urozhaynosti-selhozkultur-po-dannym-sputnikovogo-distancionnogo"
+        },
+        {
+            "title": "Детектирование девиантного поведения людей",
+            "description": "Детектирование девиантного поведения людей. К такому поведению относятся драки, порча имущества, другие нестандартные ситуации",
+            "link": "http://project-it.info/projects/proekty-2019/2-3-kurs-osen/detektirovanie-deviantnogo-povedeniya-lyudey"
+        },
+        {
+            "title": "Генерация изображений",
+            "description": "В данной работе мы предлагаем реализовать систему, которая сможет восполнять недостающие части изображения",
+            "link": "http://project-it.info/projects/proekty-2019/2-3-kurs-osen/generaciya-izobrazheniy"
+        },
+        {
+            "title": "Сегментация изображений в индустрии моды",
+            "description": "В рамках данного проекта предлагается применить современные методы машинного обучения для задачи сегментации в Fashion индустрии",
+            "link": "http://project-it.info/projects/proekty-2019/2-3-kurs-osen/segmentaciya-izobrazheniy-v-industrii-mody"
+        },
+        {
+            "title": "Построение моделей классификации текстов манифестов политических партий",
+            "description": "Студенты попробуют реализовать метод для корректировки разметки данных и предложат эфективный способ классификации текстов Manifesto",
+            "link": "http://project-it.info/projects/proekty-2019/2-3-kurs-osen/postroenie-modeley-klassifikacii-tekstov-manifestov-politicheskih-partiy"
+        },
+        {
+            "title": "Распознавание эмоций по голосу",
+            "description": "Создание модели, умеющей распознавать эмоции голоса при помощи различных методов машинного обучения",
+            "link": "http://project-it.info/projects/proekty-2019/2-3-kurs-osen/raspoznavanie-emociy-po-golosu-pri-pomoshchi-iskusstvennyh-neyronnyh-setey"
+        },
+        {
+            "title": "Исследование звукосимволизма с помощью Word Embedding",
+            "description": "Результатом проекта станет подтверждение или опровержение гипотезы о существовании звукосимволических закономерностей, которые сохраняются у разных видов Word Embedding-а",
+            "link": "http://project-it.info/projects/proekty-2019/2-3-kurs-osen/issledovanie-zvukosimvolizma-s-pomoshchyu-word-embedding"
+        },
+        {
+            "title": "Сегментация медицинских изображений",
+            "description": "Опубликовать работу с анализом эффективности различных подходов к сегментации без учителя для различных биомедицинских приложений",
+            "link": "http://project-it.info/projects/proekty-2019/2-3-kurs-osen/glubokoe-obuchenie-bez-uchitelya-dlya-segmentacii-medicinskih-izobrazheniy"
+        },
+        {
+            "title": "Создание DLAAS решения для задач медицинской сегментации",
+            "description": "Создать технический прототип (proof-of-work) и развить его до минимально жизнеспособного продукта (Minimal Viable Product) в соответствии с методологией бережливого стартапа (Lean Startup)",
+            "link": "http://project-it.info/projects/proekty-2019/2-3-kurs-osen/sozdanie-dlaas-resheniya-dlya-zadach-medicinskoy-segmentacii"
+        },
+        {
+            "title": "Прогнозирование изменений курсов криптовалют",
+            "description": "В данном проекте предлагается попробовать сагрегировать информацию с этих источников и предложить способ строить предсказания о росте или падении курсов криптовалюты на основе машинного обучения",
+            "link": "http://project-it.info/projects/proekty-2019/2-3-kurs-osen/prognozirovanie-izmeneniy-kursov-kriptovalyut-na-osnove-tematicheskih-novostey"
+        },
+        {
+            "title": "Разработка алгоритма оценки характеристик движущегося автомобиля",
+            "description": "В данном проекте предлагается разработка алгоритма анализа характеристик движущегося автомобиля",
+            "link": "http://project-it.info/projects/proekty-2019/2-3-kurs-osen/razrabotka-algoritma-ocenki-harakteristik-dvizhushchegosya-avtomobilya"
+        },
+        {
+            "title": "Разработка алгоритма детектирования ДТП",
+            "description": "В данном проекте предлагается разработка алгоритма детектирования ДТП",
+            "link": "http://project-it.info/projects/proekty-2019/2-3-kurs-osen/razrabotka-algoritma-detektirovaniya-dtp"
+        },
+        {
+            "title": "Геоинформационные системы (GIS)",
+            "description": "В рамках данного проекта предлагается заняться GIS- ориентированными затачами технического зрения, распознавания образов и машинного обучения.",
+            "link": "http://project-it.info/projects/proekty-2019/2-3-kurs-osen/geoinformacionnye-sistemy-gis"
+        },
+        {
+            "title": "Анализ научной среды",
+            "description": "Подготовка аналитического исследования с использованием методов машинного обучения и анализа данных. Разработать программный модуль",
+            "link": "http://project-it.info/projects/proekty-2019/2-3-kurs-osen/analiz-nauchnoy-sredy"
+        },
+        {
+            "title": "Аппаратно-программный комплекс для подсчета количества человек в столовой",
+            "description": "Реализовать прототип аппаратно-программного комплекса для полсчёта кол-ва человек в столовой(помещении)",
+            "link": "http://project-it.info/projects/proekty-2019/2-3-kurs-osen/apparatno-programmnyy-kompleks-dlya-podschyota-kolichestva-chelovek-v-stolovoy"
+        },
+        {
+            "title": "Разработка алгоритма для анализа дефектов элементов линий электропередач",
+            "description": "Необходимо разработать и протестировать на имеющихся данных (фото реальных объектов линий) алгоритмы для выявления дефектов элементов линий электропередач",
+            "link": "http://project-it.info/projects/proekty-2019/2-3-kurs-osen/razrabotka-algoritma-dlya-analiza-defektov-elementov-liniy-elektroperedach-po-vizualnoy-informacii"
+        },
+        {
+            "title": "Генеративный дизайн: программирование информационных моделей (BIM)",
+            "description": "В среде информационного моделирования Autodesk Revit необходимо будет подготовить модуль, который реализует принципы генеративного дизайна",
+            "link": "http://project-it.info/projects/proekty-2019/2-3-kurs-osen/generativnyy-dizayn-programmirovanie-informacionnyh-modeley-zdaniya-bim"
+        },
+        {
+            "title": "Цифровой профиль молодого предпринимателя",
+            "description": "Необходимо сформировать цифровой профиль модель молодого предпринимателя, что позволит определить каналы коммуникации и инструменты взаимодействия с целью более качественного исполнения KPI",
+            "link": "http://project-it.info/projects/proekty-2019/2-3-kurs-osen/cifrovoy-profil-molodogo-predprinimatelya"
+        },
+        {
+            "title": "Исследование результатов установки тензомостов на трубу высокого давления",
+            "description": "Произвести теоретический расчет показаний тензомостов с целью съема корректных показаний установленных тензомостов на трубу высокого давления путем создания программной модели анализа данных",
+            "link": "http://project-it.info/projects/proekty-2019/2-3-kurs-osen/issledovanie-rezultatov-ustanovki-i-monitoringa-tenzomostov-na-trubu-vysokogo-davleniya"
+        },
+        {
+            "title": "Обработка медицинских изображений",
+            "description": "Работа над несколькими реальными задачами, результаты которых в дальнейшем будут внедрены в клинические исследования и использованы в нейро- и кардио- хирургии",
+            "link": "http://project-it.info/projects/proekty-2019/2-3-kurs-osen/obrabotka-medicinskih-izobrazheniy"
+        },
+        {
+            "title": "Сервисы ИРИТ-РТФ",
+            "description": "Прогнозирование проходных баллов ЕГЭ ИРИТ-РТФ в 2019 г",
+            "link": "http://project-it.info/projects/proekty-2019/2-3-kurs-osen/servisy-irit-rtf"
+        },
+        {
+            "title": "Мониторинг развития компаний, получивших государственную поддержку",
+            "description": "Необходимо произвести группировку субъектов МСП, получивших поддержку за последние 5 лет, выявить основные меры поддержки, отраслевую принадлежность субъектов получающих поддержку и др.",
+            "link": "http://project-it.info/projects/proekty-2019/2-3-kurs-osen/monitoring-razvitiya-kompaniy-poluchivshih-gosudarstvennuyu-podderzhku"
+        },
+        {
+            "title": "Выявление субъектов благотворительности",
+            "description": "Разработка программного модуля выявления субъектов благотворительности",
+            "link": "http://project-it.info/projects/proekty-2019/2-3-kurs-osen/vyyavlenie-subektov-blagotvoritelnosti"
+        },
+        {
+            "title": "Влияние дополнительного образования на трудоустройство выпускников",
+            "description": "Мониторинг занятости в кружках дополнительного образования и поступления в профессиональные образовательные организации и организации высшего образования",
+            "link": "http://project-it.info/projects/proekty-2019/2-3-kurs-osen/korrelyaciya-trudoustroystva-vypusknikov-i-dopolnitelnogo-obrazovaniya"
+        }
+    ],
+    "games": [
+        {
+            "title": "Основы GameDev",
+            "description": "В рамках данного проекта предлагается попробовать сосредоточиться на одном конкретном аспекте gamedev`а и сделать его хорошо.",
+            "link": "http://project-it.info/projects/proekty-2019/2-3-kurs-osen/osnovy-gamedev"
+        },
+        {
+            "title": "Разработка игр «Защита в ЧС»",
+            "description": "Необходимо разработать мини игры обыгрывающие поведение человека в чрезвычайных ситуациях, например оказание первой медицинской помощи.",
+            "link": "http://project-it.info/projects/proekty-2019/2-3-kurs-osen/razrabotka-igr-zashchita-v-chrezvychaynyh-situaciyah"
+        }
+    ],
+    "bots": [
+        {
+            "title": "Телеграм-бот \"Неотложная медицинская помощь\"",
+            "description": "Разработать телеграмм-бот, помогающий выучить алгоритмы оказания неотложной медицинской помощи",
+            "link": "http://project-it.info/projects/proekty-2019/2-3-kurs-osen/telegramm-bot-neotlozhnaya-medicinskaya-pomoshch"
+        }
+    ],
+    "robots": [
+        {
+            "title": "Аниматроника и кинематическая робототехника",
+            "description": "Разработка аниматронной роботизированной руки и системы управления для неё",
+            "link": "http://project-it.info/projects/proekty-2019/2-3-kurs-osen/animatronika-i-kinematicheskaya-robototehnika"
+        },
+        {
+            "title": "Мультиматериальне аддетивные технологии",
+            "description": "Необходимо разработать ПО для обработки и подготовки многоцветных моделей в виде, пригодном для печати методами FDM/FFF",
+            "link": "http://project-it.info/projects/proekty-2019/2-3-kurs-osen/multimaterialnye-addetivnye-tehnologii-mnogocvetnaya-3d-pechat"
+        },
+        {
+            "title": "Мобильная и роевая робототехника",
+            "description": "Применение методов машинного обучения и технического зрения в задачах управления группами мобильных роботов",
+            "link": "http://project-it.info/projects/proekty-2019/2-3-kurs-osen/mobilnaya-i-roevaya-robototehnika"
+        },
+        {
+            "title": "DeepStereoCam",
+            "description": "Получение высококачественных стереоданных на основе дешевой элементной базы и алгоритмов глубокого обучения. Основное применение - использование в робототехнике",
+            "link": "http://project-it.info/projects/proekty-2019/2-3-kurs-osen/deepstereocam"
+        },
+        {
+            "title": "Промобот для приемной кампании УрФУ",
+            "description": "Предлагается доработать имеющийся прототип промобота для приемной компании университета",
+            "link": "http://project-it.info/projects/proekty-2019/2-3-kurs-osen/promobot-dlya-priemnoy-kampanii-urfu"
+        },
+        {
+            "title": "Игоровая робототехника",
+            "description": "Знакомство с компонентами и алгоритмами управления мобильных роботов, путем их сборки для участия в соревнованиях",
+            "link": "http://project-it.info/projects/proekty-2019/2-3-kurs-osen/igrovaya-robototehnika"
+        }
+    ],
+    "digital-marketing": [
+        {
+            "title": "Создание и отработка методики создания контента для видео-курса",
+            "description": "Создание и отработка методики создания контента для видео-курса в ИРИТ-РТФ",
+            "link": "http://project-it.info/projects/proekty-2019/2-3-kurs-osen/sozdanie-i-otrabotka-metodiki-sozdaniya-kontenta-dlya-video-kursa"
+        },
+        {
+            "title": "Развитие концепции семинаров-стримов по глубокому машинному обучению",
+            "description": "Трансформировать концепцию семинаров-стримов студенческой лаборатории с целью повышения KPI института и привлечения абитуриентов, а также представителей профессиональных и бизнес-сообществ Екатеринбурга",
+            "link": "http://project-it.info/projects/proekty-2019/2-3-kurs-osen/razvitie-koncepcii-seminarov-strimov-po-glubokomu-mashinnomu-obucheniyu"
+        },
+        {
+            "title": "Геймификация полезной информации для абитуриентов",
+            "description": "Геймификация полезной информации для абитуриентов ИРИТ-РтФ",
+            "link": "http://project-it.info/projects/proekty-2019/2-3-kurs-osen/geymifikaciya-poleznoy-informacii-dlya-abiturientov"
+        },
+        {
+            "title": "Продвижение студенческой лаборатории \"ИИ в биологии и медицине\"",
+            "description": "Необходимо трансформировать присутствие студенческой лаборатории в информационном пространстве с целью повышения KPI института",
+            "link": "http://project-it.info/projects/proekty-2019/2-3-kurs-osen/prodvizhenie-studencheskoy-laboratorii-iskusstvennyy-intellekt-v-biologii-i-medicine-v"
+        }
+    ],
+    "vr": [
+        {
+            "title": "VR-система обучения для медицинских работников",
+            "description": "Необходимо реализовать работоспособную систему для отработки сценариев оказания медицинской помощи и комплексной оценки проверенных навыков для студентов медицинских учебных заведений",
+            "link": "http://project-it.info/projects/proekty-2019/2-3-kurs-osen/vr-sistema-obucheniya-dlya-medicinskih-rabotnikov"
+        },
+        {
+            "title": "Разработка форм, средств и методов иммерсивного обучения школьников",
+            "description": "Предложить актуальные формы, средства и методы иммерсивного обучения школьников, т.е. обучения с использованием технологий VR/AR",
+            "link": "http://project-it.info/projects/proekty-2019/2-3-kurs-osen/razrabotka-form-sredstv-i-metodov-immersivnogo-obucheniya-shkolnikov-psihologiya-cifrovogo"
+        }
+    ],
+    "web-development": [
+        {
+            "title": "Система презентации информации по проектам студентов",
+            "description": "Доработка и улучшение функциональности текущей системы презентации проектов project-it.info",
+            "link": "http://project-it.info/projects/proekty-2019/2-3-kurs-osen/sistema-prezentacii-informacii-po-proektam-studentov"
+        },
+        {
+            "title": "Проектирование сайта ИНФО УрФУ",
+            "description": "Для дальнейшего развития Института фундаментального образования необходимо спроектировать и реализовать новый вариант сайта ИнФО",
+            "link": "http://project-it.info/projects/proekty-2019/2-3-kurs-osen/proektirovanie-sayta-info-urfu"
+        },
+        {
+            "title": "Электронный деканат",
+            "description": "Создание злектронного деканата ИРИТ-РТФ",
+            "link": "http://project-it.info/projects/proekty-2019/2-3-kurs-osen/elektronnyy-dekanat"
+        }
+    ],
+    "mobile": [
+        {
+            "title": "Игровое мобильное приложение \"Собери компьютер\"",
+            "description": "Разработать концепт и представить MVP мобильного приложения/сайта, в котором участники решают задачу из курса ИТиС",
+            "link": "http://project-it.info/projects/proekty-2019/2-3-kurs-osen/igrovoe-mobilnee-prilozhenie-dlya-vypolneniya-uchebnogo-zadaniya-onlayn-kursa-informacionnye"
+        },
+        {
+            "title": "Мобильное приложение для музеев",
+            "description": "Создать удобное приложение-гид для музея для русскоговорящих посетителей и иностранные туристы",
+            "link": "http://project-it.info/projects/proekty-2019/2-3-kurs-osen/mobilnoe-prilozhenie-dlya-muzeev"
+        },
+        {
+            "title": "Мобильное приложение для автосервиса",
+            "description": "Необходимо спроектировать сервис обеспечивающий коммуникацию автовладельца и сервиса, а также вести историю технического обслуживания автомобиля",
+            "link": "http://project-it.info/projects/proekty-2019/2-3-kurs-osen/mobilnoe-prilozhenie-dlya-avtoservisa"
+        },
+        {
+            "title": "Цикл познавательно-развлекательных раскрасок",
+            "description": "Подготовка иллюстративного материала культурно-исторической направленности для детей дошкольного и младшего школьного возраста",
+            "link": "http://project-it.info/projects/proekty-2019/2-3-kurs-osen/cikl-poznavatelno-razvlekatelnyh-raskrasok"
+        },
+        {
+            "title": "Мобильное приложение онлайн-курса БЖД",
+            "description": "Разработать концепт и представить MVP мобильного приложения/сайта, в котором участники решают задачу из курса БЖД",
+            "link": "http://project-it.info/projects/proekty-2019/2-3-kurs-osen/igrovoe-mobilnee-prilozhenie-dlya-vypolneniya-uchebnogo-zadaniya-onlayn-kursa-bezopasnost"
+        },
+        {
+            "title": "Навигатор для помещений",
+            "description": "Реализовать программу для навигации по зданию ИРИТ-РТФ",
+            "link": "http://project-it.info/projects/proekty-2019/2-3-kurs-osen/navigator-dlya-pomeshcheniy"
+        },
+        {
+            "title": "Барахолка и бюро находок для университета",
+            "description": "Разработать приложение, где студенты могут отдавать или обменивать ненужные им вещи, а также выкладывать или искать утерянные в стенах университета",
+            "link": "http://project-it.info/projects/proekty-2019/2-3-kurs-osen/baraholka-i-byuro-nahodok-dlya-universiteta"
+        }
+    ],
+    "information-systems": [
+        {
+            "title": "Разработка конфигураций на базе Service Management Platform",
+            "description": "Разработать собственную конфигурацию для решения бизнес-задач на платформе Service Management Platform",
+            "link": "http://project-it.info/projects/proekty-2019/2-3-kurs-osen/razrabotka-konfiguraciy-na-baze-service-management-platform"
+        },
+        {
+            "title": "Система нормоконтроля студенческих работ",
+            "description": "Разработать приложение (сервис), которое сможет проверить студенческую работу, в формате docx на соответствие нормоконтролю",
+            "link": "http://project-it.info/projects/proekty-2019/2-3-kurs-osen/sistema-normokontrolya-studencheskih-rabot"
+        },
+        {
+            "title": "Программа для расчета и анализа прямой ТРГ",
+            "description": "Создание программы для рассчета и анализа линейных и угловых показателей прямой ТРГ для модернизации клинической работы врача-ортодонта, компьютеризированной обработки данных пациентов",
+            "link": "http://project-it.info/projects/proekty-2019/2-3-kurs-osen/programma-dlya-rascheta-i-analiza-pryamoy-trg"
+        },
+        {
+            "title": "Расширенный модуль расчета и анализа боковой ТРГ головы",
+            "description": "Создание дополнительного модуля для рассчета и анализа линейных и угловых показателей боковой ТРГ головы",
+            "link": "http://project-it.info/projects/proekty-2019/2-3-kurs-osen/rasshirennyy-modul-rasscheta-i-analiza-bokovoy-trg-golovy-v-programme-cephlab-uglovye-i-lineynye"
+        },
+        {
+            "title": "COOLRF",
+            "description": "Бюджетное iot-решение для организации системы \"Умный дом\", включающее в себя типовое встраиваемое ПО и аппаратные решения iot-модулей, отсутствующих на рынке",
+            "link": "http://project-it.info/projects/proekty-2019/2-3-kurs-osen/coolrf"
+        },
+        {
+            "title": "Управление системами освещения зданий",
+            "description": "Реализовать прошивки МК на базе STM32(или ESP8266) для управления группами освещений с использование протокола BUS77",
+            "link": "http://project-it.info/projects/proekty-2019/2-3-kurs-osen/upravlenie-sistemami-osveshcheniya-zdaniy-s-ispolzovaniem-protokola-bus77"
+        },
+        {
+            "title": "Создание базы данных для инновационных проектов и событий",
+            "description": "Необходимо создать базу данных для регистрации и управления информацией об инновационных проектах, организации и проведения экспертизы",
+            "link": "http://project-it.info/projects/proekty-2019/2-3-kurs-osen/sozdanie-bazy-dannyh-dlya-registracii-innovacionnyh-proektov-i-sobytiy"
+        },
+        {
+            "title": "Управление актуаторами с использованием протокола BUS77",
+            "description": "Реализовать прошивки МК на базе STM32(или ESP8266) для управления исполнительными устройствами (сервопривод, шаговый двигатель, линейный двигатель и прочее) с использование протокола BUS77",
+            "link": "http://project-it.info/projects/proekty-2019/2-3-kurs-osen/upravlenie-aktuatorami-s-ispolzovaniem-protokola-bus77"
+        },
+        {
+            "title": "Автоматическая проверка заданий по информатике",
+            "description": "Разработать приложение (сервис), которое сможет автоматически строить варианты заданий для лабораторных работ по Word и Excel, а также проверить их выполнение.",
+            "link": "http://project-it.info/projects/proekty-2019/2-3-kurs-osen/avtomaticheskaya-proverka-zadaniy-po-informatike"
+        },
+        {
+            "title": "Система учета оборудования кафедры",
+            "description": "Разработать систему для учета оборудования кафедры, позволяющую перемещать оборудование из одних аудиторий в другие, отслеживать оборудование, выданное сотрудникам во временное пользование",
+            "link": "http://project-it.info/projects/proekty-2019/2-3-kurs-osen/sistema-ucheta-oborudovaniya-kafedry"
+        },
+        {
+            "title": "Определение площади носоглотоыной области",
+            "description": "Создание дополнительного модуля для определения площади носоглоточной области и рассчета объема дыхательных путей по данных боковой ТРГ головы пациентов с нарушением носового дыхания",
+            "link": "http://project-it.info/projects/proekty-2019/2-3-kurs-osen/rasshirennyy-modul-rasscheta-i-analiza-bokovoy-trg-golovy-v-programme-cephlab-opredelenie-ploshchadi"
+        },
+        {
+            "title": "Разработка системы управления инженерными данными",
+            "description": "Необходимо разработать систему правления инженерными данными для экспертной системы анализа данных диагностики элементов линий электропередач",
+            "link": "http://project-it.info/projects/proekty-2019/2-3-kurs-osen/razrabotka-sistemy-upravleniya-inzhenernymi-dannymi-suid"
+        },
+        {
+            "title": "Определение скелетного возраста пациентов по шейным позвонкам",
+            "description": "Создание дополнительного модуля для определения скелетного возраста пациентов в зависимости от стадии формирования шейных позвонков согласно боковой ТРГ головы для модернизации клинической работы врача-ортодонта",
+            "link": "http://project-it.info/projects/proekty-2019/2-3-kurs-osen/rasshirennyy-modul-rasscheta-i-analiza-bokovoy-trg-golovy-v-programme-cephlab-opredelenie-skeletnogo"
+        },
+        {
+            "title": "Соединение исторических записей о людях",
+            "description": "Реализовать метод объединения исторических записей о людях. Это поможет ученым создать регистр населения Урала конца XIX века - начала XX века",
+            "link": "http://project-it.info/projects/proekty-2019/2-3-kurs-osen/soedinenie-istoricheskih-zapisey-o-lyudyah"
+        }
+    ],
+    "math-modelling": [
+        {
+            "title": "CodeToBlock",
+            "description": "Разработка десктопного приложения для перевода кода на языках Python, C++ и Pascal в блок-схемы",
+            "link": "http://project-it.info/projects/proekty-2019/2-3-kurs-osen/codetoblock"
+        },
+        {
+            "title": "MathAndCode",
+            "description": "Необходимо реализовать программу для представления математической записи рекурсивной функции в код на python и наоборот",
+            "link": "http://project-it.info/projects/proekty-2019/2-3-kurs-osen/mathandcode"
+        },
+        {
+            "title": "Моделирование движения судов",
+            "description": "Разработать и реализовать имитационную модель движения морских судов, визуализировать процесс движения судов и обеспечить накопление данных о движении судов в базе данных",
+            "link": "http://project-it.info/projects/proekty-2019/2-3-kurs-osen/modelirovanie-dvizheniya-sudov"
+        },
+        {
+            "title": "Анимация движения плоского механизма",
+            "description": "Учебный проект по разработке мультимедийного методического сопровождения дисциплины теоретическая механика",
+            "link": "http://project-it.info/projects/proekty-2019/2-3-kurs-osen/animaciya-dvizheniya-ploskogo-mehanizma"
+        },
+        {
+            "title": "Моделирование чрезвычайных ситуаций в информационных моделях зданий",
+            "description": "В рамках проекта предполагается внедрение алгоритмов расчета в информационную модель, что позволит их выполнять непосредственно в среде информационного моделирования объектов строительства Autodesk Revit",
+            "link": "http://project-it.info/projects/proekty-2019/2-3-kurs-osen/novaya-realnost-bezopasnosti-modelirovanie-chrezvychaynyh-situaciy-v-informacionnyh-modelyah-zdaniy"
+        },
+        {
+            "title": "Генеративный дизайн: алгоритмы формирования внешнего облика зданий на стадии концепта",
+            "description": "Необходимо реализовать алгоритмы автоматического перебора фасадных решений зданий по заданным ограничениям, при этом, оставаясь в рамках рентабельности освоения участка.",
+            "link": "http://project-it.info/projects/proekty-2019/2-3-kurs-osen/generativnyy-dizayn-algoritmy-formirovaniya-vneshnego-oblika-zdaniy-vypolnennyh-na-stadii-koncepta"
+        }
+    ]
+}

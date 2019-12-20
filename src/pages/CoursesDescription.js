@@ -1,7 +1,10 @@
 import React from "react";
 import CoursesButtonsRow from "../components/CoursesButtonsRow"
+import ProjectsCardsBoard from "../components/ProjectsCardsBoard"
 import "../styles/CoursesDescription.css"
 import coursesData from "../../assets/data/CoursesInfo.json"
+import projectsData from "../../assets/data/ProjectsBoard-data.json"
+
 
 class CoursesDescription extends React.Component {
   constructor(props) {
@@ -22,6 +25,8 @@ class CoursesDescription extends React.Component {
           <CoursesButtonsRow onChangeValue={this.onChangeValueHandler} />
         </div>
         {courseInfo(coursesData[this.state.selectedCourse])}
+        <h2 style={{ textAlign: "center", marginBottom: 0 }}>Проекты направления</h2>
+        <ProjectsCardsBoard data={shuffle(projectsData[this.state.selectedCourse])}/>
       </div>
     );
   }
@@ -37,4 +42,12 @@ function courseInfo(data) {
       <p>{data.description}</p>
     </div>
   )
+}
+
+function shuffle(a) {
+  for (let i = a.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
 }
