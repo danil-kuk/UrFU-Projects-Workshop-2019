@@ -1,7 +1,10 @@
 import React from "react";
 import CoursesButtonsRow from "../components/CoursesButtonsRow"
+import ProjectsCardsBoard from "../components/ProjectsCardsBoard"
 import "../styles/CoursesDescription.css"
 import coursesData from "../../assets/data/CoursesInfo.json"
+import projectsData from "../../assets/data/ProjectsBoard-data.json"
+
 
 class CoursesDescription extends React.Component {
   constructor(props) {
@@ -22,6 +25,8 @@ class CoursesDescription extends React.Component {
           <CoursesButtonsRow onChangeValue={this.onChangeValueHandler} />
         </div>
         {courseInfo(coursesData[this.state.selectedCourse])}
+        <h2 style={{ textAlign: "center", marginBottom: 0 }}>Проекты направления</h2>
+        <ProjectsCardsBoard data={projectsData[this.state.selectedCourse]}/>
       </div>
     );
   }
