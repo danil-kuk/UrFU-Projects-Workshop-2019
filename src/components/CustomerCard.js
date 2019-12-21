@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/CustomerCard.css"
 import CoursesIcons from "./CoursesIcons"
+import Shuffle from "./ArrayShuffle"
 
 const CustomerCard = (props) => {
     return (
@@ -21,7 +22,7 @@ const CustomerCard = (props) => {
                 </p>
             </div>
             <div className="courses">
-                {props.courses.map(c => (
+                {Shuffle(props.courses).map(c => (
                     <div className="course-icon">
                         <CoursesIcons
                             icon={c}

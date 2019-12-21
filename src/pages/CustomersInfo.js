@@ -4,7 +4,7 @@ import CustomerCard from "../components/CustomerCard"
 const CustomersInfo = () => {
   return (
     <div className="container">
-      <h1>Пор заказчиков</h1>
+      <h1>Заказчики</h1>
       <CustomerCard
         title="Уральский Федеральный Университет"
         description="Это текст про заказчика, он скорее всего будет достаточно длинным, ну и стоит вставить ещё немного слов"
