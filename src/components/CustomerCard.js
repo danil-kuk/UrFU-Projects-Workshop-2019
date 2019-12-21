@@ -9,7 +9,7 @@ const CustomerCard = (props) => {
             <div className="customer-card">
                 <div className="card-title">
                     <div className="img-holder">
-                        <img src={props.img_link}></img>
+                        <img src={props.img_link} alt="Лого" onError={i => i.target.style.display = 'none'}></img>
                     </div>
                     <h4>{props.title}</h4>
                 </div>
@@ -24,12 +24,10 @@ const CustomerCard = (props) => {
                 </div>
                 <div className="courses">
                     {Shuffle(props.courses).map(c => (
-                        <div className="course-icon">
-                            <CoursesIcons
-                                icon={c}
-                                key={props.org_type + c}
-                            />
-                        </div>
+                        <CoursesIcons
+                            icon={c}
+                            key={props.org_type + c}
+                        />
                     ))}
                 </div>
             </div>

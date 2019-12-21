@@ -1,11 +1,12 @@
 import React from "react";
 import "../styles/CustomersBoard.css"
 import CustomerCard from "./CustomerCard"
+import Shuffle from "./ArrayShuffle"
 
 const CustomersBoard = (props) => {
     return (
         <div className="customers-cards-board">
-            {props.data.map(p => (
+            {Shuffle(props.data).map(p => (
                 <CustomerCard
                     title={p.title}
                     org_type={p.org_type}
