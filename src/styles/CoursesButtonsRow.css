@@ -4,7 +4,7 @@
     justify-content: center;
 }
 
-button {
+.buttons-row button {
     background-image: linear-gradient(135deg, #0081FF 0%, #00037A 100%);
     width: 60px;
     height: 60px;
@@ -16,14 +16,14 @@ button {
     outline: 0;
 }
 
-.selected {
+.buttons-row .selected {
     background-image: linear-gradient(135deg, rgb(0, 86, 172) 0%, rgb(0, 1, 78) 100%);
 }
 
-button:hover {
+.buttons-row button:hover {
     background-image: linear-gradient(135deg, rgb(0, 86, 172) 0%, rgb(0, 1, 78) 100%);
 }
 
-button:active {
+.buttons-row button:active {
     background-image: linear-gradient(135deg, rgb(0, 62, 124) 0%, rgb(0, 1, 44) 100%);
 }
