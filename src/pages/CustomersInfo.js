@@ -1,21 +1,12 @@
 import React from "react";
-import CustomerCard from "../components/CustomerCard"
+import CustomersBoard from "../components/CustomersBoard"
+import data from "../../assets/data/CustomersInfo-data.json"
 
 const CustomersInfo = () => {
   return (
     <div className="container">
       <h1>Заказчики</h1>
-      <CustomerCard
-        title="Уральский Федеральный Университет"
-        description="Это текст про заказчика, он скорее всего будет достаточно длинным, ну и стоит вставить ещё немного слов"
-        org_type="Университет"
-        activity_type="Учебная, научная"
-        org_size="Крупная"
-        img_link="https://urfu.ru/fileadmin/user_upload/common_files/about/brand/UrFULogo_U.png"
-        org_place="Екатеринбург"
-        courses={["machine-learning", "games", "bots", "robots", "digital-marketing",
-          "vr", "web-development", "mobile", "information-systems", "math-modelling"]}
-      />
+      <CustomersBoard data={data}/>
     </div>
   );
 };

@@ -1,0 +1,23 @@
+[
+    {
+        "title": "Уральский Федеральный Университет",
+        "org_type": "Университет",
+        "activity_type": "Учебная, научная",
+        "org_size": "Крупная",
+        "img_link": "https://urfu.ru/fileadmin/user_upload/common_files/about/brand/UrFULogo_U.png",
+        "org_place": "Екатеринбург",
+        "courses": [
+            "machine-learning",
+            "games",
+            "bots",
+            "robots",
+            "digital-marketing",
+            "vr",
+            "web-development",
+            "mobile",
+            "information-systems",
+            "math-modelling"
+        ],
+        "link": "https://urfu.ru/ru/"
+    }
+]
