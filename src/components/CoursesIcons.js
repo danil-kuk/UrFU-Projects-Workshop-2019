@@ -10,6 +10,7 @@ import icon8 from "../../assets/courses-icons/mechanical-arm.svg"
 import icon9 from "../../assets/courses-icons/smartphone.svg"
 import icon10 from "../../assets/courses-icons/virtual-reality.svg"
 import icon0 from "../../assets/courses-icons/robot.svg" // Изменить на другую
+import "../styles/index.css"
 
 const CoursesIcons = (props) => {
     switch (props.icon) {
@@ -42,7 +43,7 @@ const CoursesIcons = (props) => {
 function iconHolder(icon) {
     return (
         <div className="icon-holder">
-            <img src={icon} style={{ height: "70%", width: "70%", margin: "auto" }}></img>
+            <img src={icon}></img>
         </div>
     )
 }
