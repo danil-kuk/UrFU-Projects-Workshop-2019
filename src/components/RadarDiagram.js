@@ -8,7 +8,7 @@ const MyResponsiveRadar = (props) => (
             data={props.data}
             keys={['Итоги по трекам']}
             indexBy="measure"
-            maxValue="auto"
+            maxValue="3"
             margin={{ top: 70, right: 80, bottom: 40, left: 80 }}
             curve="linearClosed"
             borderWidth={2}
@@ -24,7 +24,7 @@ const MyResponsiveRadar = (props) => (
             enableDotLabel={true}
             dotLabel="value"
             dotLabelYOffset={-12}
-            colors={{ scheme: 'nivo' }}
+            colors={{ scheme: 'paired' }}
             fillOpacity={0.25}
             blendMode="normal"
             animate={true}
