@@ -6,15 +6,15 @@ const MyResponsiveRadar = (props) => (
     <div className="radar-diagram-holder">
         <ResponsiveRadar
             data={props.data}
-            keys={['Итоги по трекам']}
+            keys={props.dataKeys}
             indexBy="measure"
-            maxValue="3"
+            maxValue={3}
             margin={{ top: 70, right: 80, bottom: 40, left: 80 }}
             curve="linearClosed"
             borderWidth={2}
             borderColor={{ from: 'color' }}
-            gridLevels={5}
-            gridShape="circular"
+            gridLevels={3}
+            gridShape="linear"
             gridLabelOffset={20}
             enableDots={true}
             dotSize={10}
@@ -35,7 +35,7 @@ const MyResponsiveRadar = (props) => (
                 axis: {
                     ticks: {
                         text: {
-                            fontSize: 18,
+                            fontSize: props.labelsFontSize,
                             fontFamily: ''
                         }
                     },
@@ -45,7 +45,12 @@ const MyResponsiveRadar = (props) => (
                         fontSize: 16,
                         fontFamily: ''
                     }
-                }
+                },
+                grid: {
+                    line: {
+                      stroke: "rgba(0, 0, 0, .3)"
+                    }
+                  }
             }}
         />
     </div>

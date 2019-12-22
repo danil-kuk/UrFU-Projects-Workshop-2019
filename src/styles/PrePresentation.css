@@ -1,0 +1,22 @@
+.prepres-diagrams-holder {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: auto;
+}
+
+.prepres-container h2 {
+    margin: 0;
+    text-align: center;
+}
+
+.item h3{
+    margin: 20px 0 -20px 0;
+}
+
+.item {
+    text-align: center;
+}
+
+.item .radar-diagram-holder{
+    height: 300px;
+}
