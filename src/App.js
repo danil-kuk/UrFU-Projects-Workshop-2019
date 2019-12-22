@@ -6,6 +6,7 @@ import CustomersInfo from "./pages/CustomersInfo";
 import Students from "./pages/Students";
 import CoursesDiagrams from "./pages/CoursesDiagrams";
 import CoursesDescription from "./pages/CoursesDescription";
+import PrePresentation from "./pages/PrePresentation";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 class App extends Component {
@@ -21,6 +22,7 @@ class App extends Component {
             <Route path="/students" component={Students} />
             <Route path="/courses-description" component={CoursesDescription} />
             <Route path="/courses-diagrams" component={CoursesDiagrams} />
+            <Route path="/pre-presentation" component={PrePresentation} />
           </Switch>
         </Router>
       </div>

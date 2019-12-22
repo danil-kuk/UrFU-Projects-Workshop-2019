@@ -29,6 +29,7 @@ class Navbar extends Component {
               <Link to="/courses-diagrams">Диаграммы</Link>
             </div>
           </div>
+          <Link to="/pre-presentation">Предзащиты</Link>
         </div>
       </div>
     );
