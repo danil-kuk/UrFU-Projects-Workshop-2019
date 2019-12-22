@@ -38,7 +38,7 @@ const MyResponsiveRadar = (props) => (
                             fontSize: props.labelsFontSize,
                             fontFamily: ''
                         }
-                    },
+                    }
                 },
                 dots: {
                     text: {
@@ -48,9 +48,9 @@ const MyResponsiveRadar = (props) => (
                 },
                 grid: {
                     line: {
-                      stroke: "rgba(0, 0, 0, .3)"
+                        stroke: "rgba(0, 0, 0, .3)"
                     }
-                  }
+                }
             }}
         />
     </div>
