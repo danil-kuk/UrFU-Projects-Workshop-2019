@@ -9,7 +9,7 @@ class Navbar extends Component {
       <div className="navbar-container">
         <div className="logo-holder">
           <Link to="/">
-            <img src={logo} alt="Logo" id="logo" />
+            <img src={logo} alt="Logo" id="logo" />dev
           </Link>
         </div>
         <div className="nav-holder">
@@ -18,7 +18,7 @@ class Navbar extends Component {
             <Link to="/customers-info" className="dropbtn">Заказчики</Link>
             <div className="dropdown-content">
               <Link to="/customers-info">Информация</Link>
-              <Link to="/customers-diagrams">Диаграммы</Link>
+              <Link to="/customers-diagrams">Диаграмма</Link>
             </div>
           </div>
           <Link to="/students">Студенты</Link>
