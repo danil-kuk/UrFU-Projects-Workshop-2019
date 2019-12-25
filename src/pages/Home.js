@@ -5,7 +5,6 @@ import '../styles/Home.css'
 const Home = () => {
   return (
     <div className="container">
-      <h1>Главная</h1>
       <div className="image-holder">
         <img src={img}></img>
       </div>

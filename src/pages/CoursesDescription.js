@@ -21,7 +21,7 @@ class CoursesDescription extends React.Component {
   render() {
     return (
       <div className="container" >
-        <h1>Про направления</h1>
+        <h1>Направления</h1>
         <div className="courseSelection">
           <CoursesButtonsRow onChangeValue={this.onChangeValueHandler} />
         </div>
