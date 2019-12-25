@@ -17,8 +17,8 @@ const CirclePackingDiagram = (props) => (
             borderColor={{ from: 'color' }}
             fill={[{ match: { depth: 1 }, id: 'lines' }]}
             animate={true}
-            motionStiffness={90}
-            motionDamping={12}
+            motionStiffness={150}
+            motionDamping={25}
             theme={{
                 labels: {
                     text: {
