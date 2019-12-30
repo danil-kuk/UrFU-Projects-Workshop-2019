@@ -14,3 +14,8 @@
 .radar-diagram-holder {
     height: 700px;
 }
+
+.pie-chart-holder {
+    height: 500px;
+    margin: -40px 0 -40px 0;
+}
