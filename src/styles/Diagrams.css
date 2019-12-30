@@ -4,6 +4,7 @@
 
 .horizontal-bar-holder {
     height: 700px;
+    margin-top: -40px;
 }
 
 .chord-diagram-holder {
