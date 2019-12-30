@@ -15,10 +15,10 @@ class Navbar extends Component {
         <div className="nav-holder">
           <Link to="/">Главная</Link>
           <div className="dropdown">
-            <Link to="/customers-info" className="dropbtn">Заказчики</Link>
+            <Link to="/customers" className="dropbtn">Участники</Link>
             <div className="dropdown-content">
-              <Link to="/customers-info">Информация</Link>
-              <Link to="/customers-diagrams">Диаграмма</Link>
+              <Link to="/customers">Заказчики</Link>
+              <Link to="/students">Студенты</Link>
             </div>
           </div>
           <div className="dropdown">
