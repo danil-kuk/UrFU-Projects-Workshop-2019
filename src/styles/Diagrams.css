@@ -4,7 +4,6 @@
 
 .horizontal-bar-holder {
     height: 700px;
-    margin-top: -40px;
 }
 
 .chord-diagram-holder {
@@ -17,5 +16,4 @@
 
 .pie-chart-holder {
     height: 500px;
-    margin: -40px 0 -40px 0;
 }

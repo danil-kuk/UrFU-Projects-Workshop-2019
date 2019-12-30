@@ -7,7 +7,7 @@ const MyResponsiveBar = (props) => (
             data={props.data}
             keys={['30.09', '01.10', '02.10', 'Позже']}
             indexBy="course"
-            margin={{ top: 50, right: 60, bottom: 50, left: 170 }}
+            margin={{ top: 10, right: 60, bottom: 50, left: 170 }}
             padding={0.15}
             layout="horizontal"
             colors={{ scheme: 'pastel1' }}

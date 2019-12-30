@@ -6,7 +6,7 @@ const CirclePackingDiagram = (props) => (
     <div className="circle-parcking-holder">
         <ResponsiveBubble
             root={props.data}
-            margin={{ top: 20, right: 20, bottom: 20, left: 20 }}
+            margin={{ top: 10, right: 20, bottom: 20, left: 20 }}
             identity="name"
             value="value"
             colors={{ scheme: 'blues' }}

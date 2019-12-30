@@ -12,7 +12,7 @@ const Customers = () => {
       <PieChart data={data.course} colorScheme={{ scheme: 'nivo' }}
         startAngle={-90}
         endAngle={90}
-        height={400}
+        height={350}
       />
     </div>
   );

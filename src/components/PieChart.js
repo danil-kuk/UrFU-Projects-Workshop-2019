@@ -6,11 +6,11 @@ const Chart = (props) => {
     <div className="pie-chart-holder" style={{height:props.height}}>
       <ResponsivePie
         data={props.data}
-        margin={{ top: 40, right: 80, bottom: 80, left: 80 }}
+        margin={{ top: 20, right: 80, bottom: 40, left: 80 }}
         startAngle={props.startAngle}
         endAngle={props.endAngle}
         innerRadius={0.45}
-        padAngle={2}
+        padAngle={1.5}
         colors={props.colorScheme}
         borderWidth={1}
         borderColor={{ from: 'color', modifiers: [ [ 'darker', 0.2 ] ] }}
@@ -30,7 +30,7 @@ const Chart = (props) => {
         theme={{
             labels: {
                 text: {
-                    fontSize: 20,
+                    fontSize: 22,
                     fontFamily: ""
                 }
             }
