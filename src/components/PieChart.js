@@ -3,7 +3,7 @@ import { ResponsivePie } from '@nivo/pie'
 
 const Chart = (props) => {
   return (
-    <div className="pie-chart-holder">
+    <div className="pie-chart-holder" style={{height:props.height}}>
       <ResponsivePie
         data={props.data}
         margin={{ top: 40, right: 80, bottom: 80, left: 80 }}

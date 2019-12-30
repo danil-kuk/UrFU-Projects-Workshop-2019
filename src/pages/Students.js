@@ -8,6 +8,12 @@ const Customers = () => {
       <h1>Студенты</h1>
       <h2>Половой состав</h2>
       <PieChart data={data.gender} colorScheme={{ scheme: 'pastel1' }} />
+      <h2>Распределение по курсам</h2>
+      <PieChart data={data.course} colorScheme={{ scheme: 'nivo' }}
+        startAngle={-90}
+        endAngle={90}
+        height={400}
+      />
     </div>
   );
 };
