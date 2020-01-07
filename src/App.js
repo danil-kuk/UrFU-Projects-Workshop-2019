@@ -2,7 +2,8 @@ import React, { Component } from "react";
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import Students from "./pages/Students";
-import CustomersInfo from "./pages/CustomersInfo";
+import Curators from "./pages/Curators";
+import Customers from "./pages/Customers";
 import CoursesDiagrams from "./pages/CoursesDiagrams";
 import CoursesDescription from "./pages/CoursesDescription";
 import PrePresentation from "./pages/PrePresentation";
@@ -17,7 +18,8 @@ class App extends Component {
           <Switch>
             <Route exact path="/" component={Home} />
             <Route path="/students" component={Students} />
-            <Route path="/customers" component={CustomersInfo} />
+            <Route path="/curators" component={Curators} />
+            <Route path="/customers" component={Customers} />
             <Route path="/courses-description" component={CoursesDescription} />
             <Route path="/courses-diagrams" component={CoursesDiagrams} />
             <Route path="/pre-presentation" component={PrePresentation} />
