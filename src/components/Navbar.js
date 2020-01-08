@@ -28,11 +28,12 @@ class Navbar extends Component {
             <div className="dropdown-content">
               <Link to="/courses-description">Направления</Link>
               <Link to="/courses-diagrams">Диаграммы</Link>
+              <Link to="/pre-presentation">Предзащиты</Link>
             </div>
           </div>
-          <Link to="/pre-presentation">Предзащиты</Link>
+          <Link to="/presentation">Итоги</Link>
         </div>
-      </div>
+      </div >
     );
   }
 }
