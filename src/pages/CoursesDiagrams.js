@@ -7,9 +7,10 @@ import hbcData from "../../assets/data/HorizontalBarChart-data.json"
 const CoursesDiagrams = () => {
   return (
     <div className="container">
-      <h1>Направления и проекты</h1>
+      <h1>Диаграммы</h1>
+      <h2>Распределение проектов по направлениям</h2>
       <CirclePackingDiagram data={cpdData} />
-      <h1>Распределение людей по направлениям</h1>
+      <h2>Распределение людей по направлениям</h2>
       <HorizontalBarChart data={hbcData} />
     </div>
   );

@@ -17,3 +17,7 @@
 .pie-chart-holder {
     height: 500px;
 }
+
+.timeline--wrapper .pw-timeline {
+    margin: 0 auto;
+}
