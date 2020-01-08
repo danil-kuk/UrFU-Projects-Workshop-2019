@@ -3,8 +3,6 @@ import CirclePackingDiagram from "../components/CirclePackingDiagram"
 import HorizontalBarChart from "../components/HorizontalBarChart"
 import cpdData from "../../assets/data/CirclePackingDiagram-data.json"
 import hbcData from "../../assets/data/HorizontalBarChart-data.json"
-import tlData from "../../assets/data/Timeline-data.json"
-import Timeline from "../components/Timeline"
 
 const CoursesDiagrams = () => {
   return (
@@ -14,8 +12,6 @@ const CoursesDiagrams = () => {
       <CirclePackingDiagram data={cpdData} />
       <h2>Распределение людей по направлениям</h2>
       <HorizontalBarChart data={hbcData} />
-      <h2>Хронология</h2>
-      <Timeline data={tlData} />
     </div>
   );
 };

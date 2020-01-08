@@ -14,6 +14,7 @@ class Navbar extends Component {
         </div>
         <div className="nav-holder">
           <Link to="/">Главная</Link>
+          <Link to="/chronology">Хронология</Link>
           <div className="dropdown">
             <Link to="/customers" className="dropbtn">Участники</Link>
             <div className="dropdown-content">

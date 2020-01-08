@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
+import Chronology from "./pages/Chronology";
 import Students from "./pages/Students";
 import Curators from "./pages/Curators";
 import Customers from "./pages/Customers";
@@ -17,6 +18,7 @@ class App extends Component {
           <Navbar />
           <Switch>
             <Route exact path="/" component={Home} />
+            <Route path="/chronology" component={Chronology} />
             <Route path="/students" component={Students} />
             <Route path="/curators" component={Curators} />
             <Route path="/customers" component={Customers} />
