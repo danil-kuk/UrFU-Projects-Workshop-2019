@@ -16,7 +16,7 @@ h1, h2 {
 }
 
 #mobile-alert {
-    visibility: hidden;
+    display: none;
 }
 
 .icon-holder img {
@@ -32,11 +32,11 @@ a {
 
 @media screen and (max-width: 680px) {
     #root {
-      visibility: hidden;
+      display: none;
       height: 0;
     }
     #mobile-alert {
-        visibility: visible;
+        display: block;
     }
     body {
         position:fixed;

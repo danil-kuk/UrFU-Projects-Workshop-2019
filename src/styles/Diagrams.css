@@ -4,6 +4,7 @@
 
 .horizontal-bar-holder {
     height: 700px;
+    margin-bottom: 40px;
 }
 
 .chord-diagram-holder {
@@ -16,4 +17,8 @@
 
 .pie-chart-holder {
     height: 500px;
+}
+
+.timeline--wrapper .pw-timeline {
+    margin: 0 auto;
 }
