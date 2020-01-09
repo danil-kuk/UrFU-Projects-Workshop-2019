@@ -55,13 +55,15 @@ class CuratorsGraph extends React.Component {
       },
       physics: {
         enabled: true,
-        barnesHut: {
-          gravitationalConstant: -2000,
-          centralGravity: 0.3,
-          springLength: 100,
+        forceAtlas2Based: {
+          gravitationalConstant: -50,
+          centralGravity: 0.01,
           springConstant: 0.01,
-          avoidOverlap: 0.2
-        }
+          springLength: 100,
+          damping: 0.4,
+          avoidOverlap: 0.7
+        },
+        solver: 'forceAtlas2Based'
       }
     };
 
