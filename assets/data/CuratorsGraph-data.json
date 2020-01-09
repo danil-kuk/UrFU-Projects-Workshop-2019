@@ -1,0 +1,137 @@
+{
+    "nodes": [
+        {
+            "id": 1,
+            "label": "Машинное\nобучение",
+            "shape": "box",
+            "value": 10,
+            "color":{
+                "background": "#d43dc6",
+                "border": "#d43dc6"
+            },
+            "title": "Проектов: 10" 
+        },
+        {
+            "id": 2,
+            "label": "Игры",
+            "shape": "box",
+            "value": 10,
+            "color":{
+                "background": "#7a4da5",
+                "border": "#7a4da5"
+            } 
+        },
+        {
+            "id": 3,
+            "label": "Боты",
+            "shape": "box",
+            "value": 10,
+            "color":{
+                "background": "#46ccf4",
+                "border": "#46ccf4"
+            } 
+        },
+        {
+            "id": 4,
+            "label": "Робототехника",
+            "shape": "box",
+            "value": 10,
+            "color":{
+                "background": "",
+                "border": ""
+            } 
+        },
+        {
+            "id": 5,
+            "label": "Цифровой\nмаркетинг",
+            "shape": "box",
+            "value": 10,
+            "color":{
+                "background": "",
+                "border": ""
+            } 
+        },
+        {
+            "id": 6,
+            "label": "VR/AR",
+            "shape": "box",
+            "value": 10,
+            "color":{
+                "background": "",
+                "border": ""
+            } 
+        },
+        {
+            "id": 7,
+            "label": "Web-разработка",
+            "shape": "box",
+            "value": 10,
+            "color":{
+                "background": "",
+                "border": ""
+            } 
+        },
+        {
+            "id": 8,
+            "label": "Мобильная\nразработка",
+            "shape": "box",
+            "value": 10
+        },
+        {
+            "id": 9,
+            "label": "Информационные\nсистемы",
+            "shape": "box",
+            "value": 10
+        },
+        {
+            "id": 10,
+            "label": "Математическое\nмоделирование",
+            "shape": "box",
+            "value": 10
+        },
+        {
+            "id": 101,
+            "label": "Хлебников Н.А.",
+            "value": 10,
+            "title": "Проектов: 10" 
+        },
+        {
+            "id": 102,
+            "label": "Стародубцев И.С.",
+            "value": 10
+        },
+        {
+            "id": 103,
+            "label": "Шадрин Д.Б.",
+            "value": 10
+        },
+        {
+            "id": 104,
+            "label": "Орешкина Т.А.",
+            "value": 10
+        }
+        
+    ],
+    "edges": [
+        {
+            "from": 101,
+            "to": 1,
+            "value": 5
+        },
+        {
+            "from": 101,
+            "to": 2,
+            "value": 5
+        },
+        {
+            "from": 101,
+            "to": 3,
+            "value": 5
+        },
+        {
+            "from": 104,
+            "to": 3,
+            "value": 2
+        }
+    ]
+}
