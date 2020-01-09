@@ -19,6 +19,7 @@
     "@nivo/radar": "^0.61.1",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
+    "react-graph-vis": "^1.0.5",
     "react-router-dom": "^5.1.2",
     "styles": "^0.2.1",
     "vertical-timeline-component-for-react": "^1.0.6"

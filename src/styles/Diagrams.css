@@ -21,3 +21,7 @@
 .timeline--wrapper .pw-timeline {
     margin: 0 auto;
 }
+
+.graph-holder .vis-network {
+    outline: 0;
+}
