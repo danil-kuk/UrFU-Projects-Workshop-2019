@@ -20,14 +20,14 @@ class CuratorsGraph extends React.Component {
           type: 'vertical'
         },
         scaling: {
-          min: 2,
+          min: 4,
           max: 10
         },
         color: { inherit: "to", opacity: 0.5 },
         chosen: {
           edge: function (values, id, selected, hovering) {
             values.opacity = 1;
-            values.width += 4;
+            values.width += 3;
           }
         },
       },
@@ -37,8 +37,8 @@ class CuratorsGraph extends React.Component {
         scaling: {
           label: {
             enabled: true,
-            min: 6,
-            max: 30
+            min: 12,
+            max: 18
           }
         },
         borderWidth: 0,
@@ -51,6 +51,16 @@ class CuratorsGraph extends React.Component {
       },
       interaction: {
         hover: true
+      },
+      physics: {
+        enabled: true,
+        barnesHut: {
+          gravitationalConstant: -2000,
+          centralGravity: 0.3,
+          springLength: 100,
+          springConstant: 0.01,
+          avoidOverlap: 0.2
+        }
       }
     };
 
@@ -72,7 +82,7 @@ class CuratorsGraph extends React.Component {
   render() {
     return (
       <div className="graph-holder">
-        <Graph graph={this.graph} options={this.options} events={this.events} style={{ height: "640px" }}
+        <Graph graph={this.graph} options={this.options} events={this.events} style={{ height: "740px" }}
           getNetwork={network => {
             this.handleNetworkChange(network)
           }} />

@@ -4,111 +4,167 @@
             "id": 1,
             "label": "Машинное\nобучение",
             "shape": "box",
-            "value": 10,
+            "value": 20,
             "color":{
-                "background": "#d43dc6",
-                "border": "#d43dc6"
-            },
-            "title": "Проектов: 10" 
+                "background": "#BEBADA",
+                "border": "#BEBADA"
+            }
         },
         {
             "id": 2,
             "label": "Игры",
             "shape": "box",
-            "value": 10,
+            "value": 20,
             "color":{
-                "background": "#7a4da5",
-                "border": "#7a4da5"
+                "background": "#FFFFB3",
+                "border": "#FFFFB3"
             } 
         },
         {
             "id": 3,
             "label": "Боты",
             "shape": "box",
-            "value": 10,
+            "value": 20,
             "color":{
-                "background": "#46ccf4",
-                "border": "#46ccf4"
+                "background": "#8DD3C7",
+                "border": "#8DD3C7"
             } 
         },
         {
             "id": 4,
             "label": "Робототехника",
             "shape": "box",
-            "value": 10,
+            "value": 20,
             "color":{
-                "background": "",
-                "border": ""
+                "background": "#FFED6F",
+                "border": "#FFED6F"
             } 
         },
         {
             "id": 5,
             "label": "Цифровой\nмаркетинг",
             "shape": "box",
-            "value": 10,
+            "value": 20,
             "color":{
-                "background": "",
-                "border": ""
+                "background": "#B3DE69",
+                "border": "#B3DE69"
             } 
         },
         {
             "id": 6,
             "label": "VR/AR",
             "shape": "box",
-            "value": 10,
+            "value": 20,
             "color":{
-                "background": "",
-                "border": ""
+                "background": "#FCCDE5",
+                "border": "#FCCDE5"
             } 
         },
         {
             "id": 7,
             "label": "Web-разработка",
             "shape": "box",
-            "value": 10,
+            "value": 20,
             "color":{
-                "background": "",
-                "border": ""
+                "background": "#80B1D3",
+                "border": "#80B1D3"
             } 
         },
         {
             "id": 8,
             "label": "Мобильная\nразработка",
             "shape": "box",
-            "value": 10
+            "value": 20,
+            "color":{
+                "background": "#CCEBC5",
+                "border": "#CCEBC5"
+            }
         },
         {
             "id": 9,
             "label": "Информационные\nсистемы",
             "shape": "box",
-            "value": 10
+            "value": 20,
+            "color":{
+                "background": "#FDB462",
+                "border": "#FDB462"
+            }
         },
         {
             "id": 10,
             "label": "Математическое\nмоделирование",
             "shape": "box",
-            "value": 10
+            "value": 20,
+            "color":{
+                "background": "#FB8072",
+                "border": "#FB8072"
+            }
         },
         {
             "id": 101,
             "label": "Хлебников Н.А.",
-            "value": 10,
-            "title": "Проектов: 10" 
+            "value": 13,
+            "title": "Проектов: 13" 
         },
         {
             "id": 102,
             "label": "Стародубцев И.С.",
-            "value": 10
+            "value": 6,
+            "title": "Проектов: 6" 
         },
         {
             "id": 103,
             "label": "Шадрин Д.Б.",
-            "value": 10
+            "value": 9,
+            "title": "Проектов: 9"
         },
         {
             "id": 104,
             "label": "Орешкина Т.А.",
-            "value": 10
+            "value": 3,
+            "title": "Проектов: 3"
+        },
+        {
+            "id": 105,
+            "label": "Комоцкий",
+            "value": 8,
+            "title": "Проектов: 8"
+        },
+        {
+            "id": 106,
+            "label": "Ушенин",
+            "value": 4,
+            "title": "Проектов: 4"
+        },
+        {
+            "id": 107,
+            "label": "Шибаев",
+            "value": 3,
+            "title": "Проектов: 3" 
+        },
+        {
+            "id": 108,
+            "label": "Чикова О.А.",
+            "value": 2,
+            "title": "Проектов: 2" 
+        },
+        {
+            "id": 109,
+            "label": "Расов",
+            "value": 2,
+            "title": "Проектов: 2" 
+        },
+        {
+            "id": 110,
+            "label": "Лимановская",
+            "value": 3,
+            "title": "Проектов: 3" 
+        },
+        {
+            "id": 111,
+            "label": "Гошкодеров",
+            "value": 4,
+            "title": "Проектов: 4" 
         }
         
     ],
@@ -116,22 +172,132 @@
         {
             "from": 101,
             "to": 1,
-            "value": 5
+            "value": 8
         },
         {
             "from": 101,
             "to": 2,
-            "value": 5
+            "value": 1
         },
         {
             "from": 101,
-            "to": 3,
-            "value": 5
+            "to": 8,
+            "value": 1
+        },
+        {
+            "from": 101,
+            "to": 9,
+            "value": 1
+        },
+        {
+            "from": 101,
+            "to": 10,
+            "value": 1
+        },
+        {
+            "from": 102,
+            "to": 1,
+            "value": 1
+        },
+        {
+            "from": 102,
+            "to": 2,
+            "value": 1
+        },
+        {
+            "from": 102,
+            "to": 4,
+            "value": 3
+        },
+        {
+            "from": 102,
+            "to": 9,
+            "value": 1
+        },
+        {
+            "from": 103,
+            "to": 5,
+            "value": 2
+        },
+        {
+            "from": 103,
+            "to": 7,
+            "value": 4
+        },
+        {
+            "from": 103,
+            "to": 8,
+            "value": 3
         },
         {
             "from": 104,
             "to": 3,
+            "value": 1
+        },
+        {
+            "from": 104,
+            "to": 8,
             "value": 2
+        },
+        {
+            "from": 105,
+            "to": 1,
+            "value": 8
+        },
+        {
+            "from": 106,
+            "to": 1,
+            "value": 1
+        },
+        {
+            "from": 106,
+            "to": 5,
+            "value": 2
+        },
+        {
+            "from": 106,
+            "to": 9,
+            "value": 1
+        },
+        {
+            "from": 107,
+            "to": 1,
+            "value": 3
+        },
+        {
+            "from": 108,
+            "to": 1,
+            "value": 1
+        },
+        {
+            "from": 108,
+            "to": 6,
+            "value": 1
+        },
+        {
+            "from": 109,
+            "to": 1,
+            "value": 2
+        },
+        {
+            "from": 110,
+            "to": 1,
+            "value": 1
+        },
+        {
+            "from": 110,
+            "to": 9,
+            "value": 1
+        },
+        {
+            "from": 110,
+            "to": 10,
+            "value": 1
+        },
+        {
+            "from": 111,
+            "to": 9,
+            "value": 4
         }
     ]
 }
