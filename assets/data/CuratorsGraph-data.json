@@ -172,132 +172,158 @@
         {
             "from": 101,
             "to": 1,
-            "value": 8
+            "value": 8,
+            "title": "Проектов: 8"
         },
         {
             "from": 101,
             "to": 2,
-            "value": 1
+            "value": 1,
+            "title": "Проектов: 1"
         },
         {
             "from": 101,
             "to": 8,
-            "value": 1
+            "value": 1,
+            "title": "Проектов: 1"
         },
         {
             "from": 101,
             "to": 9,
-            "value": 1
+            "value": 1,
+            "title": "Проектов: 1"
         },
         {
             "from": 101,
             "to": 10,
-            "value": 1
+            "value": 1,
+            "title": "Проектов: 1"
         },
         {
             "from": 102,
             "to": 1,
-            "value": 1
+            "value": 1,
+            "title": "Проектов: 1"
         },
         {
             "from": 102,
             "to": 2,
-            "value": 1
+            "value": 1,
+            "title": "Проектов: 1"
         },
         {
             "from": 102,
             "to": 4,
-            "value": 3
+            "value": 3,
+            "title": "Проектов: 3"
         },
         {
             "from": 102,
             "to": 9,
-            "value": 1
+            "value": 1,
+            "title": "Проектов: 1"
         },
         {
             "from": 103,
             "to": 5,
-            "value": 2
+            "value": 2,
+            "title": "Проектов: 2"
         },
         {
             "from": 103,
             "to": 7,
-            "value": 4
+            "value": 4,
+            "title": "Проектов: 4"
         },
         {
             "from": 103,
             "to": 8,
-            "value": 3
+            "value": 3,
+            "title": "Проектов: 3"
         },
         {
             "from": 104,
             "to": 3,
-            "value": 1
+            "value": 1,
+            "title": "Проектов: 1"
         },
         {
             "from": 104,
             "to": 8,
-            "value": 2
+            "value": 2,
+            "title": "Проектов: 2"
         },
         {
             "from": 105,
             "to": 1,
-            "value": 8
+            "value": 8,
+            "title": "Проектов: 8"
         },
         {
             "from": 106,
             "to": 1,
-            "value": 1
+            "value": 1,
+            "title": "Проектов: 1"
         },
         {
             "from": 106,
             "to": 5,
-            "value": 2
+            "value": 2,
+            "title": "Проектов: 2"
         },
         {
             "from": 106,
             "to": 9,
-            "value": 1
+            "value": 1,
+            "title": "Проектов: 1"
         },
         {
             "from": 107,
             "to": 1,
-            "value": 3
+            "value": 3,
+            "title": "Проектов: 3"
         },
         {
             "from": 108,
             "to": 1,
-            "value": 1
+            "value": 1,
+            "title": "Проектов: 1"
         },
         {
             "from": 108,
             "to": 6,
-            "value": 1
+            "value": 1,
+            "title": "Проектов: 1"
         },
         {
             "from": 109,
             "to": 1,
-            "value": 2
+            "value": 2,
+            "title": "Проектов: 2"
         },
         {
             "from": 110,
             "to": 1,
-            "value": 1
+            "value": 1,
+            "title": "Проектов: 1"
         },
         {
             "from": 110,
             "to": 9,
-            "value": 1
+            "value": 1,
+            "title": "Проектов: 1"
         },
         {
             "from": 110,
             "to": 10,
-            "value": 1
+            "value": 1,
+            "title": "Проектов: 1"
         },
         {
             "from": 111,
             "to": 9,
-            "value": 4
+            "value": 4,
+            "title": "Проектов: 4"
         }
     ]
 }

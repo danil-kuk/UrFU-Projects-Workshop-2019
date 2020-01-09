@@ -1,6 +1,7 @@
 import React from "react";
 import Graph from "react-graph-vis";
-import "../styles/CuratorsGraph.css"
+import "../styles/CuratorsGraph.css";
+import "../styles/Diagrams.css";
 
 class CuratorsGraph extends React.Component {
   constructor(props) {
@@ -20,8 +21,8 @@ class CuratorsGraph extends React.Component {
           type: 'vertical'
         },
         scaling: {
-          min: 4,
-          max: 10
+          min: 3,
+          max: 8
         },
         color: { inherit: "to", opacity: 0.5 },
         chosen: {
