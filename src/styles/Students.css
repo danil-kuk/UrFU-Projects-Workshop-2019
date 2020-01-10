@@ -1,0 +1,6 @@
+.students-diagrams-holder {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: flex-end;
+    margin: 20px 15% 20px 15%;
+}
