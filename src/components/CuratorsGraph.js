@@ -14,11 +14,12 @@ class CuratorsGraph extends React.Component {
       layout: {
         hierarchical: false,
       },
+      autoResize: true,
       edges: {
         arrows: { from: false, middle: false, to: false },
         smooth: {
           enabled: true,
-          type: 'vertical'
+          type: 'continuous'
         },
         scaling: {
           min: 3,
@@ -58,9 +59,9 @@ class CuratorsGraph extends React.Component {
         forceAtlas2Based: {
           gravitationalConstant: -50,
           centralGravity: 0.01,
-          springConstant: 0.01,
+          springConstant: 0.005,
           springLength: 100,
-          damping: 0.4,
+          damping: 0.7,
           avoidOverlap: 0.7
         },
         solver: 'forceAtlas2Based'
@@ -85,7 +86,7 @@ class CuratorsGraph extends React.Component {
   render() {
     return (
       <div className="graph-holder">
-        <Graph graph={this.graph} options={this.options} events={this.events} style={{ height: "740px" }}
+        <Graph graph={this.graph} options={this.options} events={this.events} style={{ height: "700px" }}
           getNetwork={network => {
             this.handleNetworkChange(network)
           }} />

@@ -16,8 +16,8 @@
             "shape": "box",
             "value": 20,
             "color":{
-                "background": "#FFFFB3",
-                "border": "#FFFFB3"
+                "background": "#4EB3D3",
+                "border": "#4EB3D3"
             } 
         },
         {
@@ -56,8 +56,8 @@
             "shape": "box",
             "value": 20,
             "color":{
-                "background": "#FCCDE5",
-                "border": "#FCCDE5"
+                "background": "#C994C7",
+                "border": "#C994C7"
             } 
         },
         {
@@ -66,8 +66,8 @@
             "shape": "box",
             "value": 20,
             "color":{
-                "background": "#80B1D3",
-                "border": "#80B1D3"
+                "background": "#9ECAE1",
+                "border": "#9ECAE1"
             } 
         },
         {
@@ -76,8 +76,8 @@
             "shape": "box",
             "value": 20,
             "color":{
-                "background": "#CCEBC5",
-                "border": "#CCEBC5"
+                "background": "#57bd72",
+                "border": "#57bd72"
             }
         },
         {
@@ -126,19 +126,19 @@
         },
         {
             "id": 105,
-            "label": "Комоцкий",
+            "label": "Комоцкий Е.И.",
             "value": 8,
             "title": "Проектов: 8"
         },
         {
             "id": 106,
-            "label": "Ушенин",
+            "label": "Ушенин К.С.",
             "value": 4,
             "title": "Проектов: 4"
         },
         {
             "id": 107,
-            "label": "Шибаев",
+            "label": "Шибаев В.А.",
             "value": 3,
             "title": "Проектов: 3" 
         },
@@ -150,7 +150,7 @@
         },
         {
             "id": 109,
-            "label": "Расов",
+            "label": "Расов А.",
             "value": 2,
             "title": "Проектов: 2" 
         },
@@ -162,7 +162,7 @@
         },
         {
             "id": 111,
-            "label": "Гошкодеров",
+            "label": "Гошкодеров А.",
             "value": 4,
             "title": "Проектов: 4" 
         }
