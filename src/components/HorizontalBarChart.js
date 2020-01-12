@@ -10,7 +10,7 @@ const MyResponsiveBar = (props) => (
             margin={{ top: 10, right: 60, bottom: 50, left: 170 }}
             padding={0.15}
             layout="horizontal"
-            colors={{ scheme: 'paired' }}
+            colors={["#A6CEE3"]}
             borderColor={{ from: 'color', modifiers: [['darker', 1.6]] }}
             axisTop={null}
             axisRight={null}
