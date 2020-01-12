@@ -5,12 +5,12 @@ const MyResponsiveBar = (props) => (
     <div className="horizontal-bar-holder">
         <ResponsiveBar
             data={props.data}
-            keys={['30.09', '01.10', '02.10', 'Позже']}
+            keys={['value']}
             indexBy="course"
             margin={{ top: 10, right: 60, bottom: 50, left: 170 }}
             padding={0.15}
             layout="horizontal"
-            colors={{ scheme: 'pastel1' }}
+            colors={["#A6CEE3"]}
             borderColor={{ from: 'color', modifiers: [['darker', 1.6]] }}
             axisTop={null}
             axisRight={null}
@@ -36,6 +36,11 @@ const MyResponsiveBar = (props) => (
             labelSkipHeight={12}
             labelTextColor={{ from: 'color', modifiers: [['darker', '20']] }}
             animate={true}
+            tooltip={({ value, indexValue }) => (
+                <div>
+                    {indexValue}: <strong>{value}</strong>
+                </div>
+            )}
             motionStiffness={90}
             motionDamping={15}
             theme={{

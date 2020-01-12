@@ -17,6 +17,7 @@
     "@nivo/circle-packing": "^0.60.0",
     "@nivo/pie": "^0.61.1",
     "@nivo/radar": "^0.61.1",
+    "@nivo/waffle": "^0.61.1",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-graph-vis": "^1.0.5",
