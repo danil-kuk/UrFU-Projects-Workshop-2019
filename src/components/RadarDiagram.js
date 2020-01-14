@@ -8,7 +8,7 @@ const MyResponsiveRadar = (props) => (
             data={props.data}
             keys={props.dataKeys}
             indexBy="measure"
-            maxValue={3}
+            maxValue={props.maxValue}
             margin={{ top: 70, right: 80, bottom: 40, left: 80 }}
             curve="linearClosed"
             borderWidth={2}
