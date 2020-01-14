@@ -26,3 +26,7 @@
     background-color: darkgrey;
     outline: 1px solid slategrey;
 }
+
+.pres-container h2{
+    margin: 0;
+}
