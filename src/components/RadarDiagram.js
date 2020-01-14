@@ -13,7 +13,7 @@ const MyResponsiveRadar = (props) => (
             curve="linearClosed"
             borderWidth={2}
             borderColor={{ from: 'color' }}
-            gridLevels={3}
+            gridLevels={props.levels}
             gridShape="linear"
             gridLabelOffset={20}
             enableDots={true}
@@ -48,9 +48,9 @@ const MyResponsiveRadar = (props) => (
                 },
                 grid: {
                     line: {
-                        stroke: "rgba(0, 0, 0, .3)"
+                        stroke: "rgba(0, 0, 0, .1)"
                     },
-                    stroke: "rgba(0, 0, 0, .3)",
+                    stroke: "rgba(0, 0, 0, .2)",
                     strokeWidth: 1
                 }
             }}

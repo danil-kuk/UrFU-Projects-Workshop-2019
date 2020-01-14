@@ -24,7 +24,7 @@ class Presentation extends React.Component {
       <div className="pres-container">
         <h1>Защиты</h1>
         <h2>Средний результат</h2>
-        <RadarDiagram data={newData['Общее среднее']} dataKeys={['Общее среднее']} labelsFontSize={18} maxValue={5} />
+        <RadarDiagram data={newData['Общее среднее']} dataKeys={['Общее среднее']} labelsFontSize={18} maxValue={5} levels={5} />
         <h2>Оценки команд</h2>
         <div className="team-section">
           <select value={this.state.value} onChange={this.handleChange} multiple>
@@ -35,7 +35,7 @@ class Presentation extends React.Component {
             }
           </select>
           <div className="team-radar-diagram">
-            <RadarDiagram data={newData[this.state.value[0]]} dataKeys={this.state.value} labelsFontSize={16} maxValue={5} />
+            <RadarDiagram data={newData[this.state.value[0]]} dataKeys={this.state.value} labelsFontSize={16} maxValue={5} levels={5} />
           </div>
         </div>
       </div>
