@@ -21,15 +21,15 @@
     display: flex;
     align-items: center;
     box-shadow: 0 0px 4px 0 rgba(0, 0, 0, 0.3);
-    height: 200px;
-    width: 130px;
+    height: 180px;
+    width: 110px;
     margin-left: 6px;
     float: left;
 }
 
 .curator-card h4 {
     font-size: 20px;
-    margin: 14px 0 0 20px;
+    margin: 14px 20px 0 20px;
 }
 
 .curator-card p {
@@ -44,8 +44,7 @@
 
 .curator-info .courses {
     column-gap: 2px;
-    margin-bottom: 5px;
-    margin-top: 4px;
+    margin: 4px 20px 5px 14px;
     grid-template-columns: repeat(auto-fill, minmax(40px, 1fr));
 }
 

@@ -13,7 +13,6 @@ const CuratorsBoard = (props) => {
                     activity={p.activity}
                     degree={p.degree}
                     img_link={p.img_link}
-                    org_place={p.org_place}
                     projects_count={p.projects_count}
                     courses={p.courses}
                     key={p.name}
