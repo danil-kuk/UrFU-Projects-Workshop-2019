@@ -29,3 +29,7 @@
 .graph-holder .vis-network {
     outline: 0;
 }
+
+.graph-holder {
+    margin: 0 25%;
+}

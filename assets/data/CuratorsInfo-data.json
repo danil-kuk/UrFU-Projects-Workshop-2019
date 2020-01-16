@@ -1,0 +1,138 @@
+[
+    {
+        "name": "Хлебников Николай Александрович",
+        "org": "Уральский Федеральный Университет",
+        "activity": "Директор института",
+        "img_link": "https://urfu.ru/fileadmin/_processed_/a/9/csm_ab3903a279a1985923ff311dccf0b502_bd159e93ab.png",
+        "degree": "Кандидат химических наук, доцент",
+        "projects_count": 13,
+        "courses": [
+            "machine-learning",
+            "games",
+            "mobile",
+            "information-systems",
+            "math-modelling"
+        ]
+    },
+    {
+        "name": "Шадрин Денис Борисович",
+        "org": "Уральский Федеральный Университет",
+        "activity": "Лаборант, Старший преподаватель",
+        "img_link": "https://ppk.urfu.ru/fileadmin/_processed_/c/8/csm_6007de9d46781a528361b584bae80267_7896ca79b1.png",
+        "degree": "",
+        "projects_count": 9,
+        "courses": [
+            "digital-marketing",
+            "web-development",
+            "mobile"
+        ]
+    },
+    {
+        "name": "Комоцкий Евгений Игоревич",
+        "org": "Уральский Федеральный Университет",
+        "activity": "Ассистент, Инженер 2 категории",
+        "img_link": "https://urfu.ru/fileadmin/_processed_/d/e/csm_82d0a19faa09fd288ff7b4041fa378ed_0f6fddebd5.png",
+        "degree": "",
+        "projects_count": 8,
+        "courses": [
+            "machine-learning"
+        ]
+    },
+    {
+        "name": "Стародубцев Илья Сергеевич",
+        "org": "Уральский Федеральный Университет",
+        "activity": "",
+        "img_link": "",
+        "degree": "Кандидат наук, доцент",
+        "projects_count": 6,
+        "courses": [
+            "machine-learning",
+            "games",
+            "information-systems",
+            "robots"
+        ]
+    },
+    {
+        "name": "Ушенин Константин Сергеевич",
+        "org": "Уральский Федеральный Университет",
+        "activity": "Ассистент кафедры",
+        "img_link": "https://sun9-72.userapi.com/ys9d2RXtizkjf6t9QVH8Dum82HyZJfWbv5K_hQ/ETDaL4BzSYc.jpg?ava=1",
+        "degree": "",
+        "projects_count": 4,
+        "courses": [
+            "machine-learning",
+            "information-systems",
+            "digital-marketing"
+        ]
+    },
+    {
+        "name": "Гошкодеров Анатолий Андреевич",
+        "org": "Уральский Федеральный Университет",
+        "activity": "",
+        "img_link": "",
+        "degree": "",
+        "projects_count": 4,
+        "courses": [
+            "information-systems"
+        ]
+    },
+    {
+        "name": "Орешкина Татьяна Анатольевна",
+        "org": "Уральский Федеральный Университет",
+        "activity": "Заместитель директора",
+        "img_link": "https://urfu.ru/fileadmin/_processed_/d/a/csm_ad6ebdb6b09f4e753b1bcf029ae926a0_a82494c94b.png",
+        "degree": "Кандидат социологических наук, доцент",
+        "projects_count": 3,
+        "courses": [
+            "mobile",
+            "bots"
+        ]
+    },
+    {
+        "name": "Шибаев Вячеслав Алексеевич",
+        "org": "Уральский Федеральный Университет",
+        "activity": "Ассистент кафедры",
+        "img_link": "",
+        "degree": "",
+        "projects_count": 3,
+        "courses": [
+            "machine-learning"
+        ]
+    },
+    {
+        "name": "Лимановская Оксана Викторовна",
+        "org": "Уральский Федеральный Университет",
+        "activity": "",
+        "img_link": "",
+        "degree": "Кандидат химических наук, доцент",
+        "projects_count": 3,
+        "courses": [
+            "machine-learning",
+            "information-systems",
+            "math-modelling"
+        ]
+    },
+    {
+        "name": "Чикова Ольга Анатольевна",
+        "org": "Уральский Федеральный Университет",
+        "activity": "Профессор",
+        "img_link": "https://urfu.ru/fileadmin/_processed_/e/3/csm_67c253d27d47d1710055d9f0f48790c6_8d21193f94.jpg",
+        "degree": "Доктор физико-математических наук, доцент",
+        "projects_count": 2,
+        "courses": [
+            "machine-learning",
+            "vr"
+        ]
+    },
+    {
+        "name": "Расов Арсений Михайлович",
+        "org": "Уральский Федеральный Университет",
+        "activity": "",
+        "img_link": "https://sun9-45.userapi.com/c855032/v855032032/9863a/z2O2T6o0zr8.jpg",
+        "degree": "",
+        "projects_count": 2,
+        "courses": [
+            "machine-learning"
+        ]
+    }
+]

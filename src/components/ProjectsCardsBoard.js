@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/ProjectsCardsBoard.css"
+import "../styles/Boards.css"
 import ProjectCard from "./ProjectCard"
 
 const Board = (props) => {
