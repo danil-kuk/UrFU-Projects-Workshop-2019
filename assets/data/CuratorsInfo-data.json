@@ -1,0 +1,23 @@
+[
+    {
+        "name": "Хлебников Николай Александрович",
+        "org": "Уральский Федеральный Университет",
+        "activity": "Директор института",
+        "img_link": "https://urfu.ru/fileadmin/_processed_/a/9/csm_ab3903a279a1985923ff311dccf0b502_bd159e93ab.png",
+        "org_place": "Екатеринбург",
+        "degree": "Кандидат химических наук, доцент",
+        "projects_count": 13,
+        "courses": [
+            "machine-learning",
+            "games",
+            "bots",
+            "robots",
+            "digital-marketing",
+            "vr",
+            "web-development",
+            "mobile",
+            "information-systems",
+            "math-modelling"
+        ]
+    }
+]
