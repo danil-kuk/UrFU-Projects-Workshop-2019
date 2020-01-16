@@ -6,7 +6,7 @@ import Shuffle from "./ArrayShuffle"
 const CuratorsBoard = (props) => {
     return (
         <div className="curators-cards-board">
-            {Shuffle(props.data).map(p => (
+            {props.data.map(p => (
                 <CuratorCard
                     name={p.name}
                     org={p.org}

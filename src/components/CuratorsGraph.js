@@ -86,7 +86,7 @@ class CuratorsGraph extends React.Component {
   render() {
     return (
       <div className="graph-holder">
-        <Graph graph={this.graph} options={this.options} events={this.events} style={{ height: "640px" }}
+        <Graph graph={this.graph} options={this.options} events={this.events} style={{ height: "660px" }}
           getNetwork={network => {
             this.handleNetworkChange(network)
           }} />

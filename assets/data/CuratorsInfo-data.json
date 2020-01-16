@@ -66,6 +66,17 @@
         ]
     },
     {
+        "name": "Гошкодеров Анатолий Андреевич",
+        "org": "Уральский Федеральный Университет",
+        "activity": "",
+        "img_link": "",
+        "degree": "",
+        "projects_count": 4,
+        "courses": [
+            "information-systems"
+        ]
+    },
+    {
         "name": "Орешкина Татьяна Анатольевна",
         "org": "Уральский Федеральный Университет",
         "activity": "Заместитель директора",
@@ -86,17 +97,6 @@
         "projects_count": 3,
         "courses": [
             "machine-learning"
-        ]
-    },
-    {
-        "name": "Гошкодеров Анатолий Андреевич",
-        "org": "Уральский Федеральный Университет",
-        "activity": "",
-        "img_link": "",
-        "degree": "",
-        "projects_count": 4,
-        "courses": [
-            "information-systems"
         ]
     },
     {
