@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/CustomersBoard.css"
+import "../styles/Boards.css"
 import CustomerCard from "./CustomerCard"
 import Shuffle from "./ArrayShuffle"
 

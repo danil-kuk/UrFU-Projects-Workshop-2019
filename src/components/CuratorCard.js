@@ -14,8 +14,10 @@ const CuratorCard = (props) => {
                 <div className="curator-info-text">
                     <p>
                         <b>Организация: </b>{props.org} <br />
-                        <b>Ученая степень(звание): </b>{props.degree} <br />
                         <b>Деятельность: </b>{props.activity} <br />
+                        {props.degree != "" &&
+                            <><b>Ученая степень(звание): </b> {props.degree} <br /></>
+                        }
                         <b>Проектов: </b>{props.projects_count} <br />
                         <b>Направления: </b>
                     </p>

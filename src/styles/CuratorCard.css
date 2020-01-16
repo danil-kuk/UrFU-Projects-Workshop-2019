@@ -33,7 +33,7 @@
 }
 
 .curator-card p {
-    padding: 0 12px 8px 18px;
+    padding: 0 12px 0 18px;
     margin: 0;
 }
 
@@ -44,6 +44,14 @@
 
 .curator-info .courses {
     column-gap: 2px;
+    margin-bottom: 5px;
+    margin-top: 4px;
+    grid-template-columns: repeat(auto-fill, minmax(40px, 1fr));
+}
+
+.curator-info .courses .icon-holder {
+    width: 40px;
+    height: 40px;
 }
 
 .curator-info .curator-info-text {

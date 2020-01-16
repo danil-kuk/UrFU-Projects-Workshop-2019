@@ -19,5 +19,19 @@
             "information-systems",
             "math-modelling"
         ]
+    },
+    {
+        "name": "Шадрин Денис Борисович",
+        "org": "Уральский Федеральный Университет",
+        "activity": "Лаборант, Старший преподаватель",
+        "img_link": "https://ppk.urfu.ru/fileadmin/_processed_/c/8/csm_6007de9d46781a528361b584bae80267_7896ca79b1.png",
+        "org_place": "Екатеринбург",
+        "degree": "",
+        "projects_count": 9,
+        "courses": [
+            "digital-marketing",
+            "web-development",
+            "mobile"
+        ]
     }
 ]

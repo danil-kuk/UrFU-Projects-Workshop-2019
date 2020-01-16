@@ -1,11 +1,11 @@
 import React from "react";
-import "../styles/CustomersBoard.css"
+import "../styles/Boards.css"
 import CuratorCard from "./CuratorCard"
 import Shuffle from "./ArrayShuffle"
 
 const CuratorsBoard = (props) => {
     return (
-        <div className="customers-cards-board">
+        <div className="curators-cards-board">
             {Shuffle(props.data).map(p => (
                 <CuratorCard
                     name={p.name}
