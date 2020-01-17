@@ -31,6 +31,7 @@ class Navbar extends Component {
               <Link to="/pre-presentation">Предзащиты</Link>
             </div>
           </div>
+          <Link to="/competencies">Компетенции</Link>
           <Link to="/presentation">Итоги</Link>
         </div>
       </div >
