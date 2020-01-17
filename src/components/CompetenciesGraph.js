@@ -3,7 +3,7 @@ import Graph from "react-graph-vis";
 import "../styles/CuratorsGraph.css";
 import "../styles/Diagrams.css";
 
-class CuratorsGraph extends React.Component {
+class CompetenciesGraph extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -15,39 +15,28 @@ class CuratorsGraph extends React.Component {
         hierarchical: false,
       },
       autoResize: true,
+      nodes: {
+        font: { face: 'Bahnschrift' },
+        shape: "text",
+        borderWidth: 0,
+        chosen: {
+          node: function (values, id, selected, hovering) {
+            values.color = values.color;
+            values.borderColor = values.color
+            values.borderWidth = 2
+          }
+        }
+      },
       edges: {
         arrows: { from: false, middle: false, to: false },
         smooth: {
           enabled: true,
           type: 'continuous'
         },
-        scaling: {
-          min: 3,
-          max: 8
-        },
         color: { inherit: "to", opacity: 0.5 },
         chosen: {
           edge: function (values, id, selected, hovering) {
             values.opacity = 1;
-            values.width += 3;
-          }
-        },
-      },
-      nodes: {
-        font: { face: 'Bahnschrift' },
-        shape: "dot",
-        scaling: {
-          label: {
-            enabled: true,
-            min: 12,
-            max: 18
-          }
-        },
-        borderWidth: 0,
-        chosen: {
-          node: function (values, id, selected, hovering) {
-            values.borderColor = values.color
-            values.borderWidth = 5
           }
         },
       },
@@ -57,12 +46,12 @@ class CuratorsGraph extends React.Component {
       physics: {
         enabled: true,
         forceAtlas2Based: {
-          gravitationalConstant: -50,
-          centralGravity: 0.01,
-          springConstant: 0.005,
+          gravitationalConstant: -100,
+          centralGravity: 0.05,
+          springConstant: 0,
           springLength: 100,
-          damping: 0.7,
-          avoidOverlap: 0.7
+          damping: 1,
+          avoidOverlap: 1
         },
         solver: 'forceAtlas2Based',
         stabilization: {
@@ -78,10 +67,12 @@ class CuratorsGraph extends React.Component {
     this.events = {
       select: function (event) {
         var { nodes, edges } = event;
-      },
-      hoverNode: function (params) {
       }
     };
+  }
+
+  componentDidUpdate() {
+      this.state.network.setData(this.props.data)
   }
 
   handleNetworkChange(param) {
@@ -92,8 +83,8 @@ class CuratorsGraph extends React.Component {
 
   render() {
     return (
-      <div className="curators-graph-holder">
-        <Graph graph={this.graph} options={this.options} events={this.events} style={{ height: "660px" }}
+      <div className="competencies-graph-holder">
+        <Graph graph={this.graph} options={this.options} events={this.events} style={{ height: "600px" }}
           getNetwork={network => {
             this.handleNetworkChange(network)
           }} />
@@ -102,4 +93,4 @@ class CuratorsGraph extends React.Component {
   };
 }
 
-export default CuratorsGraph
+export default CompetenciesGraph

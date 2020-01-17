@@ -1,7 +1,18 @@
 import React from "react";
 import CompetencesButtonsRow from "../components/CompetencesButtonsRow"
-import "../styles/CoursesDescription.css"
+import CompetenciesGraph from "../components/CompetenciesGraph.js";
 import competenciesData from "../../assets/data/CompetenciesGraph-data.json"
+
+// Connect all nodes to source node
+var competenciesGroupsKeys = Object.keys(competenciesData)
+competenciesGroupsKeys.forEach(groupKey => {
+    competenciesData[groupKey].nodes.slice(1).forEach(e => {
+        competenciesData[groupKey].edges.push({
+            from: 0,
+            to: e.id
+        })
+    });
+});
 
 class Сompetencies extends React.Component {
     constructor(props) {
@@ -32,10 +43,11 @@ export default Сompetencies;
 
 function courseInfo(selectedKey) {
     var text = selectedKey == "Командные" ?
-        "Компетентностный профиль команды" : selectedKey
+        "Компетентностный профиль команды" : "Компетентностный профиль " + selectedKey + "а"
     return (
         <div className="competence-graph">
             <h2>{text}</h2>
+            <CompetenciesGraph data={competenciesData[selectedKey]}/>
         </div>
     )
 }
