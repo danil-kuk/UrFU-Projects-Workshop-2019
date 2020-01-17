@@ -1,16 +1,16 @@
 import React from "react";
-import icon1 from "../../assets/courses-icons/3d-modeling.svg" // Изменить на другую
-import icon2 from "../../assets/courses-icons/broadcast.svg" // Изменить на другую
-import icon3 from "../../assets/courses-icons/chat-bubbles-with-ellipsis.svg" // Изменить на другую
-import icon4 from "../../assets/courses-icons/chip.svg" // Изменить на другую
-import icon5 from "../../assets/courses-icons/gamepad-controller.svg" // Изменить на другую
-import icon6 from "../../assets/courses-icons/internet.svg" // Изменить на другую
+import icon1 from "../../assets/courses-icons/robot.svg" // Изменить на другую
+import icon2 from "../../assets/courses-icons/robot.svg" // Изменить на другую
+import icon3 from "../../assets/courses-icons/robot.svg" // Изменить на другую
+import icon4 from "../../assets/courses-icons/robot.svg" // Изменить на другую
+import icon5 from "../../assets/courses-icons/robot.svg" // Изменить на другую
+import icon6 from "../../assets/courses-icons/robot.svg" // Изменить на другую
 import icon0 from "../../assets/courses-icons/robot.svg" // Изменить на другую
 import "../styles/index.css"
 
 const CompetenciesIcons = (props) => {
     switch (props.icon) {
-        case "Командные":
+        case "Команда":
             return iconHolder(icon1)
         case "Менеджер":
             return iconHolder(icon2)
