@@ -1,5 +1,5 @@
 import React from "react";
-import CompetencesButtonsRow from "../components/CompetencesButtonsRow"
+import CompetenciesButtonsRow from "../components/CompetenciesButtonsRow"
 import CompetenciesGraph from "../components/CompetenciesGraph.js";
 import competenciesData from "../../assets/data/CompetenciesGraph-data.json"
 
@@ -47,7 +47,7 @@ class Сompetencies extends React.Component {
             <div className="container" >
                 <h1>Компетенции</h1>
                 <div className="competenciesSelection">
-                    <CompetencesButtonsRow onChangeValue={this.onChangeValueHandler} />
+                    <CompetenciesButtonsRow onChangeValue={this.onChangeValueHandler} />
                 </div>
                 {courseInfo(this.state.selected)}
             </div>

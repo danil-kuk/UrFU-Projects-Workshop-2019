@@ -1,27 +1,21 @@
 import React from "react";
-import icon1 from "../../assets/courses-icons/robot.svg" // Изменить на другую
-import icon2 from "../../assets/courses-icons/robot.svg" // Изменить на другую
-import icon3 from "../../assets/courses-icons/robot.svg" // Изменить на другую
-import icon4 from "../../assets/courses-icons/robot.svg" // Изменить на другую
-import icon5 from "../../assets/courses-icons/robot.svg" // Изменить на другую
-import icon6 from "../../assets/courses-icons/robot.svg" // Изменить на другую
-import icon0 from "../../assets/courses-icons/robot.svg" // Изменить на другую
+import icon0 from "../../assets/competencies-icons/placeholder.svg" // Изменить на другую
 import "../styles/index.css"
 
 const CompetenciesIcons = (props) => {
     switch (props.icon) {
         case "Команда":
-            return iconHolder(icon1)
+            return iconHolder(icon0)
         case "Менеджер":
-            return iconHolder(icon2)
+            return iconHolder(icon0)
         case "Аналитик":
-            return iconHolder(icon3)
+            return iconHolder(icon0)
         case "Разработчик":
-            return iconHolder(icon4)
+            return iconHolder(icon0)
         case "Дизайнер":
-            return iconHolder(icon5)
+            return iconHolder(icon0)
         case "Тестировщик":
-            return iconHolder(icon6)
+            return iconHolder(icon0)
 
         default:
             return iconHolder(icon0)

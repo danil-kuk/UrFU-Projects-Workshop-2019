@@ -21,7 +21,6 @@ class CompetenciesGraph extends React.Component {
         borderWidth: 0,
         chosen: {
           node: function (values, id, selected, hovering) {
-            values.color = values.color;
             values.borderColor = values.color
             values.borderWidth = 2
           }
@@ -33,7 +32,7 @@ class CompetenciesGraph extends React.Component {
           enabled: true,
           type: 'continuous'
         },
-        color: { inherit: "to", opacity: 0.5 },
+        color: { opacity: 0.5 },
         chosen: {
           edge: function (values, id, selected, hovering) {
             values.opacity = 1;

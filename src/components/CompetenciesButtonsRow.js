@@ -7,7 +7,7 @@ var keys = [];
 
 for (var c in competenciesData) keys.push(c);
 
-class CompetencesButtonsRow extends React.Component {
+class CompetenciesButtonsRow extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -45,4 +45,4 @@ const ButtonWithIcon = (props) => {
   )
 }
 
-export default CompetencesButtonsRow;
+export default CompetenciesButtonsRow;
