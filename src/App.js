@@ -7,6 +7,7 @@ import Curators from "./pages/Curators";
 import Customers from "./pages/Customers";
 import CoursesDiagrams from "./pages/CoursesDiagrams";
 import CoursesDescription from "./pages/CoursesDescription";
+import Сompetencies from "./pages/Сompetencies";
 import PrePresentation from "./pages/PrePresentation";
 import Presentation from "./pages/Presentation";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
@@ -26,6 +27,7 @@ class App extends Component {
             <Route path="/courses-description" component={CoursesDescription} />
             <Route path="/courses-diagrams" component={CoursesDiagrams} />
             <Route path="/pre-presentation" component={PrePresentation} />
+            <Route path="/competencies" component={Сompetencies} />
             <Route path="/presentation" component={Presentation} />
           </Switch>
         </Router>

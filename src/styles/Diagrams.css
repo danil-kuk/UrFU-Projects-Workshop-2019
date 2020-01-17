@@ -26,10 +26,10 @@
     margin: 0 auto;
 }
 
-.graph-holder .vis-network {
+.curators-graph-holder .vis-network, .competencies-graph-holder .vis-network {
     outline: 0;
 }
 
-.graph-holder {
+.curators-graph-holder {
     margin: 0 25%;
 }
