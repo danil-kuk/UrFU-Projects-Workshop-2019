@@ -6,7 +6,7 @@ const Chart = (props) => {
     <div className="pie-chart-holder" style={{height:props.height}}>
       <ResponsivePie
         data={props.data}
-        margin={{ top: 20, right: 80, bottom: 40, left: 80 }}
+        margin={{ top: 20, right: 20, bottom: 40, left: 20 }}
         startAngle={props.startAngle}
         endAngle={props.endAngle}
         innerRadius={0.45}

@@ -22,6 +22,10 @@
     height: 500px;
 }
 
+.sunburst-chart-holder {
+    height: 550px;
+}
+
 .timeline--wrapper .pw-timeline {
     margin: 0 auto;
 }
