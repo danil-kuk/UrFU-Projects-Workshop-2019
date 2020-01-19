@@ -9,7 +9,7 @@ import icon7 from "../../assets/courses-icons/machine-learning.svg"
 import icon8 from "../../assets/courses-icons/mechanical-arm.svg"
 import icon9 from "../../assets/courses-icons/smartphone.svg"
 import icon10 from "../../assets/courses-icons/virtual-reality.svg"
-import icon0 from "../../assets/courses-icons/robot.svg" // Изменить на другую
+import icon0 from "../../assets/placeholder.svg"
 import "../styles/index.css"
 
 const CoursesIcons = (props) => {
