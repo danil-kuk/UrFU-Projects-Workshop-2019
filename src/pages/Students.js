@@ -1,6 +1,7 @@
 import React from "react";
 import data from '../../assets/data/Students-data.json'
 import PieChart from '../components/PieChart'
+import SunburstChart from '../components/SunburstChart'
 import "../styles/Students.css"
 
 const Students = () => {
@@ -13,14 +14,18 @@ const Students = () => {
           <h2>Рапределение по полу</h2>
         </div>
         <div>
-        <PieChart data={data.course} colorScheme={{ scheme: 'nivo' }}
-          startAngle={-90}
-          endAngle={90}
-          height={350}
-        />
-        <h2>Рапределение по курсу</h2>
+          <PieChart data={data.course} colorScheme={["#E8C1A0", "#F47560"]}
+            startAngle={-90}
+            endAngle={90}
+            height={320}
+          />
+          <h2>Рапределение по курсу</h2>
         </div>
       </div>
+        <div>
+          <SunburstChart data={data.groups} />
+          <h2>Распределение по группам</h2>
+        </div>
     </div>
   );
 };
