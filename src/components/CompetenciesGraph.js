@@ -16,7 +16,7 @@ class CompetenciesGraph extends React.Component {
       },
       autoResize: true,
       nodes: {
-        font: { face: 'Bahnschrift' },
+        font: { face: 'Bahnschrift', size: 16 },
         shape: "text",
         borderWidth: 0,
         chosen: {
