@@ -1,32 +1,32 @@
-.team-radar-diagram .radar-diagram-holder{
-    height: 400px;
+.team-radar-diagram .radar-diagram-holder {
+  height: 400px;
 }
 
 .team-section {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    margin: 20px auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  margin: 20px auto;
 }
 
 .team-section select {
-    width: 400px;
-    justify-self: end;
-    font-size: 16px;
-    font-family: 'Bahnschrift';
-    outline: 0;
-    border-width: 1px;
-    background-color: rgba(255, 255, 255, 0);
+  width: 400px;
+  justify-self: end;
+  font-size: 16px;
+  font-family: "Bahnschrift";
+  outline: 0;
+  border-width: 1px;
+  background-color: rgba(255, 255, 255, 0);
 }
 
 .team-section select::-webkit-scrollbar {
-    width: 5px;
+  width: 5px;
 }
 
 .team-section select::-webkit-scrollbar-thumb {
-    background-color: darkgrey;
-    outline: 1px solid slategrey;
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
 }
 
-.pres-container h2{
-    margin: 0;
+.pres-container h2 {
+  margin: 0;
 }

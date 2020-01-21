@@ -5,7 +5,6 @@ import WaffleChart from "../components/WaffleChart"
 import cpdData from "../../assets/data/CirclePackingDiagram-data.json"
 import hbcData from "../../assets/data/HorizontalBarChart-data.json"
 import wcData from "../../assets/data/WaffleChart-data.json"
-import "../styles/CoursesDiagrams.css"
 
 const CoursesDiagrams = () => {
   return (
