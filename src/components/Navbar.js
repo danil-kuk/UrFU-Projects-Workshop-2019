@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import "../styles/Navbar.css";
-import logo from '../../assets/logo.svg';
+import logo from "../../assets/logo.svg";
 
 class Navbar extends Component {
   render() {
@@ -9,14 +9,17 @@ class Navbar extends Component {
       <div className="navbar-container">
         <div className="logo-holder">
           <Link to="/">
-            <img src={logo} alt="Logo" id="logo" />dev
+            <img src={logo} alt="Logo" id="logo" />
+            dev
           </Link>
         </div>
         <div className="nav-holder">
           <Link to="/">Главная</Link>
           <Link to="/chronology">Хронология</Link>
           <div className="dropdown">
-            <Link to="/customers" className="dropbtn">Участники</Link>
+            <Link to="/customers" className="dropbtn">
+              Участники
+            </Link>
             <div className="dropdown-content">
               <Link to="/customers">Заказчики</Link>
               <Link to="/students">Студенты</Link>
@@ -24,7 +27,9 @@ class Navbar extends Component {
             </div>
           </div>
           <div className="dropdown">
-            <Link to="/courses-description" className="dropbtn">Проекты</Link>
+            <Link to="/courses-description" className="dropbtn">
+              Проекты
+            </Link>
             <div className="dropdown-content">
               <Link to="/courses-description">Направления</Link>
               <Link to="/courses-diagrams">Диаграммы</Link>
@@ -32,9 +37,17 @@ class Navbar extends Component {
             </div>
           </div>
           <Link to="/competencies">Компетенции</Link>
-          <Link to="/presentation">Итоги</Link>
+          <div className="dropdown">
+            <Link to="/presentation" className="dropbtn">
+              Итоги
+            </Link>
+            <div className="dropdown-content">
+              <Link to="/presentation">Защиты</Link>
+              <Link to="/teams-results">Оценки</Link>
+            </div>
+          </div>
         </div>
-      </div >
+      </div>
     );
   }
 }

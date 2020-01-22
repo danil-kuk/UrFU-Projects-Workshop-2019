@@ -1,21 +1,31 @@
 .team-radar-diagram .radar-diagram-holder {
-  height: 400px;
+  height: 500px;
 }
 
 .team-section {
   display: grid;
   grid-template-columns: 1fr 2fr;
-  margin: 20px auto;
+  grid-template-rows: 1fr;
+  margin: 20px 15%;
+  min-height: fit-content;
+}
+
+.diagram-section {
+  margin: 10% 0;
 }
 
 .team-section select {
-  width: 400px;
-  justify-self: end;
+  width: 100%;
+  height: 100%;
   font-size: 16px;
   font-family: "Bahnschrift";
   outline: 0;
   border-width: 1px;
   background-color: rgba(255, 255, 255, 0);
+}
+
+.select-section {
+  width: 100%;
 }
 
 .team-section select::-webkit-scrollbar {
