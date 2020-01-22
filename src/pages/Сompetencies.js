@@ -60,10 +60,7 @@ class Сompetencies extends React.Component {
 export default Сompetencies;
 
 function courseInfo(selectedKey) {
-  var text =
-    selectedKey == "Команда"
-      ? "Компетентностный профиль команды"
-      : "Компетентностный профиль " + selectedKey + "а";
+  var text = "Компетентностный профиль " + selectedKey;
   return (
     <div className="competence-graph">
       <h2>{text}</h2>
