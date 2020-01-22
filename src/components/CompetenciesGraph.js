@@ -21,8 +21,8 @@ class CompetenciesGraph extends React.Component {
         scaling: {
           label: {
             enabled: true,
-            min: 10,
-            max: 18
+            min: 8,
+            max: 20
           }
         },
         borderWidth: 0,
