@@ -1,39 +1,53 @@
 .circle-parcking-holder {
-    height: 700px;
+  height: 700px;
 }
 
 .horizontal-bar-holder {
-    height: 500px;
+  height: 500px;
 }
 
 .waffle-chart-holder {
-    height: 500px;
+  height: 500px;
 }
 
 .chord-diagram-holder {
-    height: 700px;
+  height: 700px;
 }
 
 .radar-diagram-holder {
-    height: 700px;
+  height: 700px;
 }
 
 .pie-chart-holder {
-    height: 500px;
+  height: 500px;
 }
 
 .sunburst-chart-holder {
-    height: 550px;
+  height: 550px;
 }
 
 .timeline--wrapper .pw-timeline {
-    margin: 0 auto;
+  margin: 0 auto;
 }
 
-.curators-graph-holder .vis-network, .competencies-graph-holder .vis-network {
-    outline: 0;
+.curators-graph-holder .vis-network,
+.competencies-graph-holder .vis-network {
+  outline: 0;
 }
 
 .curators-graph-holder {
-    margin: 0 25%;
+  margin: 0 25%;
+}
+
+.two-courses-diagrams {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+  align-items: flex-start;
+}
+
+.students-diagrams-holder {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  align-items: flex-end;
+  margin: 20px 15% 20px 15%;
 }

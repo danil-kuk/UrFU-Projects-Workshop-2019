@@ -10,6 +10,7 @@ import CoursesDescription from "./pages/CoursesDescription";
 import Сompetencies from "./pages/Сompetencies";
 import PrePresentation from "./pages/PrePresentation";
 import Presentation from "./pages/Presentation";
+import TeamsResults from "./pages/TeamsResults";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 class App extends Component {
@@ -29,6 +30,7 @@ class App extends Component {
             <Route path="/pre-presentation" component={PrePresentation} />
             <Route path="/competencies" component={Сompetencies} />
             <Route path="/presentation" component={Presentation} />
+            <Route path="/teams-results" component={TeamsResults} />
           </Switch>
         </Router>
       </div>

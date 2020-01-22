@@ -22,7 +22,7 @@ const MyResponsiveBar = (props) => (
                 legend: 'Количество человек',
                 legendPosition: 'middle',
                 legendOffset: 42,
-                tickValues: 20
+                tickValues: 15
             }}
             axisLeft={{
                 tickSize: 0,

@@ -1,89 +1,94 @@
 .customer-card {
-    background-color: white;
-    width: 100%;
-    height: 100%;
-    border-radius: 16px;
-    display: flex;
-    flex-direction: column;
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25);
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25);
 }
 
 .customer-card .card-title {
-    display: inline-grid;
-    grid-template-columns: auto auto;
-    justify-content: left;
-    align-items: center;
-    grid-gap: 10px;
-    max-height: 100px;
-    margin-left: 20px;
-    margin: 16px;
+  display: inline-grid;
+  grid-template-columns: auto auto;
+  justify-content: left;
+  align-items: center;
+  grid-gap: 10px;
+  max-height: 100px;
+  margin-left: 20px;
+  margin: 16px;
 }
 
 .customer-card .img-holder img {
-    width: 100%;
-    height: 100%;
-    margin: auto;
-    border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  border-radius: 50%;
 }
 
 .customer-card .img-holder {
-    border-radius: 50%;
-    background-image: linear-gradient(-45deg, #d1d4e7 0%, #cacde7 1%, #e6dee9 100%);
-    width: 60px;
-    height: 60px;
-    display: flex;
-    align-items: center;
-    box-shadow: 0 0px 4px 0 rgba(0, 0, 0, 0.3);
+  border-radius: 50%;
+  background-image: linear-gradient(
+    -45deg,
+    #d1d4e7 0%,
+    #cacde7 1%,
+    #e6dee9 100%
+  );
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 0px 4px 0 rgba(0, 0, 0, 0.3);
 }
 
 .customer-card h4 {
-    font-size: 20px;
-    margin: 0;
+  font-size: 20px;
+  margin: 0;
 }
 
 .customer-card p {
-    padding: 0 12px 8px 18px;
-    margin: auto;
+  padding: 0 12px 8px 18px;
+  margin: auto;
 }
 
 .customer-info {
-    margin-right: auto;
-    display: flex;
-    flex-direction: column;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
 }
 
 .courses .icon-holder {
-    background-image: linear-gradient(135deg, #0081FF 0%, #00037A 100%);
-    width: 50px;
-    height: 50px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    border-radius: 50%;
-    border: 0;
-    outline: 0;
-    margin: auto;
+  background-image: linear-gradient(135deg, #0081ff 0%, #00037a 100%);
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  border-radius: 50%;
+  border: 0;
+  outline: 0;
+  margin: auto;
 }
 
 .courses .icon-holder img {
-    width: 55%;
-    height: 55%;
+  width: 55%;
+  height: 55%;
 }
 
 .courses {
-    display: inline-grid;
-    grid-template-columns: repeat(auto-fill, minmax(50px, 1fr));
-    grid-auto-rows: 1fr;
-    margin: 0 20px 20px 20px;
-    column-gap: 4px;
-    row-gap: 6px;
+  display: inline-grid;
+  grid-template-columns: repeat(auto-fill, minmax(50px, 1fr));
+  grid-auto-rows: 1fr;
+  margin: 0 20px 20px 20px;
+  column-gap: 4px;
+  row-gap: 6px;
 }
 
 .customer-card:hover {
-    background-color: rgba(255, 255, 255, 0.7)
+  background-color: rgba(255, 255, 255, 0.7);
 }
 
 .customer-card:active {
-    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.25);
-    background-color: rgba(240, 240, 240, 0.7)
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.25);
+  background-color: rgba(240, 240, 240, 0.7);
 }
