@@ -22,7 +22,7 @@ groupKeys.forEach(groupKey => {
     graph.nodes.push({
       id: i,
       label: element.label,
-      title: "Частота упоминания: " + element.value,
+      title: "Кол-во упоминаний: " + element.value,
       value: element.value
     });
     graph.edges.push({

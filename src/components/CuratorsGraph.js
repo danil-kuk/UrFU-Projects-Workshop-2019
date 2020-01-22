@@ -9,17 +9,17 @@ class CuratorsGraph extends React.Component {
     this.state = {
       network: null
     };
-    this.graph = props.data
+    this.graph = props.data;
     this.options = {
       layout: {
-        hierarchical: false,
+        hierarchical: false
       },
       autoResize: true,
       edges: {
         arrows: { from: false, middle: false, to: false },
         smooth: {
           enabled: true,
-          type: 'continuous'
+          type: "continuous"
         },
         scaling: {
           min: 3,
@@ -27,14 +27,14 @@ class CuratorsGraph extends React.Component {
         },
         color: { inherit: "to", opacity: 0.5 },
         chosen: {
-          edge: function (values, id, selected, hovering) {
+          edge: function(values, id, selected, hovering) {
             values.opacity = 1;
             values.width += 3;
           }
-        },
+        }
       },
       nodes: {
-        font: { face: 'Bahnschrift' },
+        font: { face: "Bahnschrift" },
         shape: "dot",
         scaling: {
           label: {
@@ -45,11 +45,11 @@ class CuratorsGraph extends React.Component {
         },
         borderWidth: 0,
         chosen: {
-          node: function (values, id, selected, hovering) {
-            values.borderColor = values.color
-            values.borderWidth = 5
+          node: function(values, id, selected, hovering) {
+            values.borderColor = values.color;
+            values.borderWidth = 5;
           }
-        },
+        }
       },
       interaction: {
         hover: true
@@ -64,7 +64,7 @@ class CuratorsGraph extends React.Component {
           damping: 0.7,
           avoidOverlap: 0.7
         },
-        solver: 'forceAtlas2Based',
+        solver: "forceAtlas2Based",
         stabilization: {
           enabled: true,
           iterations: 1000,
@@ -76,11 +76,10 @@ class CuratorsGraph extends React.Component {
     };
 
     this.events = {
-      select: function (event) {
+      select: function(event) {
         var { nodes, edges } = event;
       },
-      hoverNode: function (params) {
-      }
+      hoverNode: function(params) {}
     };
   }
 
@@ -93,13 +92,17 @@ class CuratorsGraph extends React.Component {
   render() {
     return (
       <div className="curators-graph-holder">
-        <Graph graph={this.graph} options={this.options} events={this.events} style={{ height: "660px" }}
+        <Graph
+          graph={this.graph}
+          options={this.options}
+          events={this.events}
           getNetwork={network => {
-            this.handleNetworkChange(network)
-          }} />
+            this.handleNetworkChange(network);
+          }}
+        />
       </div>
     );
-  };
+  }
 }
 
-export default CuratorsGraph
+export default CuratorsGraph;

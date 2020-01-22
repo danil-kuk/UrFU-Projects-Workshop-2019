@@ -94,7 +94,6 @@ class CompetenciesGraph extends React.Component {
           graph={this.graph}
           options={this.options}
           events={this.events}
-          style={{ height: "600px" }}
           getNetwork={network => {
             this.handleNetworkChange(network);
           }}

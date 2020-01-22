@@ -37,6 +37,11 @@
 
 .curators-graph-holder {
   margin: 0 25%;
+  height: 650px;
+}
+
+.competencies-graph-holder {
+  height: 650px;
 }
 
 .two-courses-diagrams {
