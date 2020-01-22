@@ -4,26 +4,15 @@ import data from "../../assets/data/PresentationRadar-data.json";
 import DataPreparation from "../components/RadarDataPreparation";
 import "../styles/Presentation.css";
 
-var allKeys = Object.keys(data);
+var allKeys = Object.keys(data).slice(1);
 var newData = DataPreparation(data);
 
-class Presentation extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = { value: ["Общее среднее"] };
-
-    this.handleChange = this.handleChange.bind(this);
-  }
-
-  handleChange(event) {
-    this.setState({ value: [event.target.value] });
-  }
-
-  render() {
-    return (
-      <div className="pres-container">
-        <h1>Защиты</h1>
-        <h2>Средний результат</h2>
+const Presentation = () => {
+  return (
+    <div className="prepres-container">
+      <h1>Защиты</h1>
+      <h2>Средний результат</h2>
+      <div className="pres-main-diagram">
         <RadarDiagram
           data={newData["Общее среднее"]}
           dataKeys={["Общее среднее"]}
@@ -32,8 +21,23 @@ class Presentation extends React.Component {
           levels={5}
         />
       </div>
-    );
-  }
-}
+      <h2>Итоги по всем трекам</h2>
+      <div className="prepres-diagrams-holder">
+        {allKeys.map(k => (
+          <div className="item" key={k}>
+            <h3>{k}</h3>
+            <RadarDiagram
+              data={newData[k]}
+              dataKeys={[k]}
+              labelsFontSize={12}
+              maxValue={5}
+              levels={5}
+            />
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+};
 
 export default Presentation;
