@@ -9,20 +9,27 @@ class CompetenciesGraph extends React.Component {
     this.state = {
       network: null
     };
-    this.graph = props.data
+    this.graph = props.data;
     this.options = {
       layout: {
-        hierarchical: false,
+        hierarchical: false
       },
       autoResize: true,
       nodes: {
-        font: { face: 'Bahnschrift', size: 16 },
+        font: { face: "Bahnschrift" },
         shape: "text",
+        scaling: {
+          label: {
+            enabled: true,
+            min: 10,
+            max: 18
+          }
+        },
         borderWidth: 0,
         chosen: {
-          node: function (values, id, selected, hovering) {
-            values.borderColor = values.color
-            values.borderWidth = 2
+          node: function(values, id, selected, hovering) {
+            values.borderColor = values.color;
+            values.borderWidth = 2;
           }
         }
       },
@@ -30,14 +37,14 @@ class CompetenciesGraph extends React.Component {
         arrows: { from: false, middle: false, to: false },
         smooth: {
           enabled: true,
-          type: 'continuous'
+          type: "continuous"
         },
         color: { opacity: 0.5 },
         chosen: {
-          edge: function (values, id, selected, hovering) {
+          edge: function(values, id, selected, hovering) {
             values.opacity = 1;
           }
-        },
+        }
       },
       interaction: {
         hover: true
@@ -52,7 +59,7 @@ class CompetenciesGraph extends React.Component {
           damping: 1,
           avoidOverlap: 1
         },
-        solver: 'forceAtlas2Based',
+        solver: "forceAtlas2Based",
         stabilization: {
           enabled: true,
           iterations: 1000,
@@ -64,14 +71,14 @@ class CompetenciesGraph extends React.Component {
     };
 
     this.events = {
-      select: function (event) {
+      select: function(event) {
         var { nodes, edges } = event;
       }
     };
   }
 
   componentDidUpdate() {
-      this.state.network.setData(this.props.data)
+    this.state.network.setData(this.props.data);
   }
 
   handleNetworkChange(param) {
@@ -83,13 +90,18 @@ class CompetenciesGraph extends React.Component {
   render() {
     return (
       <div className="competencies-graph-holder">
-        <Graph graph={this.graph} options={this.options} events={this.events} style={{ height: "600px" }}
+        <Graph
+          graph={this.graph}
+          options={this.options}
+          events={this.events}
+          style={{ height: "600px" }}
           getNetwork={network => {
-            this.handleNetworkChange(network)
-          }} />
+            this.handleNetworkChange(network);
+          }}
+        />
       </div>
     );
-  };
+  }
 }
 
-export default CompetenciesGraph
+export default CompetenciesGraph;
