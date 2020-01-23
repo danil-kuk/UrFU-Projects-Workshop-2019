@@ -44,8 +44,8 @@ class Presentation extends React.Component {
                 data={newData[this.state.value[0]]}
                 dataKeys={this.state.value}
                 labelsFontSize={16}
-                maxValue={5}
-                levels={5}
+                maxValue={3}
+                levels={3}
               />
             </div>
           </div>

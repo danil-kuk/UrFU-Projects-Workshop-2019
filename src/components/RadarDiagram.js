@@ -15,7 +15,7 @@ const MyResponsiveRadar = (props) => (
             borderColor={{ from: 'color' }}
             gridLevels={props.levels}
             gridShape="linear"
-            gridLabelOffset={20}
+            gridLabelOffset={16}
             enableDots={true}
             dotSize={10}
             dotColor={{ theme: 'background' }}
@@ -23,7 +23,7 @@ const MyResponsiveRadar = (props) => (
             dotBorderColor={{ from: 'color' }}
             enableDotLabel={true}
             dotLabel="value"
-            dotLabelYOffset={-12}
+            dotLabelYOffset={4}
             colors={{ scheme: 'paired' }}
             fillOpacity={0.25}
             blendMode="normal"

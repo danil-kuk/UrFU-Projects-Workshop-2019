@@ -17,8 +17,8 @@ const Presentation = () => {
           data={newData["Общее среднее"]}
           dataKeys={["Общее среднее"]}
           labelsFontSize={18}
-          maxValue={5}
-          levels={5}
+          maxValue={3}
+          levels={3}
         />
       </div>
       <h2>Итоги по всем трекам</h2>
@@ -30,8 +30,8 @@ const Presentation = () => {
               data={newData[k]}
               dataKeys={[k]}
               labelsFontSize={12}
-              maxValue={5}
-              levels={5}
+              maxValue={3}
+              levels={3}
             />
           </div>
         ))}
