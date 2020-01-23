@@ -1,9 +1,9 @@
 function dataPreparation(data) {
     var allKeys = Object.keys(data)
-    var measures = Object.keys(data[allKeys[0]])
     var newData = {}
     allKeys.forEach(key => {
         let array = []
+        var measures = Object.keys(data[key])
         measures.forEach(measure => {
             array.push({
                 measure: measure,

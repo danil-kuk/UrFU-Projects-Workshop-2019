@@ -1,11 +1,12 @@
 import React from "react";
 import RadarDiagram from "../components/RadarDiagram";
-import data from "../../assets/data/TeamsResults-data.json";
+import radarData from "../../assets/data/TeamsResults-data.json";
+import marksData from "../../assets/data/TeamsFinalMarks.json";
 import DataPreparation from "../components/RadarDataPreparation";
 import "../styles/Presentation.css";
 
-var allKeys = Object.keys(data);
-var newData = DataPreparation(data);
+var allKeys = Object.keys(radarData);
+var newData = DataPreparation(radarData);
 
 class Presentation extends React.Component {
   constructor(props) {
@@ -48,6 +49,12 @@ class Presentation extends React.Component {
                 levels={3}
               />
             </div>
+            {this.state.value[0] == allKeys[0] && (
+              <h3>Средняя итоговая оценка: {marksData[allKeys[0]]} баллов</h3>
+            )}
+            {this.state.value[0] != allKeys[0] && (
+              <h3>Итоговая оценка команды: {marksData[this.state.value[0]]} баллов</h3>
+            )}
           </div>
         </div>
       </div>
