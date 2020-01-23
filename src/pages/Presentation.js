@@ -1,6 +1,7 @@
 import React from "react";
 import RadarDiagram from "../components/RadarDiagram";
 import data from "../../assets/data/PresentationRadar-data.json";
+import expertsData from "../../assets/data/Experts-data.json";
 import DataPreparation from "../components/RadarDataPreparation";
 import "../styles/Presentation.css";
 
@@ -33,6 +34,12 @@ const Presentation = () => {
               maxValue={3}
               levels={3}
             />
+            <div className="experts">
+              <b>Эксперты:</b> <br />
+              {expertsData[k].map(e => (
+                <div key={e}>{e}</div>
+              ))}
+            </div>
           </div>
         ))}
       </div>
