@@ -46,6 +46,10 @@
   outline: 1px solid slategrey;
 }
 
+.diagram-section h3 {
+  text-align: center;
+}
+
 .pres-container h2 {
   margin: 0;
 }
