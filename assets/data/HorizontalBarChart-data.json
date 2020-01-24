@@ -1,42 +1,42 @@
 [
     {
         "course": "Машин. обучение",
-        "value": 95
+        "value": 92
     },
     {
         "course": "Инф. системы",
-        "value": 48
+        "value": 55
     },
     {
         "course": "VR/AR",
-        "value": 13
+        "value": 9
     },
     {
         "course": "Боты",
-        "value": 32
+        "value": 25
     },
     {
         "course": "Игры",
-        "value": 64
+        "value": 62
     },
     {
         "course": "Робототехника",
-        "value": 16
+        "value": 15
     },
     {
         "course": "Моб. разработка",
-        "value": 67
+        "value": 48
     },
     {
         "course": "Цифровой маркетинг",
-        "value": 26
+        "value": 50
     },
     {
         "course": "Мат. моделирование",
-        "value": 17
+        "value": 21
     },
     {
         "course": "Web-разработка",
-        "value": 37
+        "value": 43
     }
 ]
