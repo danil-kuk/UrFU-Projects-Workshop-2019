@@ -1,30 +1,46 @@
 [
     {
-        "name": "Хлебников Николай Александрович",
-        "org": "Уральский Федеральный Университет",
-        "activity": "Директор института",
-        "img_link": "https://urfu.ru/fileadmin/_processed_/a/9/csm_ab3903a279a1985923ff311dccf0b502_bd159e93ab.png",
-        "degree": "Кандидат химических наук, доцент",
-        "projects_count": 13,
-        "courses": [
-            "machine-learning",
-            "games",
-            "mobile",
-            "information-systems",
-            "math-modelling"
-        ]
-    },
-    {
         "name": "Шадрин Денис Борисович",
         "org": "Уральский Федеральный Университет",
         "activity": "Лаборант, Старший преподаватель",
         "img_link": "https://ppk.urfu.ru/fileadmin/_processed_/c/8/csm_6007de9d46781a528361b584bae80267_7896ca79b1.png",
         "degree": "",
-        "projects_count": 9,
+        "projects_count": 17,
         "courses": [
             "digital-marketing",
             "web-development",
-            "mobile"
+            "mobile",
+            "bots",
+            "information-systems"
+        ]
+    },
+    {
+        "name": "Хлебников Николай Александрович",
+        "org": "Уральский Федеральный Университет",
+        "activity": "Директор института",
+        "img_link": "https://urfu.ru/fileadmin/_processed_/a/9/csm_ab3903a279a1985923ff311dccf0b502_bd159e93ab.png",
+        "degree": "Кандидат химических наук, доцент",
+        "projects_count": 7,
+        "courses": [
+            "information-systems",
+            "digital-marketing",
+            "games",
+            "mobile",
+            "vr"
+        ]
+    },
+    {
+        "name": "Орешкина Татьяна Анатольевна",
+        "org": "Уральский Федеральный Университет",
+        "activity": "Заместитель директора",
+        "img_link": "https://urfu.ru/fileadmin/_processed_/d/a/csm_ad6ebdb6b09f4e753b1bcf029ae926a0_a82494c94b.png",
+        "degree": "Кандидат социологических наук, доцент",
+        "projects_count": 6,
+        "courses": [
+            "mobile",
+            "web-development",
+            "digital-marketing",
+            "bots"
         ]
     },
     {
@@ -33,7 +49,7 @@
         "activity": "Ассистент, Инженер 2 категории",
         "img_link": "https://urfu.ru/fileadmin/_processed_/d/e/csm_82d0a19faa09fd288ff7b4041fa378ed_0f6fddebd5.png",
         "degree": "",
-        "projects_count": 8,
+        "projects_count": 5,
         "courses": [
             "machine-learning"
         ]
@@ -44,12 +60,10 @@
         "activity": "",
         "img_link": "",
         "degree": "Кандидат наук, доцент",
-        "projects_count": 6,
+        "projects_count": 4,
         "courses": [
-            "machine-learning",
-            "games",
-            "information-systems",
-            "robots"
+            "robots",
+            "games"
         ]
     },
     {
@@ -58,40 +72,39 @@
         "activity": "Ассистент кафедры",
         "img_link": "https://sun9-72.userapi.com/ys9d2RXtizkjf6t9QVH8Dum82HyZJfWbv5K_hQ/ETDaL4BzSYc.jpg?ava=1",
         "degree": "",
-        "projects_count": 4,
+        "projects_count": 3,
         "courses": [
             "machine-learning",
-            "information-systems",
-            "digital-marketing"
+            "digital-marketing",
+            "information-systems"
         ]
     },
     {
-        "name": "Гошкодеров Анатолий Андреевич",
+        "name": "Мокрушин Андрей Анатольевич",
         "org": "Уральский Федеральный Университет",
-        "activity": "",
-        "img_link": "",
+        "activity": "Старший преподаватель",
+        "img_link": "https://sun9-69.userapi.com/d-XReBV3Y-zHzynSH-gp5GSydsOxNMVOhAaBXA/FLIy-8mt-KI.jpg?ava=1",
         "degree": "",
-        "projects_count": 4,
+        "projects_count": 3,
         "courses": [
             "information-systems"
         ]
     },
     {
-        "name": "Орешкина Татьяна Анатольевна",
+        "name": "Нагаев Александр Олегович",
         "org": "Уральский Федеральный Университет",
-        "activity": "Заместитель директора",
-        "img_link": "https://urfu.ru/fileadmin/_processed_/d/a/csm_ad6ebdb6b09f4e753b1bcf029ae926a0_a82494c94b.png",
-        "degree": "Кандидат социологических наук, доцент",
+        "activity": "",
+        "img_link": "https://sun9-45.userapi.com/c851220/v851220089/10b4dc/knwMRKPV_E0.jpg",
+        "degree": "",
         "projects_count": 3,
         "courses": [
-            "mobile",
-            "bots"
+            "machine-learning"
         ]
     },
     {
-        "name": "Шибаев Вячеслав Алексеевич",
+        "name": "Протасов Денис Николаевич",
         "org": "Уральский Федеральный Университет",
-        "activity": "Ассистент кафедры",
+        "activity": "",
         "img_link": "",
         "degree": "",
         "projects_count": 3,
@@ -100,15 +113,47 @@
         ]
     },
     {
+        "name": "Гошкодеров Анатолий Андреевич",
+        "org": "Уральский Федеральный Университет",
+        "activity": "",
+        "img_link": "",
+        "degree": "",
+        "projects_count": 2,
+        "courses": [
+            "information-systems"
+        ]
+    },
+    {
+        "name": "Шибаев Вячеслав Алексеевич",
+        "org": "Уральский Федеральный Университет",
+        "activity": "Ассистент кафедры",
+        "img_link": "",
+        "degree": "",
+        "projects_count": 2,
+        "courses": [
+            "machine-learning"
+        ]
+    },
+    {
+        "name": "Терентьева Александра Олеговна",
+        "org": "Уральский Федеральный Университет",
+        "activity": "",
+        "img_link": "",
+        "degree": "",
+        "projects_count": 2,
+        "courses": [
+            "math-modelling"
+        ]
+    },
+    {
         "name": "Лимановская Оксана Викторовна",
         "org": "Уральский Федеральный Университет",
         "activity": "",
         "img_link": "",
         "degree": "Кандидат химических наук, доцент",
-        "projects_count": 3,
+        "projects_count": 2,
         "courses": [
             "machine-learning",
-            "information-systems",
             "math-modelling"
         ]
     },
@@ -118,10 +163,31 @@
         "activity": "Профессор",
         "img_link": "https://urfu.ru/fileadmin/_processed_/e/3/csm_67c253d27d47d1710055d9f0f48790c6_8d21193f94.jpg",
         "degree": "Доктор физико-математических наук, доцент",
-        "projects_count": 2,
+        "projects_count": 1,
         "courses": [
-            "machine-learning",
             "vr"
+        ]
+    },
+    {
+        "name": "Феодосиади Нина Владимировна",
+        "org": "Уральский Федеральный Университет",
+        "activity": "Директор Центра трансфера технологий и предпринимательства УрФУ",
+        "img_link": "http://inno.urfu.ru/dir_images/items_file_28_l.jpg",
+        "degree": "",
+        "projects_count": 1,
+        "courses": [
+            "information-systems"
+        ]
+    },
+    {
+        "name": "Сальников Виктор Борисович",
+        "org": "Уральский Федеральный Университет",
+        "activity": "",
+        "img_link": "",
+        "degree": "Кандидат наук, доцент",
+        "projects_count": 1,
+        "courses": [
+            "math-modelling"
         ]
     },
     {
@@ -130,9 +196,75 @@
         "activity": "",
         "img_link": "https://sun9-45.userapi.com/c855032/v855032032/9863a/z2O2T6o0zr8.jpg",
         "degree": "",
-        "projects_count": 2,
+        "projects_count": 1,
         "courses": [
             "machine-learning"
+        ]
+    },
+    {
+        "name": "Климов Роман Николаевич",
+        "org": "Уральский Федеральный Университет",
+        "activity": "",
+        "img_link": "",
+        "degree": "",
+        "projects_count": 1,
+        "courses": [
+            "digital-marketing"
+        ]
+    },
+    {
+        "name": "Мухутдинов Руслан Маисович",
+        "org": "iRidium Mobile",
+        "activity": "",
+        "img_link": "",
+        "degree": "",
+        "projects_count": 1,
+        "courses": [
+            "information-systems"
+        ]
+    },
+    {
+        "name": "Зобнина Татьяна Васильевна",
+        "org": "Naumen",
+        "activity": "",
+        "img_link": "",
+        "degree": "",
+        "projects_count": 1,
+        "courses": [
+            "machine-learning"
+        ]
+    },
+    {
+        "name": "Канке Сергей Вячеславович",
+        "org": "Уральский Федеральный Университет",
+        "activity": "",
+        "img_link": "",
+        "degree": "",
+        "projects_count": 1,
+        "courses": [
+            "web-development"
+        ]
+    },
+    {
+        "name": "Чванов Максим Александрович",
+        "org": "Уральский Федеральный Университет",
+        "activity": "",
+        "img_link": "",
+        "degree": "",
+        "projects_count": 1,
+        "courses": [
+            "mobile"
+        ]
+    },
+    {
+        "name": "Анисимов Вячеслав Васильевич",
+        "org": "",
+        "activity": "",
+        "img_link": "",
+        "degree": "",
+        "projects_count": 1,
+        "courses": [
+            "information-systems"
         ]
     }
 ]

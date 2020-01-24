@@ -5,10 +5,10 @@ const MyResponsiveWaffle = (props) => (
     <div className="waffle-chart-holder">
         <ResponsiveWaffle
             data={props.data}
-            total={415}
-            rows={18}
-            columns={23}
-            margin={{ top: 10, right: 10, bottom: 10, left: 10 }}
+            total={420}
+            rows={15}
+            columns={28}
+            margin={{ top: 10, right: 30, bottom: 30, left: 30 }}
             colors={["#FFFFCC", "#CCEBC5", "#B3CDE3", "#FBB4AE"]}
             borderColor={{ from: 'color', modifiers: [['darker', 0.3]] }}
             animate={true}

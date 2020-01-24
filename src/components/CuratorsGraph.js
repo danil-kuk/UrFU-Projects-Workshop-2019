@@ -39,8 +39,8 @@ class CuratorsGraph extends React.Component {
         scaling: {
           label: {
             enabled: true,
-            min: 12,
-            max: 18
+            min: 14,
+            max: 20
           }
         },
         borderWidth: 0,
@@ -62,7 +62,7 @@ class CuratorsGraph extends React.Component {
           springConstant: 0.005,
           springLength: 100,
           damping: 0.7,
-          avoidOverlap: 0.7
+          avoidOverlap: 1
         },
         solver: "forceAtlas2Based",
         stabilization: {

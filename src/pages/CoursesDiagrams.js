@@ -14,7 +14,7 @@ const CoursesDiagrams = () => {
       <CirclePackingDiagram data={cpdData} />
       <div className="two-courses-diagrams">
         <div>
-          <h2>Распределение людей по направлениям</h2>
+          <h2>Распределение студентов по направлениям</h2>
           <HorizontalBarChart data={hbcData} />
         </div>
         <div>
