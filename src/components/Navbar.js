@@ -10,7 +10,6 @@ class Navbar extends Component {
         <div className="logo-holder">
           <Link to="/">
             <img src={logo} alt="Logo" id="logo" />
-            dev
           </Link>
         </div>
         <div className="nav-holder">

@@ -8,9 +8,10 @@
 
 .team-section {
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 3fr 8fr;
   grid-template-rows: 1fr;
   margin: 20px 15%;
+  column-gap: 10px;
   min-height: fit-content;
 }
 
