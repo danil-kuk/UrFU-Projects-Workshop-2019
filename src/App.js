@@ -17,7 +17,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Router>
+        <Router basename="/UrFU-Projects-Workshop-2019">
           <Navbar />
           <Switch>
             <Route exact path="/" component={Home} />
