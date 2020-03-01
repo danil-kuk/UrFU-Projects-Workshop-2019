@@ -1,70 +1,434 @@
 {
     "Машин. обучение": {
-        "team1": {
-            "score": 20,
+        "1": {
+            "score": 80,
+            "members": 1
+        },
+        "$$Ded_Sad$$": {
+            "score": 61,
+            "members": 3
+        },
+        "AIBM Core": {
+            "score": 85,
+            "members": 7
+        },
+        "High Technologies": {
+            "score": 43,
+            "members": 4
+        },
+        "LEFT COAST": {
+            "score": 80,
             "members": 5
         },
-        "team2": {
-            "score": 50,
+        "Millionaire": {
+            "score": 75,
+            "members": 5
+        },
+        "placeholder": {
+            "score": 67,
+            "members": 4
+        },
+        "ppteam": {
+            "score": 10,
+            "members": 5
+        },
+        "Programmers": {
+            "score": 81,
+            "members": 4
+        },
+        "Project X": {
+            "score": 96,
             "members": 6
         },
-        "team3": {
-            "score": 80,
+        "Spice Girls": {
+            "score": 69,
             "members": 3
+        },
+        "Team Naga": {
+            "score": 85,
+            "members": 5
+        },
+        "Team Pudge": {
+            "score": 83,
+            "members": 2
+        },
+        "Unknow": {
+            "score": 42,
+            "members": 1
+        },
+        "WFG": {
+            "score": 60,
+            "members": 3
+        },
+        "АОАОА": {
+            "score": 80,
+            "members": 5
+        },
+        "Буддисты": {
+            "score": 69,
+            "members": 3
+        },
+        "Квартет Секрет": {
+            "score": 74,
+            "members": 4
+        },
+        "Команда GUINNESS": {
+            "score": 64,
+            "members": 5
+        },
+        "Команда одного человека": {
+            "score": 81,
+            "members": 1
+        },
+        "Пивуки": {
+            "score": 95,
+            "members": 2
+        },
+        "Сила Юности": {
+            "score": 80,
+            "members": 4
+        },
+        "Три полоски": {
+            "score": 65,
+            "members": 4
+        },
+        "Четкая группа": {
+            "score": 75,
+            "members": 5
         }
     },
     "Боты": {
-        "team01": {
-            "score": 10,
-            "members": 2
+        "Gods of bots": {
+            "score": 71,
+            "members": 4
+        },
+        "Milkasoft": {
+            "score": 63,
+            "members": 5
+        },
+        "SSVSS": {
+            "score": 64,
+            "members": 5
+        },
+        "ВК-бот": {
+            "score": 85,
+            "members": 4
+        },
+        "Министерство не твоих собачьих дел": {
+            "score": 75,
+            "members": 3
+        },
+        "Орифлейм": {
+            "score": 82,
+            "members": 4
+        },
+        "Туса-джуса": {
+            "score": 76,
+            "members": 4
+        },
+        "Тут должно быть название": {
+            "score": 82,
+            "members": 4
         }
     },
     "Инф. системы": {
-        "team01": {
-            "score": 10,
+        "Business solutions": {
+            "score": 91,
+            "members": 6
+        },
+        "CXC": {
+            "score": 90,
+            "members": 6
+        },
+        "DJ PO": {
+            "score": 76,
             "members": 2
+        },
+        "InfiniteTeam": {
+            "score": 55,
+            "members": 5
+        },
+        "Make IT Future": {
+            "score": 72,
+            "members": 4
+        },
+        "Me, Myself & I": {
+            "score": 63,
+            "members": 1
+        },
+        "Singleton": {
+            "score": 88,
+            "members": 1
+        },
+        "Контур.Фокус": {
+            "score": 84,
+            "members": 1
+        },
+        "Крокодилы 2.0": {
+            "score": 85,
+            "members": 5
+        },
+        "Нормоконтроля.нет": {
+            "score": 88,
+            "members": 4
+        },
+        "Слишком просто": {
+            "score": 81,
+            "members": 5
+        },
+        "Умные как дом": {
+            "score": 86,
+            "members": 5
         }
     },
     "VR/AR": {
-        "team01": {
-            "score": 10,
+        "MeducateVR": {
+            "score": 84,
             "members": 2
+        },
+        "SMB": {
+            "score": 88,
+            "members": 5
         }
     },
     "Моб. разработка": {
-        "team01": {
-            "score": 10,
+        "CROC": {
+            "score": 82,
             "members": 2
+        },
+        "For Sure": {
+            "score": 43,
+            "members": 4
+        },
+        "Maxifom 5s": {
+            "score": 78,
+            "members": 4
+        },
+        "Mobile code": {
+            "score": 75,
+            "members": 5
+        },
+        "OMAE WA MU SHINDE IRU": {
+            "score": 81,
+            "members": 4
+        },
+        "SNMTNR": {
+            "score": 92,
+            "members": 4
+        },
+        "Static Project": {
+            "score": 86,
+            "members": 4
+        },
+        "SuperTeam": {
+            "score": 73,
+            "members": 4
+        },
+        "Swifter": {
+            "score": 83,
+            "members": 4
+        },
+        "Totally Spies!": {
+            "score": 78,
+            "members": 3
+        },
+        "UrFU Software": {
+            "score": 82,
+            "members": 3
+        },
+        "БезБ": {
+            "score": 10,
+            "members": 4
+        },
+        "Букинг Мужчин": {
+            "score": 72,
+            "members": 3
+        },
+        "ДРИМ тим": {
+            "score": 81,
+            "members": 3
+        },
+        "Колумбийские голуби": {
+            "score": 71,
+            "members": 4
         }
     },
     "Игры": {
-        "team01": {
-            "score": 10,
+        ".DCP": {
+            "score": 65,
+            "members": 5
+        },
+        "5 якорей": {
+            "score": 64,
+            "members": 5
+        },
+        "AnimeBoys": {
+            "score": 73,
+            "members": 6
+        },
+        "C9": {
+            "score": 81,
+            "members": 3
+        },
+        "DesolatedK209": {
+            "score": 63,
+            "members": 3
+        },
+        "DNDD": {
+            "score": 82,
+            "members": 7
+        },
+        "HKG": {
+            "score": 84,
             "members": 2
+        },
+        "Ideon": {
+            "score": 73,
+            "members": 4
+        },
+        "KCD": {
+            "score": 81,
+            "members": 1
+        },
+        "MAY the Game be with u": {
+            "score": 61,
+            "members": 4
+        },
+        "Study Games": {
+            "score": 82,
+            "members": 5
+        },
+        "Team HKG": {
+            "score": 84,
+            "members": 2
+        },
+        "Untitled": {
+            "score": 66,
+            "members": 3
+        },
+        "VideoGamePlatypus": {
+            "score": 69,
+            "members": 3
+        },
+        "питоний кусь": {
+            "score": 84,
+            "members": 4
+        },
+        "Речкин Иван": {
+            "score": 100,
+            "members": 1
+        },
+        "Чикибамбони": {
+            "score": 63,
+            "members": 4
         }
     },
     "Мат. модел.": {
-        "team01": {
-            "score": 10,
-            "members": 2
+        "CodeToBlock": {
+            "score": 72,
+            "members": 4
+        },
+        "Gaming 35": {
+            "score": 81,
+            "members": 4
+        },
+        "Hardcode": {
+            "score": 80,
+            "members": 5
+        },
+        "NotBad": {
+            "score": 53,
+            "members": 4
+        },
+        "Пиратское братство": {
+            "score": 62,
+            "members": 4
         }
     },
     "Робототехника": {
-        "team01": {
-            "score": 10,
-            "members": 2
+        "Pink Owls": {
+            "score": 79,
+            "members": 4
+        },
+        "Wind": {
+            "score": 84,
+            "members": 4
+        },
+        "Крыжовник": {
+            "score": 81,
+            "members": 3
+        },
+        "Смирнова Анастасия": {
+            "score": 85,
+            "members": 1
         }
     },
     "Web-разработка": {
-        "team01": {
-            "score": 10,
-            "members": 2
+        "318": {
+            "score": 81,
+            "members": 4
+        },
+        ".csproject": {
+            "score": 82,
+            "members": 6
+        },
+        "New[z]": {
+            "score": 73,
+            "members": 5
+        },
+        "Все четко и по делу": {
+            "score": 81,
+            "members": 6
+        },
+        "Железяки": {
+            "score": 88,
+            "members": 3
+        },
+        "Клан Олигофренов": {
+            "score": 83,
+            "members": 5
+        },
+        "Проектирование сайта ИнФО УрФУ": {
+            "score": 67,
+            "members": 5
+        },
+        "Феникс": {
+            "score": 63,
+            "members": 3
+        },
+        "Электронный деканат": {
+            "score": 72,
+            "members": 3
         }
     },
     "Цифр. маркетинг": {
-        "team01": {
-            "score": 10,
-            "members": 2
+        "DL Club": {
+            "score": 81,
+            "members": 11
+        },
+        "MovieMaker": {
+            "score": 81,
+            "members": 3
+        },
+        "Nain": {
+            "score": 87,
+            "members": 4
+        },
+        "P.T.V.M": {
+            "score": 74,
+            "members": 4
+        },
+        "Yield Return": {
+            "score": 86,
+            "members": 4
+        },
+        "еинавзаН": {
+            "score": 84,
+            "members": 4
+        },
+        "Лачихина Дарья": {
+            "score": 88,
+            "members": 1
         }
     }
 }

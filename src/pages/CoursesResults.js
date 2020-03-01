@@ -20,12 +20,11 @@ allKeys.forEach(courseId => {
     newData.push(item);
   });
 });
-console.log(newData)
 
 const CoursesResults = () => {
   return (
     <div className="corses-results">
-      <h1>Распределение оценок по направлениям</h1>
+      <h1>Распределение баллов по направлениям</h1>
       <SwarmPlot data={newData} groups={allKeys} />
     </div>
   );

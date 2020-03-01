@@ -10,8 +10,11 @@ const MyResponsiveSwarmPlot = props => (
       value="value"
       colors={{ scheme: "spectral" }}
       valueScale={{ type: "linear", min: 0, max: 100, reverse: false }}
-      size={{ key: "size", values: [1, 8], sizes: [15, 50] }}
-      forceStrength={4}
+      size={{ key: "size", values: [1, 10], sizes: [10, 35] }}
+      forceStrength={0.5}
+      spacing={2}
+      gap={20}
+      enableGridX={false}
       simulationIterations={100}
       borderColor={{
         from: "color",
@@ -20,7 +23,6 @@ const MyResponsiveSwarmPlot = props => (
           ["opacity", 0.5]
         ]
       }}
-      enableGridX={false}
       axisTop={null}
       axisRight={null}
       axisBottom={{
@@ -41,7 +43,7 @@ const MyResponsiveSwarmPlot = props => (
         legendPosition: "middle",
         legendOffset: -60
       }}
-      margin={{ top: 10, right: 100, bottom: 80, left: 100 }}
+      margin={{ top: 20, right: 100, bottom: 80, left: 100 }}
       motionStiffness={50}
       motionDamping={10}
       tooltip={({ node }) => {
@@ -87,6 +89,12 @@ const MyResponsiveSwarmPlot = props => (
             fontSize: 20,
             fontFamily: ""
           }
+        },
+        grid: {
+            line: {
+                stroke: "rgba(0, 0, 0, .1)",
+                strokeDasharray: 12
+            },
         }
       }}
     />
