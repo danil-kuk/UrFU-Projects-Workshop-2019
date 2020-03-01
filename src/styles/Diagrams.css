@@ -56,3 +56,7 @@
   align-items: flex-end;
   margin: 20px 15% 20px 15%;
 }
+
+.swarm-plot-diagram-holder {
+  height: 700px;
+}

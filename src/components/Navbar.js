@@ -43,6 +43,7 @@ class Navbar extends Component {
             <div className="dropdown-content">
               <Link to="/presentation">Защиты</Link>
               <Link to="/teams-results">Оценки</Link>
+              <Link to="/courses-results">Диаграмма</Link>
             </div>
           </div>
         </div>

@@ -11,6 +11,7 @@ import Сompetencies from "./pages/Сompetencies";
 import PrePresentation from "./pages/PrePresentation";
 import Presentation from "./pages/Presentation";
 import TeamsResults from "./pages/TeamsResults";
+import CoursesResults from "./pages/CoursesResults";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 class App extends Component {
@@ -31,6 +32,7 @@ class App extends Component {
             <Route path="/competencies" component={Сompetencies} />
             <Route path="/presentation" component={Presentation} />
             <Route path="/teams-results" component={TeamsResults} />
+            <Route path="/courses-results" component={CoursesResults} />
           </Switch>
         </Router>
       </div>

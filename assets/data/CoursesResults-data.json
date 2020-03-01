@@ -1,0 +1,70 @@
+{
+    "Машин. обучение": {
+        "team1": {
+            "score": 20,
+            "members": 5
+        },
+        "team2": {
+            "score": 50,
+            "members": 6
+        },
+        "team3": {
+            "score": 80,
+            "members": 3
+        }
+    },
+    "Боты": {
+        "team01": {
+            "score": 10,
+            "members": 2
+        }
+    },
+    "Инф. системы": {
+        "team01": {
+            "score": 10,
+            "members": 2
+        }
+    },
+    "VR/AR": {
+        "team01": {
+            "score": 10,
+            "members": 2
+        }
+    },
+    "Моб. разработка": {
+        "team01": {
+            "score": 10,
+            "members": 2
+        }
+    },
+    "Игры": {
+        "team01": {
+            "score": 10,
+            "members": 2
+        }
+    },
+    "Мат. модел.": {
+        "team01": {
+            "score": 10,
+            "members": 2
+        }
+    },
+    "Робототехника": {
+        "team01": {
+            "score": 10,
+            "members": 2
+        }
+    },
+    "Web-разработка": {
+        "team01": {
+            "score": 10,
+            "members": 2
+        }
+    },
+    "Цифр. маркетинг": {
+        "team01": {
+            "score": 10,
+            "members": 2
+        }
+    }
+}
