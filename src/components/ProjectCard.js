@@ -1,15 +1,15 @@
-import React from "react";
-import "../styles/ProjectCard.css"
+import React from 'react'
+import '../styles/ProjectCard.css'
 
 const Card = (props) => {
   return (
-    <a href={props.link} target="_blank">
-      <div className="project-card">
+    <a href={props.link} target='_blank'>
+      <div className='project-card'>
         <h4>{props.title}</h4>
         <p>{props.description}</p>
       </div>
     </a>
-  );
-};
+  )
+}
 
-export default Card;
+export default Card

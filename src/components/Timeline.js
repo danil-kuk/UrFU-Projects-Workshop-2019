@@ -1,10 +1,10 @@
 import React from 'react'
 import { Timeline, TimelineItem } from 'vertical-timeline-component-for-react'
-import "../styles/Diagrams.css"
+import '../styles/Diagrams.css'
 
 const MyTimeline = (props) => (
   <div>
-    <Timeline lineColor={'#C8CED7'} className="pw-timeline">
+    <Timeline lineColor={'#C8CED7'} className='pw-timeline'>
       {props.data.map(element => {
         let elemColor = element.color != null ? element.color : '#6BAED6'
         return (

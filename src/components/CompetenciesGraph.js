@@ -1,23 +1,23 @@
-import React from "react";
-import Graph from "react-graph-vis";
-import "../styles/CuratorsGraph.css";
-import "../styles/Diagrams.css";
+import React from 'react'
+import Graph from 'react-graph-vis'
+import '../styles/CuratorsGraph.css'
+import '../styles/Diagrams.css'
 
 class CompetenciesGraph extends React.Component {
   constructor(props) {
-    super(props);
+    super(props)
     this.state = {
       network: null
-    };
-    this.graph = props.data;
+    }
+    this.graph = props.data
     this.options = {
       layout: {
         hierarchical: false
       },
       autoResize: true,
       nodes: {
-        font: { face: "Bahnschrift" },
-        shape: "text",
+        font: { face: 'Bahnschrift' },
+        shape: 'text',
         scaling: {
           label: {
             enabled: true,
@@ -27,9 +27,9 @@ class CompetenciesGraph extends React.Component {
         },
         borderWidth: 0,
         chosen: {
-          node: function(values, id, selected, hovering) {
-            values.borderColor = values.color;
-            values.borderWidth = 2;
+          node: function(values /*, id, selected, hovering*/) {
+            values.borderColor = values.color
+            values.borderWidth = 2
           }
         }
       },
@@ -37,12 +37,12 @@ class CompetenciesGraph extends React.Component {
         arrows: { from: false, middle: false, to: false },
         smooth: {
           enabled: true,
-          type: "continuous"
+          type: 'continuous'
         },
         color: { opacity: 0.5 },
         chosen: {
-          edge: function(values, id, selected, hovering) {
-            values.opacity = 1;
+          edge: function(values /*, id, selected, hovering*/) {
+            values.opacity = 1
           }
         }
       },
@@ -59,7 +59,7 @@ class CompetenciesGraph extends React.Component {
           damping: 1,
           avoidOverlap: 1
         },
-        solver: "forceAtlas2Based",
+        solver: 'forceAtlas2Based',
         stabilization: {
           enabled: true,
           iterations: 1000,
@@ -68,39 +68,39 @@ class CompetenciesGraph extends React.Component {
           fit: true
         }
       }
-    };
+    }
 
     this.events = {
-      select: function(event) {
+      /*select: function(event) {
         var { nodes, edges } = event;
-      }
-    };
+      }*/
+    }
   }
 
   componentDidUpdate() {
-    this.state.network.setData(this.props.data);
+    this.state.network.setData(this.props.data)
   }
 
   handleNetworkChange(param) {
-    this.setState(state => ({
+    this.setState(() => ({
       network: param
-    }));
+    }))
   }
 
   render() {
     return (
-      <div className="competencies-graph-holder">
+      <div className='competencies-graph-holder'>
         <Graph
           graph={this.graph}
           options={this.options}
           events={this.events}
           getNetwork={network => {
-            this.handleNetworkChange(network);
+            this.handleNetworkChange(network)
           }}
         />
       </div>
-    );
+    )
   }
 }
 
-export default CompetenciesGraph;
+export default CompetenciesGraph

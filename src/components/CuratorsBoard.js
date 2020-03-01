@@ -1,11 +1,11 @@
-import React from "react";
-import "../styles/Boards.css"
-import CuratorCard from "./CuratorCard"
-import Shuffle from "./ArrayShuffle"
+import React from 'react'
+import '../styles/Boards.css'
+import CuratorCard from './CuratorCard'
+// import Shuffle from './ArrayShuffle'
 
 const CuratorsBoard = (props) => {
     return (
-        <div className="curators-cards-board">
+        <div className='curators-cards-board'>
             {props.data.map(p => (
                 <CuratorCard
                     name={p.name}
@@ -19,7 +19,7 @@ const CuratorsBoard = (props) => {
                 />
             ))}
         </div>
-    );
-};
+    )
+}
 
-export default CuratorsBoard;
+export default CuratorsBoard

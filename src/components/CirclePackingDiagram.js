@@ -1,17 +1,17 @@
 import React from 'react'
 import { ResponsiveBubble } from '@nivo/circle-packing'
-import "../styles/Diagrams.css"
+import '../styles/Diagrams.css'
 
 const CirclePackingDiagram = (props) => (
-    <div className="circle-parcking-holder">
+    <div className='circle-parcking-holder'>
         <ResponsiveBubble
             root={props.data}
             margin={{ top: 10, right: 20, bottom: 20, left: 20 }}
-            identity="name"
-            value="value"
+            identity='name'
+            value='value'
             colors={{ scheme: 'blues' }}
             padding={6}
-            label="value"
+            label='value'
             labelTextColor={{ from: 'color', modifiers: [['darker', 2]] }}
             borderWidth={2}
             borderColor={{ from: 'color' }}
@@ -23,7 +23,7 @@ const CirclePackingDiagram = (props) => (
                 labels: {
                     text: {
                         fontSize: 16,
-                        fontFamily: ""
+                        fontFamily: ''
                     }
                 }
             }}

@@ -2,15 +2,15 @@ import React from 'react'
 import { ResponsiveBar } from '@nivo/bar'
 
 const MyResponsiveBar = (props) => (
-    <div className="horizontal-bar-holder">
+    <div className='horizontal-bar-holder'>
         <ResponsiveBar
             data={props.data}
             keys={['value']}
-            indexBy="course"
+            indexBy='course'
             margin={{ top: 10, right: 60, bottom: 50, left: 170 }}
             padding={0.15}
-            layout="horizontal"
-            colors={["#A6CEE3"]}
+            layout='horizontal'
+            colors={['#A6CEE3']}
             borderColor={{ from: 'color', modifiers: [['darker', 1.6]] }}
             axisTop={null}
             axisRight={null}
@@ -48,21 +48,21 @@ const MyResponsiveBar = (props) => (
                     legend: {
                         text: {
                             fontSize: 20,
-                            fontFamily: ""
+                            fontFamily: ''
                         }
                     },
                     ticks: {
                         text:
                         {
                             fontSize: 14,
-                            fontFamily: ""
+                            fontFamily: ''
                         }
                     }
                 },
                 labels: {
                     text: {
                         fontSize: 20,
-                        fontFamily: ""
+                        fontFamily: ''
                     }
                 }
             }}

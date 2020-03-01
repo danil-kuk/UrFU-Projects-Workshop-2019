@@ -1,20 +1,20 @@
 import React from 'react'
 import { ResponsiveRadar } from '@nivo/radar'
-import "../styles/Diagrams.css"
+import '../styles/Diagrams.css'
 
 const MyResponsiveRadar = (props) => (
-    <div className="radar-diagram-holder">
+    <div className='radar-diagram-holder'>
         <ResponsiveRadar
             data={props.data}
             keys={props.dataKeys}
-            indexBy="measure"
+            indexBy='measure'
             maxValue={props.maxValue}
             margin={{ top: 70, right: 80, bottom: 40, left: 80 }}
-            curve="linearClosed"
+            curve='linearClosed'
             borderWidth={2}
             borderColor={{ from: 'color' }}
             gridLevels={props.levels}
-            gridShape="linear"
+            gridShape='linear'
             gridLabelOffset={16}
             enableDots={true}
             dotSize={10}
@@ -22,11 +22,11 @@ const MyResponsiveRadar = (props) => (
             dotBorderWidth={2}
             dotBorderColor={{ from: 'color' }}
             enableDotLabel={true}
-            dotLabel="value"
+            dotLabel='value'
             dotLabelYOffset={4}
             colors={{ scheme: 'paired' }}
             fillOpacity={0.25}
-            blendMode="normal"
+            blendMode='normal'
             animate={true}
             motionStiffness={90}
             motionDamping={15}
@@ -48,9 +48,9 @@ const MyResponsiveRadar = (props) => (
                 },
                 grid: {
                     line: {
-                        stroke: "rgba(0, 0, 0, .1)"
+                        stroke: 'rgba(0, 0, 0, .1)'
                     },
-                    stroke: "rgba(0, 0, 0, .2)",
+                    stroke: 'rgba(0, 0, 0, .2)',
                     strokeWidth: 1
                 }
             }}

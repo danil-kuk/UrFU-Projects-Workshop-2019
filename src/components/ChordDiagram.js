@@ -1,9 +1,9 @@
 import React from 'react'
 import { ResponsiveChord } from '@nivo/chord'
-import "../styles/Diagrams.css"
+import '../styles/Diagrams.css'
 
 const MyResponsiveChordCanvas = (props) => (
-    <div className="chord-diagram-holder">
+    <div className='chord-diagram-holder'>
         <ResponsiveChord
             matrix={props.matrix}
             keys={[
@@ -24,7 +24,7 @@ const MyResponsiveChordCanvas = (props) => (
             ribbonBorderWidth={1}
             ribbonBorderColor={{ from: 'color', modifiers: [['darker', 0.6]] }}
             enableLabel={true}
-            label="id"
+            label='id'
             labelOffset={4}
             labelRotation={-90}
             labelTextColor={{ from: 'color', modifiers: [['darker', 1.5]] }}
@@ -40,15 +40,15 @@ const MyResponsiveChordCanvas = (props) => (
             ribbonTooltip={({ ribbon }) => {
                 return (
                     <div style={{
-                        background: "white",
-                        padding: "5px 9px",
-                        borderRadius: "2px",
-                        display: "flex-inline",
-                        alignItems: "center",
-                        justifyContent: "center",
-                        flexDirection: "column",
-                        color: "black",
-                        boxShadow: "rgba(0, 0, 0, 0.25) 0px 1px 2px",
+                        background: 'white',
+                        padding: '5px 9px',
+                        borderRadius: '2px',
+                        display: 'flex-inline',
+                        alignItems: 'center',
+                        justifyContent: 'center',
+                        flexDirection: 'column',
+                        color: 'black',
+                        boxShadow: 'rgba(0, 0, 0, 0.25) 0px 1px 2px',
                     }}>
                         Проектов: <b>{ribbon.source.value}</b>
                     </div>
@@ -59,7 +59,7 @@ const MyResponsiveChordCanvas = (props) => (
                 labels: {
                     text: {
                         fontSize: 14,
-                        fontFamily: ""
+                        fontFamily: ''
                     }
                 }
             }}

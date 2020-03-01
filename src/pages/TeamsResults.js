@@ -1,30 +1,30 @@
-import React from "react";
-import RadarDiagram from "../components/RadarDiagram";
-import radarData from "../../assets/data/TeamsResults-data.json";
-import DataPreparation from "../components/RadarDataPreparation";
-import "../styles/Presentation.css";
+import React from 'react'
+import RadarDiagram from '../components/RadarDiagram'
+import radarData from '../../assets/data/TeamsResults-data.json'
+import DataPreparation from '../components/RadarDataPreparation'
+import '../styles/Presentation.css'
 
-var allKeys = Object.keys(radarData);
-var newData = DataPreparation(radarData);
+var allKeys = Object.keys(radarData)
+var newData = DataPreparation(radarData)
 
 class Presentation extends React.Component {
   constructor(props) {
-    super(props);
-    this.state = { value: ["Общее среднее"] };
+    super(props)
+    this.state = { value: ['Общее среднее'] }
 
-    this.handleChange = this.handleChange.bind(this);
+    this.handleChange = this.handleChange.bind(this)
   }
 
   handleChange(event) {
-    this.setState({ value: [event.target.value] });
+    this.setState({ value: [event.target.value] })
   }
 
   render() {
     return (
-      <div className="pres-container">
+      <div className='pres-container'>
         <h1>Оценки команд</h1>
-        <div className="team-section">
-          <div className="select-section">
+        <div className='team-section'>
+          <div className='select-section'>
             <select
               value={this.state.value}
               onChange={this.handleChange}
@@ -37,9 +37,9 @@ class Presentation extends React.Component {
               ))}
             </select>
           </div>
-          <div className="diagram-section">
+          <div className='diagram-section'>
             <h2>{this.state.value[0]}</h2>
-            <div className="team-radar-diagram">
+            <div className='team-radar-diagram'>
               <RadarDiagram
                 data={newData[this.state.value[0]]}
                 dataKeys={this.state.value}
@@ -51,8 +51,8 @@ class Presentation extends React.Component {
           </div>
         </div>
       </div>
-    );
+    )
   }
 }
 
-export default Presentation;
+export default Presentation

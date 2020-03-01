@@ -9,9 +9,9 @@ function dataPreparation(data) {
                 measure: measure,
                 [key]: data[key][measure]
             })
-        });
+        })
         newData[key] = array
-    });
+    })
     return newData
 }
 

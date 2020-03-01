@@ -1,9 +1,9 @@
-import React from "react";
+import React from 'react'
 import { ResponsivePie } from '@nivo/pie'
 
 const Chart = (props) => {
   return (
-    <div className="pie-chart-holder" style={{height:props.height}}>
+    <div className='pie-chart-holder' style={{height:props.height}}>
       <ResponsivePie
         data={props.data}
         margin={{ top: 20, right: 20, bottom: 40, left: 20 }}
@@ -16,14 +16,14 @@ const Chart = (props) => {
         borderColor={{ from: 'color', modifiers: [ [ 'darker', 0.2 ] ] }}
         radialLabelsSkipAngle={10}
         radialLabelsTextXOffset={4}
-        radialLabelsTextColor="#333333"
+        radialLabelsTextColor='#333333'
         radialLabelsLinkOffset={0}
         radialLabelsLinkDiagonalLength={13}
         radialLabelsLinkHorizontalLength={10}
         radialLabelsLinkStrokeWidth={3}
         radialLabelsLinkColor={{ from: 'color' }}
         slicesLabelsSkipAngle={10}
-        slicesLabelsTextColor="#333333"
+        slicesLabelsTextColor='#333333'
         animate={true}
         motionStiffness={90}
         motionDamping={15}
@@ -31,13 +31,13 @@ const Chart = (props) => {
             labels: {
                 text: {
                     fontSize: 22,
-                    fontFamily: ""
+                    fontFamily: ''
                 }
             }
         }}
     />
     </div>
-  );
-};
+  )
+}
 
-export default Chart;
+export default Chart

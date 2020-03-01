@@ -1,10 +1,10 @@
-import React from "react";
-import "../styles/Boards.css"
-import ProjectCard from "./ProjectCard"
+import React from 'react'
+import '../styles/Boards.css'
+import ProjectCard from './ProjectCard'
 
 const Board = (props) => {
     return (
-        <div className="projects-cards-board">
+        <div className='projects-cards-board'>
             {props.data.map(p => (
                 <ProjectCard
                     title={p.title}
@@ -14,7 +14,7 @@ const Board = (props) => {
                 />
             ))}
         </div>  
-    );
-};
+    )
+}
 
-export default Board;
+export default Board
