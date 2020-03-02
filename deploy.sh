@@ -29,7 +29,7 @@ echo Pushing to GitHub Pages..
 git push -f https://github.com/danil-kuk/UrFU-Projects-Workshop-2019.git master:gh-pages
 
 # Removing output build folder and cache
-echo Removing dist
+echo Removing build folder
 cd -
 rm -rf dist
 rm -rf .cache

@@ -11,7 +11,7 @@
   "scripts": {
     "start": "parcel ./src/index.html",
     "build": "parcel build ./src/index.html",
-    "deploy-build": "parcel build ./src/index.html --public-url /UrFU-Projects-Workshop-2019/",
+    "deploy-build": "env PUBLIC_URL=/UrFU-Projects-Workshop-2019/ parcel build ./src/index.html --public-url /UrFU-Projects-Workshop-2019/",
     "deploy": "./deploy.sh",
     "lint": "eslint . --fix"
   },
