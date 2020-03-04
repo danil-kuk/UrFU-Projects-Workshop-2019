@@ -1,0 +1,646 @@
+{
+    "Общее среднее": {
+        "score": 75,
+        "projects_count": 76,
+        "teams_count": 96,
+        "curators_count": 23,
+        "courses_count": 10
+    },
+    "$$DED_SAD$$": {
+        "score": 61,
+        "project": "Анализ дефектов элементов линий электропередач",
+        "track": "ML",
+        "curator": "Лимановская Оксана Викторовна",
+        "members_count": 3
+    },
+    ".csproject": {
+        "score": 82,
+        "project": "Система презентации информации по проектам студентов",
+        "track": "Web",
+        "curator": "Шадрин Денис Борисович",
+        "members_count": 6
+    },
+    "318 ": {
+        "score": 81,
+        "project": "Eventador",
+        "track": "Mobile",
+        "curator": "Шадрин Денис Борисович",
+        "members_count": 4
+    },
+    "5 ЯКОРЕЙ": {
+        "score": 64,
+        "project": "Основы GAMEDEV",
+        "track": "Games",
+        "curator": "Стародубцев Илья Сергеевич",
+        "members_count": 5
+    },
+    "AIMB Core": {
+        "score": 85,
+        "project": "Глубокое обучение без учителя для сегментации медицинских изображений",
+        "track": "ML",
+        "curator": "Ушенин Константин Сергеевич",
+        "members_count": 7
+    },
+    "AnimeBoys": {
+        "score": 73,
+        "project": "Основы GAMEDEV",
+        "track": "Games",
+        "curator": "Стародубцев Илья Сергеевич",
+        "members_count": 6
+    },
+    "AOAOA": {
+        "score": 80,
+        "project": "Построение моделей классификации текстов манифестов политических партий",
+        "track": "ML",
+        "curator": "Нагаев Александр",
+        "members_count": 5
+    },
+    "Business Solutions": {
+        "score": 91,
+        "project": "Создание DLaaS решения для задач медицинской сегментации",
+        "track": "Applications",
+        "curator": "Ушенин Константин Сергеевич",
+        "members_count": 6
+    },
+    "C9": {
+        "score": 81,
+        "project": "Разработка игр «Защита в чрезвычайных ситуациях»",
+        "track": "Games",
+        "curator": "Хлебников Николай Александрович",
+        "members_count": 3
+    },
+    "CodeToBlock": {
+        "score": 72,
+        "project": "CodeToBlock",
+        "track": "Applications",
+        "curator": "Терентьева Александра Олеговна",
+        "members_count": 4
+    },
+    "Умные как дом": {
+        "score": 86,
+        "project": "COOLRF Умный дом",
+        "track": "Applications",
+        "curator": "Анисимов Вячеслав Васильевич",
+        "members_count": 5
+    },
+    "CROC": {
+        "score": 82,
+        "project": "Приложение для Дома Метенкова",
+        "track": "Applications",
+        "curator": "Шадрин Денис Борисович",
+        "members_count": 2
+    },
+    "CXC": {
+        "score": 90,
+        "project": "Система нормоконтроля студенческих работ",
+        "track": "Applications",
+        "curator": "Мокрушин Андрей Анатольевич",
+        "members_count": 6
+    },
+    "DCP": {
+        "score": 65,
+        "project": "Основы GAMEDEV",
+        "track": "Games",
+        "curator": "Стародубцев Илья Сергеевич",
+        "members_count": 5
+    },
+    "DNDD": {
+        "score": 82,
+        "project": "Основы GAMEDEV",
+        "track": "Games",
+        "curator": "Стародубцев Илья Сергеевич",
+        "members_count": 7
+    },
+    "DesolatedK209": {
+        "score": 63,
+        "project": "Основы GAMEDEV",
+        "track": "Games",
+        "curator": "Стародубцев Илья Сергеевич",
+        "members_count": 3
+    },
+    "DJ PO": {
+        "score": 76,
+        "project": "Разработка конфигураций на базе service management platform",
+        "track": "Applications",
+        "curator": "Хлебников Николай Александрович",
+        "members_count": 2
+    },
+    "DL Club": {
+        "score": 81,
+        "project": "Продвижение студенческой лаборатории «Искусственный интеллект в биологии и медицине» в информационном пространстве",
+        "track": "Web/SMM",
+        "curator": "Ушенин Константин Сергеевич",
+        "members_count": 11
+    },
+    "ForSure": {
+        "score": 43,
+        "project": "Игровое мобильное приложение «Безопасность жизнедеятельности»",
+        "track": "Mobile",
+        "curator": "Орешкина Татьяна Анатольевна",
+        "members_count": 4
+    },
+    "GAMING 35": {
+        "score": 81,
+        "project": "Генеративный дизайн программирования информационных моделей здания (BIM)",
+        "track": "Applications",
+        "curator": "Сальников Виктор",
+        "members_count": 4
+    },
+    "Gods of bots": {
+        "score": 71,
+        "project": "Телеграмм-бот «Неотложная медицинская помощь»",
+        "track": "Applications",
+        "curator": "Орешкина Татьяна Анатольевна",
+        "members_count": 4
+    },
+    "Grenzenloser indigo": {
+        "score": 73,
+        "project": "Определение скелетного возраста пациентов в зависимости от стадии формирования шейных позвонков",
+        "track": "Applications",
+        "curator": "Анатолий Гошкодеров",
+        "members_count": 2
+    },
+    "HardCode": {
+        "score": 80,
+        "project": "Math and Code",
+        "track": "Applications",
+        "curator": "Терентьева Александра Олеговна",
+        "members_count": 5
+    },
+    "High technologies": {
+        "score": 43,
+        "project": "Прогнозирование изменений курсов криптовалют на основе тематических новостей",
+        "track": "ML",
+        "curator": "Расов Арсений",
+        "members_count": 4
+    },
+    "Ideon": {
+        "score": 73,
+        "project": "Основы GAMEDEV",
+        "track": "Games",
+        "curator": "Стародубцев Илья Сергеевич",
+        "members_count": 4
+    },
+    "InfiniteTeam": {
+        "score": 55,
+        "project": "Проект для инновационной инфраструктуры УрФУ",
+        "track": "Applications",
+        "curator": "Нина Феодосиади",
+        "members_count": 5
+    },
+    "KCD": {
+        "score": 81,
+        "project": "Основы GAMEDEV",
+        "track": "Games",
+        "curator": "Стародубцев Илья Сергеевич",
+        "members_count": 1
+    },
+    "Left Coast": {
+        "score": 80,
+        "project": "Разработка алгоритма детектирования ДТП",
+        "track": "ML",
+        "curator": "Протасов Денис Николаевич",
+        "members_count": 5
+    },
+    "Make IT Future": {
+        "score": 72,
+        "project": "Управление актуаторами с использованием протокола BUS77",
+        "track": "Applications",
+        "curator": "Мухутдинов Руслан Маисович",
+        "members_count": 4
+    },
+    "Maxinfom 5s": {
+        "score": 78,
+        "project": "Мобильное приложение для автосервиса",
+        "track": "Mobile",
+        "curator": "Хлебников Николай Александрович",
+        "members_count": 4
+    },
+    "MAY the Game be with u": {
+        "score": 61,
+        "project": "Основы GAMEDEV",
+        "track": "Games",
+        "curator": "Стародубцев Илья Сергеевич",
+        "members_count": 4
+    },
+    "Me, myself & I": {
+        "score": 63,
+        "project": "Система учета оборудования кафедры",
+        "track": "Applications",
+        "curator": "Мокрушин Андрей Анатольевич",
+        "members_count": 1
+    },
+    "MeducareVR, SMB": {
+        "score": 87,
+        "project": "VR-система обучения для медицинских работников",
+        "track": "Applications",
+        "curator": "Хлебников Николай Александрович",
+        "members_count": 7
+    },
+    "Milkasoft": {
+        "score": 63,
+        "project": "Телеграмм-бот «Неотложная медицинская помощь»",
+        "track": "Applications",
+        "curator": "Орешкина Татьяна Анатольевна",
+        "members_count": 5
+    },
+    "Millionaire": {
+        "score": 75,
+        "project": "Прогнозирование изменений курсов криптовалют на основе тематических новостей",
+        "track": "ML",
+        "curator": "Расов Арсений",
+        "members_count": 5
+    },
+    "Mobile code": {
+        "score": 75,
+        "project": "Шумовая карта Екатеринбурга",
+        "track": "Web/SMM",
+        "curator": "Орешкина Татьяна Анатольевна",
+        "members_count": 6
+    },
+    "MovieMaker": {
+        "score": 81,
+        "project": "Создание и отработка методики создания контента для видео-курса",
+        "track": "Web/SMM",
+        "curator": "Шадрин Денис Борисович",
+        "members_count": 3
+    },
+    "Nain": {
+        "score": 87,
+        "project": "Курс по компьютерным сетям на openedu",
+        "track": "Web/SMM",
+        "curator": "Шадрин Денис Борисович",
+        "members_count": 4
+    },
+    "New[z]": {
+        "score": 73,
+        "project": "Система презентации информации по проектам студентов",
+        "track": "Web/SMM",
+        "curator": "Шадрин Денис Борисович",
+        "members_count": 5
+    },
+    "NotBad": {
+        "score": 53,
+        "project": "CodeToBlock",
+        "track": "Applications",
+        "curator": "Терентьева Александра Олеговна",
+        "members_count": 4
+    },
+    "P.T.V.M.": {
+        "score": 74,
+        "project": "Коммуникация во внеучебном пространстве",
+        "track": "Web/SMM",
+        "curator": "Шадрин Денис Борисович",
+        "members_count": 4
+    },
+    "Pink Owls": {
+        "score": 79,
+        "project": "Мультиматериальные аддитивные технологии",
+        "track": "Applications",
+        "curator": "Стародубцев Илья Сергеевич",
+        "members_count": 4
+    },
+    "placeholder": {
+        "score": 67,
+        "project": "Аппаратно-программный комплекс для распознавания автомобильных номер(Rus)",
+        "track": "ML",
+        "curator": "Канке Сергей Вячеславович",
+        "members_count": 4
+    },
+    "Programmers": {
+        "score": 81,
+        "project": "Построение моделей классификации текстов манифестов политических партий",
+        "track": "ML",
+        "curator": "Нагаев Александр",
+        "members_count": 4
+    },
+    "Singleton": {
+        "score": 88,
+        "project": "Биллинг SBC",
+        "track": "Applications",
+        "curator": "Хлебников Николай Александрович",
+        "members_count": 1
+    },
+    "SNMTNR": {
+        "score": 92,
+        "project": "Игровое мобильное приложение «Безопасность жизнедеятельности»",
+        "track": "Mobile",
+        "curator": "Орешкина Татьяна Анатольевна",
+        "members_count": 4
+    },
+    "Spice Girls": {
+        "score": 69,
+        "project": "Разработка алгоритма оценки характеристик движущегося автомобиля",
+        "track": "ML",
+        "curator": "Протасов Денис Николаевич",
+        "members_count": 3
+    },
+    "SSVSS": {
+        "score": 64,
+        "project": "Телеграмм-бот «Неотложная медицинская помощь»",
+        "track": "Applications",
+        "curator": "Орешкина Татьяна Анатольевна",
+        "members_count": 5
+    },
+    "Static project, Totally Spies!": {
+        "score": 82,
+        "project": "Навигатор для помещений",
+        "track": "Mobile",
+        "curator": "Шадрин Денис Борисович",
+        "members_count": 7
+    },
+    "Study Games": {
+        "score": 82,
+        "project": "Разработка игр «Защита в чрезвычайных ситуациях»",
+        "track": "Games",
+        "curator": "Хлебников Николай Александрович",
+        "members_count": 5
+    },
+    "SuperTeam": {
+        "score": 73,
+        "project": "Игровое мобильнее приложение «Собери компьютер»",
+        "track": "Mobile",
+        "curator": "Орешкина Татьяна Анатольевна",
+        "members_count": 4
+    },
+    "Swifter": {
+        "score": 83,
+        "project": "Мобильное приложение для учета личного бюджета «Мой бюджет»",
+        "track": "Mobile",
+        "curator": "Шадрин Денис Борисович",
+        "members_count": 4
+    },
+    "Team HKG": {
+        "score": 84,
+        "project": "Основы GAMEDEV",
+        "track": "Games",
+        "curator": "Стародубцев Илья Сергеевич",
+        "members_count": 2
+    },
+    "Team Naga": {
+        "score": 85,
+        "project": "Построение моделей классификации текстов манифестов политических партий",
+        "track": "ML",
+        "curator": "Нагаев Александр",
+        "members_count": 5
+    },
+    "Team Pudge": {
+        "score": 83,
+        "project": "Построение моделей классификации текстов манифестов политических партий",
+        "track": "ML",
+        "curator": "Нагаев Александр",
+        "members_count": 2
+    },
+    "Unknow": {
+        "score": 42,
+        "project": "Анализ научной среды",
+        "track": "ML",
+        "curator": "Комоцкий Евгений",
+        "members_count": 1
+    },
+    "Untitled": {
+        "score": 66,
+        "project": "Основы GAMEDEV",
+        "track": "Games",
+        "curator": "Стародубцев Илья Сергеевич",
+        "members_count": 3
+    },
+    "VideoGamePlatypus": {
+        "score": 69,
+        "project": "Основы GAMEDEV",
+        "track": "Games",
+        "curator": "Стародубцев Илья Сергеевич",
+        "members_count": 3
+    },
+    "ВК-бот": {
+        "score": 85,
+        "project": "Вк-бот для абитуриентов",
+        "track": "Applications",
+        "curator": "Шадрин Денис Борисович",
+        "members_count": 4
+    },
+    "WFG": {
+        "score": 60,
+        "project": "Разработка алгоритма оценки характеристик движущегося автомобиля",
+        "track": "ML",
+        "curator": "Протасов Денис Николаевич",
+        "members_count": 2
+    },
+    "Wind": {
+        "score": 84,
+        "project": "Аниматроника и кинематическая робототехника",
+        "track": "Applications",
+        "curator": "Стародубцев Илья Сергеевич",
+        "members_count": 4
+    },
+    "Yield Return": {
+        "score": 86,
+        "project": "Геймификация полезной информации для абитуриентов",
+        "track": "Web/SMM",
+        "curator": "Шадрин Денис Борисович",
+        "members_count": 4
+    },
+    "Аддикция головного мозга": {
+        "score": 71,
+        "project": "Разработка форм, средств и методов иммерсивного обучения школьников",
+        "track": "Applications",
+        "curator": "Чикова Ольга Анатольевна",
+        "members_count": 2
+    },
+    "Смирнова Анастасия": {
+        "score": 85,
+        "project": "Аниматроника и кинематическая робототехника",
+        "track": "Applications",
+        "curator": "Стародубцев Илья Сергеевич",
+        "members_count": 1
+    },
+    "Буддисты": {
+        "score": 69,
+        "project": "Цифровой профиль молодого предпринимателя",
+        "track": "ML",
+        "curator": "Комоцкий Евгений",
+        "members_count": 3
+    },
+    "Все четко и по делу": {
+        "score": 81,
+        "project": "Проектирование сайта ИнФО УрФУ",
+        "track": "Web/SMM",
+        "curator": "Шадрин Денис Борисович",
+        "members_count": 6
+    },
+    "ДРИМ-Тим": {
+        "score": 81,
+        "project": "Цикл познавательно-развлекательных раскрасок",
+        "track": "Mobile",
+        "curator": "Чванов Максим Александрович",
+        "members_count": 3
+    },
+    "еинавзаН": {
+        "score": 84,
+        "project": "Геймификация полезной информации для абитуриентов",
+        "track": "Web/SMM",
+        "curator": "Шадрин Денис Борисович",
+        "members_count": 4
+    },
+    "Квартет \"Секрет\"": {
+        "score": 74,
+        "project": "Распознавание эмоций по голосу при помощи искусственных нейронных сетей",
+        "track": "ML",
+        "curator": "Зобнина Татьяна Васильевна",
+        "members_count": 4
+    },
+    "Клан Олигофренов": {
+        "score": 83,
+        "project": "Барахолка и Бюро находок для университета",
+        "track": "Web/SMM",
+        "curator": "Шадрин Денис Борисович",
+        "members_count": 5
+    },
+    "Колумбийские голуби": {
+        "score": 71,
+        "project": "Цикл познавательно-развлекательных раскрасок",
+        "track": "Mobile",
+        "curator": "Чванов Максим Александрович",
+        "members_count": 4
+    },
+    "Команда одного человека": {
+        "score": 81,
+        "project": "Промобот для приемной кампании УрФУ",
+        "track": "ML",
+        "curator": "Климов Роман Николаевич",
+        "members_count": 1
+    },
+    "Комманда GUINNESS": {
+        "score": 64,
+        "project": "Применение методов машинного оубчения к задаче ранжирования текстовых документов",
+        "track": "ML",
+        "curator": "Шибаев Вячеслав",
+        "members_count": 5
+    },
+    "Контур.Фокус": {
+        "score": 84,
+        "project": "Разработка системы управления инженерными данными (СУИД)",
+        "track": "Applications",
+        "curator": "Хлебников Николай Александрович",
+        "members_count": 1
+    },
+    "Крокодилы 2.0": {
+        "score": 81,
+        "project": "Разработка конфигураций на базе service management platform",
+        "track": "Applications",
+        "curator": "Хлебников Николай Александрович",
+        "members_count": 5
+    },
+    "Крыжовник": {
+        "score": 81,
+        "project": "Аниматроника и кинематическая робототехника",
+        "track": "Applications",
+        "curator": "Стародубцев Илья Сергеевич",
+        "members_count": 3
+    },
+    "Министерство не твоих собачих дел": {
+        "score": 75,
+        "project": "Бот для ставок на киберспорт",
+        "track": "Applications",
+        "curator": "Шадрин Денис Борисович",
+        "members_count": 3
+    },
+    "Нормоконтроля.нет": {
+        "score": 88,
+        "project": "Система нормоконтроля студенческих работ",
+        "track": "Applications",
+        "curator": "Мокрушин Андрей Анатольевич",
+        "members_count": 4
+    },
+    "Орифлейм": {
+        "score": 82,
+        "project": "Телеграмм-бот «Неотложная медицинская помощь»",
+        "track": "Applications",
+        "curator": "Орешкина Татьяна Анатольевна",
+        "members_count": 4
+    },
+    "Пивуки, Project X": {
+        "score": 95,
+        "project": "Исследование звукосимволизма с помощью Word Embedding",
+        "track": "ML",
+        "curator": "Шибаев Вячеслав",
+        "members_count": 8
+    },
+    "Пиратское братство": {
+        "score": 62,
+        "project": "Моделирование движения судов",
+        "track": "Applications",
+        "curator": "Лимановская Оксана Викторовна",
+        "members_count": 4
+    },
+    "питоний кусь": {
+        "score": 84,
+        "project": "Основы GAMEDEV",
+        "track": "Games",
+        "curator": "Стародубцев Илья Сергеевич",
+        "members_count": 4
+    },
+    "Проектирование сайта ИНФО": {
+        "score": 67,
+        "project": "Проектирование сайта ИнФО УрФУ",
+        "track": "Web/SMM",
+        "curator": "Шадрин Денис Борисович",
+        "members_count": 5
+    },
+    "Речкин Иван": {
+        "score": 100,
+        "project": "Основы GAMEDEV",
+        "track": "Games",
+        "curator": "Стародубцев Илья Сергеевич",
+        "members_count": 1
+    },
+    "Сила Юности": {
+        "score": 80,
+        "project": "Построение моделей классификации текстов манифестов политических партий",
+        "track": "ML",
+        "curator": "Нагаев Александр",
+        "members_count": 4
+    },
+    "Слишком просто": {
+        "score": 81,
+        "project": "Определение площади носоглоточной области",
+        "track": "Applications",
+        "curator": "Анатолий Гошкодеров",
+        "members_count": 5
+    },
+    "Туса-Джуса": {
+        "score": 76,
+        "project": "Телеграмм-бот «Неотложная медицинская помощь»",
+        "track": "Applications",
+        "curator": "Орешкина Татьяна Анатольевна",
+        "members_count": 4
+    },
+    "Тут должно быть название": {
+        "score": 82,
+        "project": "Построение моделей классификации текстов манифестов политических партий",
+        "track": "ML",
+        "curator": "Нагаев Александр",
+        "members_count": 4
+    },
+    "Феникс": {
+        "score": 63,
+        "project": "Проектирование сайта ИнФО УрФУ",
+        "track": "Web/SMM",
+        "curator": "Шадрин Денис Борисович",
+        "members_count": 3
+    },
+    "Четкая группа": {
+        "score": 75,
+        "project": "Распознавание эмоций по голосу при помощи искусственных нейронных сетей",
+        "track": "ML",
+        "curator": "Зобнина Татьяна Васильевна",
+        "members_count": 5
+    },
+    "Чикибамбони": {
+        "score": 63,
+        "project": "Основы GAMEDEV",
+        "track": "Games",
+        "curator": "Стародубцев Илья Сергеевич",
+        "members_count": 4
+    }
+}
