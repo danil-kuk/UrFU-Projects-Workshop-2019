@@ -17,12 +17,11 @@ class CompetenciesButtonsRow extends React.Component {
   }
 
   handleClick(args) {
-    this.setState((/*state*/) => ({
-        selected: args
+    this.setState((/* state */) => ({
+      selected: args
     }))
     this.onChangeValue(args)
   }
-
 
   render() {
     return (
@@ -36,8 +35,8 @@ class CompetenciesButtonsRow extends React.Component {
 }
 
 const ButtonWithIcon = (props) => {
-  var className = props.parent.state.selected != props.selectedItem ?
-    props.selectedItem : props.selectedItem + ' selected'
+  var className = props.parent.state.selected != props.selectedItem
+    ? props.selectedItem : props.selectedItem + ' selected'
   return (
     <button className={className} onClick={props.parent.handleClick.bind(props.parent, props.selectedItem)}>
       <CompetenciesIcons icon={props.selectedItem} />

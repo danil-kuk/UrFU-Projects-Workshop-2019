@@ -27,7 +27,7 @@ class CuratorsGraph extends React.Component {
         },
         color: { inherit: 'to', opacity: 0.5 },
         chosen: {
-          edge: function(values /*, id, selected, hovering*/) {
+          edge: function(values /*, id, selected, hovering */) {
             values.opacity = 1
             values.width += 3
           }
@@ -45,7 +45,7 @@ class CuratorsGraph extends React.Component {
         },
         borderWidth: 0,
         chosen: {
-          node: function(values /*, id, selected, hovering*/) {
+          node: function(values /*, id, selected, hovering */) {
             values.borderColor = values.color
             values.borderWidth = 5
           }
@@ -76,15 +76,15 @@ class CuratorsGraph extends React.Component {
     }
 
     this.events = {
-      /*select: function(event) {
+      /* select: function(event) {
         var { nodes, edges } = event;
-      },*/
-      hoverNode: function(/*params*/) {}
+      }, */
+      hoverNode: function(/* params */) {}
     }
   }
 
   handleNetworkChange(param) {
-    this.setState((/*state*/) => ({
+    this.setState((/* state */) => ({
       network: param
     }))
   }

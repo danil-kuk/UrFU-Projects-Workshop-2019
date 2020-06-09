@@ -9,8 +9,8 @@ allKeys.forEach(courseId => {
   var teamsKeys = Object.keys(sourceData[courseId])
   teamsKeys.forEach(teamId => {
     index += 1
-    let team = sourceData[courseId][teamId]
-    let item = {
+    const team = sourceData[courseId][teamId]
+    const item = {
       id: index.toString(),
       group: courseId,
       team_name: teamId,

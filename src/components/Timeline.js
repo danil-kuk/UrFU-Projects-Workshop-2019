@@ -6,7 +6,7 @@ const MyTimeline = (props) => (
   <div>
     <Timeline lineColor={'#C8CED7'} className='pw-timeline'>
       {props.data.map(element => {
-        let elemColor = element.color != null ? element.color : '#6BAED6'
+        const elemColor = element.color != null ? element.color : '#6BAED6'
         return (
           <TimelineItem
             key={element.date + element.title}

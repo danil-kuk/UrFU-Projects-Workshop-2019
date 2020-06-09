@@ -27,7 +27,7 @@ class CompetenciesGraph extends React.Component {
         },
         borderWidth: 0,
         chosen: {
-          node: function(values /*, id, selected, hovering*/) {
+          node: function(values /*, id, selected, hovering */) {
             values.borderColor = values.color
             values.borderWidth = 2
           }
@@ -41,7 +41,7 @@ class CompetenciesGraph extends React.Component {
         },
         color: { opacity: 0.5 },
         chosen: {
-          edge: function(values /*, id, selected, hovering*/) {
+          edge: function(values /*, id, selected, hovering */) {
             values.opacity = 1
           }
         }
@@ -71,9 +71,9 @@ class CompetenciesGraph extends React.Component {
     }
 
     this.events = {
-      /*select: function(event) {
+      /* select: function(event) {
         var { nodes, edges } = event;
-      }*/
+      } */
     }
   }
 

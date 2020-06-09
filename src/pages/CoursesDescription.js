@@ -6,7 +6,6 @@ import '../styles/CoursesDescription.css'
 import coursesData from '../../assets/data/CoursesInfo.json'
 import projectsData from '../../assets/data/ProjectsBoard-data.json'
 
-
 class CoursesDescription extends React.Component {
   constructor(props) {
     super(props)
@@ -34,7 +33,6 @@ class CoursesDescription extends React.Component {
 }
 
 export default CoursesDescription
-
 
 function courseInfo(data) {
   return (

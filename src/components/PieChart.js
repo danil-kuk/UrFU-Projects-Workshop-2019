@@ -3,7 +3,7 @@ import { ResponsivePie } from '@nivo/pie'
 
 const Chart = (props) => {
   return (
-    <div className='pie-chart-holder' style={{height:props.height}}>
+    <div className='pie-chart-holder' style={{ height: props.height }}>
       <ResponsivePie
         data={props.data}
         margin={{ top: 20, right: 20, bottom: 40, left: 20 }}
@@ -13,7 +13,7 @@ const Chart = (props) => {
         padAngle={1.5}
         colors={props.colorScheme}
         borderWidth={1}
-        borderColor={{ from: 'color', modifiers: [ [ 'darker', 0.2 ] ] }}
+        borderColor={{ from: 'color', modifiers: [['darker', 0.2]] }}
         radialLabelsSkipAngle={10}
         radialLabelsTextXOffset={4}
         radialLabelsTextColor='#333333'
@@ -28,14 +28,14 @@ const Chart = (props) => {
         motionStiffness={90}
         motionDamping={15}
         theme={{
-            labels: {
-                text: {
-                    fontSize: 22,
-                    fontFamily: ''
-                }
+          labels: {
+            text: {
+              fontSize: 22,
+              fontFamily: ''
             }
+          }
         }}
-    />
+      />
     </div>
   )
 }

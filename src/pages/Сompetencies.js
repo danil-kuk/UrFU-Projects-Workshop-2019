@@ -18,7 +18,7 @@ groupKeys.forEach(groupKey => {
   })
 
   for (let i = 1; i <= competenciesData[groupKey].length; i++) {
-    let element = competenciesData[groupKey][i - 1]
+    const element = competenciesData[groupKey][i - 1]
     graph.nodes.push({
       id: i,
       label: element.label,

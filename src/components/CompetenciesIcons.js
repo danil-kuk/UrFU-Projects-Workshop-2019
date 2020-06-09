@@ -11,35 +11,35 @@ import icon0 from '../../assets/placeholder.svg'
 import '../styles/index.css'
 
 const CompetenciesIcons = (props) => {
-    switch (props.icon) {
-        case 'Команда':
-            return iconHolder(icon1)
-        case 'Менеджер':
-            return iconHolder(icon2)
-        case 'Аналитик':
-            return iconHolder(icon3)
-        case 'Исследователь':
-            return iconHolder(icon7)
-        case 'Разработчик':
-            return iconHolder(icon4)
-        case 'Дизайнер':
-            return iconHolder(icon8)
-        case 'Художник':
-            return iconHolder(icon5)
-        case 'Тестировщик':
-            return iconHolder(icon6)
+  switch (props.icon) {
+    case 'Команда':
+      return iconHolder(icon1)
+    case 'Менеджер':
+      return iconHolder(icon2)
+    case 'Аналитик':
+      return iconHolder(icon3)
+    case 'Исследователь':
+      return iconHolder(icon7)
+    case 'Разработчик':
+      return iconHolder(icon4)
+    case 'Дизайнер':
+      return iconHolder(icon8)
+    case 'Художник':
+      return iconHolder(icon5)
+    case 'Тестировщик':
+      return iconHolder(icon6)
 
-        default:
-            return iconHolder(icon0)
-    }
+    default:
+      return iconHolder(icon0)
+  }
 }
 
 function iconHolder(icon) {
-    return (
-        <div className='icon-holder'>
-            <img src={icon}></img>
-        </div>
-    )
+  return (
+    <div className='icon-holder'>
+      <img src={icon}></img>
+    </div>
+  )
 }
 
 export default CompetenciesIcons

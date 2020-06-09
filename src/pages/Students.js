@@ -21,10 +21,10 @@ const Students = () => {
           <h2>Рапределение по курсу</h2>
         </div>
       </div>
-        <div>
-          <SunburstChart data={data.groups} />
-          <h2>Распределение по группам</h2>
-        </div>
+      <div>
+        <SunburstChart data={data.groups} />
+        <h2>Распределение по группам</h2>
+      </div>
     </div>
   )
 }

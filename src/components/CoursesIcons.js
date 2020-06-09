@@ -13,39 +13,39 @@ import icon0 from '../../assets/placeholder.svg'
 import '../styles/index.css'
 
 const CoursesIcons = (props) => {
-    switch (props.icon) {
-        case 'machine-learning':
-            return iconHolder(icon7)
-        case 'games':
-            return iconHolder(icon5)
-        case 'bots':
-            return iconHolder(icon3)
-        case 'robots':
-            return iconHolder(icon8)
-        case 'digital-marketing':
-            return iconHolder(icon2)
-        case 'vr':
-            return iconHolder(icon10)
-        case 'web-development':
-            return iconHolder(icon6)
-        case 'mobile':
-            return iconHolder(icon9)
-        case 'information-systems':
-            return iconHolder(icon4)
-        case 'math-modelling':
-            return iconHolder(icon1)
+  switch (props.icon) {
+    case 'machine-learning':
+      return iconHolder(icon7)
+    case 'games':
+      return iconHolder(icon5)
+    case 'bots':
+      return iconHolder(icon3)
+    case 'robots':
+      return iconHolder(icon8)
+    case 'digital-marketing':
+      return iconHolder(icon2)
+    case 'vr':
+      return iconHolder(icon10)
+    case 'web-development':
+      return iconHolder(icon6)
+    case 'mobile':
+      return iconHolder(icon9)
+    case 'information-systems':
+      return iconHolder(icon4)
+    case 'math-modelling':
+      return iconHolder(icon1)
 
-        default:
-            return iconHolder(icon0)
-    }
+    default:
+      return iconHolder(icon0)
+  }
 }
 
 function iconHolder(icon) {
-    return (
-        <div className='icon-holder'>
-            <img src={icon}></img>
-        </div>
-    )
+  return (
+    <div className='icon-holder'>
+      <img src={icon}></img>
+    </div>
+  )
 }
 
 export default CoursesIcons

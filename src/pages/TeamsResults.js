@@ -52,9 +52,9 @@ class Presentation extends React.Component {
               />
             </div>
             {this.state.value[0] != allKeys[0] &&
-              team_info(this.state.value[0])}
+              teamInfo(this.state.value[0])}
             {this.state.value[0] == allKeys[0] &&
-              general_info(this.state.value[0])}
+              generalInfo(this.state.value[0])}
           </div>
         </div>
       </div>
@@ -64,7 +64,7 @@ class Presentation extends React.Component {
 
 export default Presentation
 
-function team_info(selectedTeam) {
+function teamInfo(selectedTeam) {
   const item = teamsInfo[selectedTeam]
   return (
     <div className='team-results-info'>
@@ -84,7 +84,7 @@ function team_info(selectedTeam) {
   )
 }
 
-function general_info(key) {
+function generalInfo(key) {
   const item = teamsInfo[key]
   return (
     <div className='team-results-info'>

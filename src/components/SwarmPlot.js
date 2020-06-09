@@ -91,10 +91,10 @@ const MyResponsiveSwarmPlot = props => (
           }
         },
         grid: {
-            line: {
-                stroke: 'rgba(0, 0, 0, .1)',
-                strokeDasharray: 12
-            },
+          line: {
+            stroke: 'rgba(0, 0, 0, .1)',
+            strokeDasharray: 12
+          }
         }
       }}
     />

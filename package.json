@@ -11,9 +11,8 @@
   "scripts": {
     "start": "parcel ./src/index.html",
     "build": "parcel build ./src/index.html",
-    "deploy-build": "env PUBLIC_URL=/UrFU-Projects-Workshop-2019/ parcel build ./src/index.html --public-url /UrFU-Projects-Workshop-2019/",
     "deploy": "sh ./deploy.sh",
-    "lint": "eslint . --fix"
+    "lint": "eslint ./src --fix"
   },
   "engines": {
     "node": ">=8.0.0",
@@ -29,17 +28,21 @@
     "@nivo/swarmplot": "^0.61.1",
     "@nivo/waffle": "^0.61.1",
     "prop-types": "^15.7.2",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
     "react-graph-vis": "^1.0.5",
-    "react-router-dom": "^5.1.2",
-    "styles": "^0.2.1",
-    "vertical-timeline-component-for-react": "^1.0.6"
+    "react-router-dom": "^5.2.0",
+    "vertical-timeline-component-for-react": "^1.0.7"
   },
   "devDependencies": {
     "babel-eslint": "^10.1.0",
-    "eslint": "^6.8.0",
-    "eslint-plugin-react": "^7.18.3",
+    "eslint": "^7.1.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-react": "^7.20.0",
+    "eslint-plugin-standard": "^4.0.1",
     "parcel-bundler": "^1.12.4"
   }
 }
