@@ -3,8 +3,8 @@ import CoursesButtonsRow from '../components/CoursesButtonsRow'
 import ProjectsCardsBoard from '../components/ProjectsCardsBoard'
 import Shuffle from '../components/ArrayShuffle'
 import '../styles/CoursesDescription.css'
-import coursesData from '../../assets/data/CoursesInfo.json'
-import projectsData from '../../assets/data/ProjectsBoard-data.json'
+import coursesData from '../assets/data/CoursesInfo.json'
+import projectsData from '../assets/data/ProjectsBoard-data.json'
 
 class CoursesDescription extends React.Component {
   constructor(props) {

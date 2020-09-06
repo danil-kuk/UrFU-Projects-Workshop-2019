@@ -1,7 +1,7 @@
 import React from 'react'
 import CompetenciesIcons from './CompetenciesIcons'
 import '../styles/CoursesButtonsRow.css'
-import competenciesData from '../../assets/data/CompetenciesGraph-data.json'
+import competenciesData from '../assets/data/CompetenciesGraph-data.json'
 
 var keys = []
 
@@ -35,7 +35,7 @@ class CompetenciesButtonsRow extends React.Component {
 }
 
 const ButtonWithIcon = (props) => {
-  var className = props.parent.state.selected != props.selectedItem
+  var className = props.parent.state.selected !== props.selectedItem
     ? props.selectedItem : props.selectedItem + ' selected'
   return (
     <button className={className} onClick={props.parent.handleClick.bind(props.parent, props.selectedItem)}>

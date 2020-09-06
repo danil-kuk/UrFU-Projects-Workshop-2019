@@ -1,7 +1,7 @@
 import React from 'react'
 import CompetenciesButtonsRow from '../components/CompetenciesButtonsRow'
 import CompetenciesGraph from '../components/CompetenciesGraph.js'
-import competenciesData from '../../assets/data/CompetenciesGraph-data.json'
+import competenciesData from '../assets/data/CompetenciesGraph-data.json'
 
 // Create Graph Data
 var groupKeys = Object.keys(competenciesData)

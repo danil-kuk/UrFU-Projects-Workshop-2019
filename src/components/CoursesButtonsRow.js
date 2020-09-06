@@ -1,7 +1,7 @@
 import React from 'react'
 import CoursesIcons from './CoursesIcons'
 import '../styles/CoursesButtonsRow.css'
-import coursesData from '../../assets/data/CoursesInfo.json'
+import coursesData from '../assets/data/CoursesInfo.json'
 
 var courses = []
 
@@ -35,7 +35,7 @@ class CoursesButtonsRow extends React.Component {
 }
 
 const ButtonWithIcon = (props) => {
-  var className = props.parent.state.selectedCourse != props.course
+  var className = props.parent.state.selectedCourse !== props.course
     ? props.course : props.course + ' selected'
   return (
     <button className={className} onClick={props.parent.handleClick.bind(props.parent, props.course)}>

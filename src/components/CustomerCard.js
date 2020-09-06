@@ -5,7 +5,7 @@ import Shuffle from './ArrayShuffle'
 
 const CustomerCard = (props) => {
   return (
-    <a href={props.link} target='_blank'>
+    <a href={props.link} target='_blank' rel='noopener noreferrer'>
       <div className='customer-card'>
         <div className='card-title'>
           <div className='img-holder'>

@@ -1,5 +1,5 @@
 import React from 'react'
-import data from '../../assets/data/Students-data.json'
+import data from '../assets/data/Students-data.json'
 import PieChart from '../components/PieChart'
 import SunburstChart from '../components/SunburstChart'
 

@@ -1,8 +1,8 @@
 import React from 'react'
 import CuratorsGraph from '../components/CuratorsGraph.js'
-import graphData from '../../assets/data/CuratorsGraph-data.json'
+import graphData from '../assets/data/CuratorsGraph-data.json'
 import CuratorsBoard from '../components/CuratorsBoard.js'
-import infoData from '../../assets/data/CuratorsInfo-data.json'
+import infoData from '../assets/data/CuratorsInfo-data.json'
 
 const Curators = () => {
   return (

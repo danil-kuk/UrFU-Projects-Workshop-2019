@@ -1,8 +1,8 @@
 import React from 'react'
 import CustomersBoard from '../components/CustomersBoard'
 import ChordDiagram from '../components/ChordDiagram'
-import data from '../../assets/data/CustomersInfo-data.json'
-import matrix from '../../assets/data/ChordDiagram-matrix.json'
+import data from '../assets/data/CustomersInfo-data.json'
+import matrix from '../assets/data/ChordDiagram-matrix.json'
 
 const CustomersInfo = () => {
   return (

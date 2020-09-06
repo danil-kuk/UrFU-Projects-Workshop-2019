@@ -1,7 +1,7 @@
 import React from 'react'
 import RadarDiagram from '../components/RadarDiagram'
-import radarData from '../../assets/data/TeamsResults-data.json'
-import teamsInfo from '../../assets/data/TeamsResultsInfo.json'
+import radarData from '../assets/data/TeamsResults-data.json'
+import teamsInfo from '../assets/data/TeamsResultsInfo.json'
 import DataPreparation from '../components/RadarDataPreparation'
 import '../styles/Presentation.css'
 
@@ -51,9 +51,9 @@ class Presentation extends React.Component {
                 levels={3}
               />
             </div>
-            {this.state.value[0] != allKeys[0] &&
+            {this.state.value[0] !== allKeys[0] &&
               teamInfo(this.state.value[0])}
-            {this.state.value[0] == allKeys[0] &&
+            {this.state.value[0] === allKeys[0] &&
               generalInfo(this.state.value[0])}
           </div>
         </div>

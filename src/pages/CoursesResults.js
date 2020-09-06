@@ -1,6 +1,6 @@
 import React from 'react'
 import SwarmPlot from '../components/SwarmPlot'
-import sourceData from '../../assets/data/CoursesResults-data.json'
+import sourceData from '../assets/data/CoursesResults-data.json'
 
 var allKeys = Object.keys(sourceData)
 var newData = []

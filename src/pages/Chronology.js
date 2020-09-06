@@ -1,5 +1,5 @@
 import React from 'react'
-import tlData from '../../assets/data/Timeline-data.json'
+import tlData from '../assets/data/Timeline-data.json'
 import Timeline from '../components/Timeline'
 
 const Chronology = () => {

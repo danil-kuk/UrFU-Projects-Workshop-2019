@@ -2,9 +2,9 @@ import React from 'react'
 import CirclePackingDiagram from '../components/CirclePackingDiagram'
 import HorizontalBarChart from '../components/HorizontalBarChart'
 import WaffleChart from '../components/WaffleChart'
-import cpdData from '../../assets/data/CirclePackingDiagram-data.json'
-import hbcData from '../../assets/data/HorizontalBarChart-data.json'
-import wcData from '../../assets/data/WaffleChart-data.json'
+import cpdData from '../assets/data/CirclePackingDiagram-data.json'
+import hbcData from '../assets/data/HorizontalBarChart-data.json'
+import wcData from '../assets/data/WaffleChart-data.json'
 
 const CoursesDiagrams = () => {
   return (

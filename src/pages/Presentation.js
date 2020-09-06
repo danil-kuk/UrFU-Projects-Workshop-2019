@@ -1,7 +1,7 @@
 import React from 'react'
 import RadarDiagram from '../components/RadarDiagram'
-import data from '../../assets/data/PresentationRadar-data.json'
-import expertsData from '../../assets/data/Experts-data.json'
+import data from '../assets/data/PresentationRadar-data.json'
+import expertsData from '../assets/data/Experts-data.json'
 import DataPreparation from '../components/RadarDataPreparation'
 import '../styles/Presentation.css'
 

@@ -2,35 +2,29 @@
 #!/usr/bin/env sh
 
 # Use `chmod +x deploy.sh` to allow executing deploy.sh
-# abort on errors
+# Abort on errors
 set -e
 
-# Set your GitHub UserName and Repo
-repo="UrFU-Projects-Workshop-2019"
-user="danil-kuk"
-
-# build
+# Build
 echo Building. This may take a minute...
-export PUBLIC_URL="/${repo}/"
-npm run build -- --public-url $PUBLIC_URL
+npm run build
 
-# copy additional files into the build output directory
-echo Copying additional files...
-cp src/404.html dist
+# Navigate into the build output directory
+cd build
 
-# navigate into the build output directory
-cd dist
-
-# if you are deploying to a custom domain
+# If you are deploying to a custom domain
 # echo 'www.example.com' > CNAME
 
 # Creating new git repository for deploy
 now=$(date +"%d-%m-%Y %H:%M")
-echo Deploying...
 rm -rf .git
 git init
 git add -A
 git commit -m "Deploy ${now}"
+
+# Set GitHub UserName and Repo
+repo="UrFU-Projects-Workshop-2019"
+user="danil-kuk"
 
 # Pushing to gh-pages
 echo Pushing to GitHub Pages...
@@ -39,5 +33,4 @@ git push -f https://github.com/${user}/${repo}.git master:gh-pages
 # Removing output build folder and cache
 echo Removing build folder...
 cd -
-rm -rf dist
-rm -rf .cache
+rm -rf build
